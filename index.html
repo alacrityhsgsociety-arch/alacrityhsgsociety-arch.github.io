@@ -6,32 +6,66 @@
   <meta name="robots" content="noindex">
   <title>Alacrity Housing Society</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: #f8fafc;
+      color: #2b2b2b;
+    }
+    .navbar {
+      background: #004e64;
+    }
+    .navbar-brand, .nav-link {
+      font-weight: 600;
+    }
     .hero {
-      background: linear-gradient(120deg, #2c5364, #203a43, #0f2027);
+      background: linear-gradient(120deg, #004e64, #00a5cf);
       color: #fff;
-      padding: 80px 0 60px 0;
+      padding: 90px 20px;
       text-align: center;
+    }
+    .hero h1 {
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 10px;
     }
     .amenities .icon {
       font-size: 2rem;
-      color: #0d6efd;
+      color: #ff6f61;
     }
     .gallery img {
-      max-height: 180px;
+      max-height: 200px;
       object-fit: cover;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .card {
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    .committee-card img {
+      border: 3px solid #00a5cf;
     }
     footer {
-      background: #222;
-      color: #aaa;
+      background: #004e64;
+      color: #eee;
       padding: 20px 0;
       text-align: center;
       margin-top: 40px;
     }
+    h2 {
+      color: #004e64;
+      font-weight: 700;
+    }
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Alacrity Society</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +76,8 @@
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#amenities">Amenities</a></li>
           <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#committee">Committee</a></li>
         </ul>
       </div>
     </div>
@@ -51,7 +86,7 @@
   <section class="hero">
     <div class="container">
       <h1 class="display-4">Welcome to Alacrity Housing Society</h1>
-      <p class="lead">Modern living, vibrant community, excellent amenities.</p>
+      <p class="lead">Modern living, vibrant community, and excellent amenities.</p>
     </div>
   </section>
   
@@ -59,7 +94,7 @@
     <div class="container">
       <h2 class="mb-4 text-center">About Our Society</h2>
       <p class="lead text-center">
-        Alacrity Housing Society is a thriving community located in the heart of the city, offering spacious homes, lush green spaces, and a host of modern facilities.<br>
+        Alacrity Housing Society is a thriving community located in the heart of the city, offering spacious homes, lush green spaces, and modern facilities. <br>
         Our goal is to provide a safe, sustainable, and harmonious environment for families and individuals to flourish.
       </p>
     </div>
@@ -93,41 +128,80 @@
       <h2 class="mb-4 text-center">Gallery</h2>
       <div class="row g-3">
         <div class="col-6 col-md-3">
-          <img src="https://placehold.co/400x300" class="img-fluid rounded" alt="Gallery 1">
+          <img src="https://placehold.co/400x300/004e64/fff?text=Garden" class="img-fluid" alt="Gallery 1">
         </div>
         <div class="col-6 col-md-3">
-          <img src="https://placehold.co/400x300" class="img-fluid rounded" alt="Gallery 2">
+          <img src="https://placehold.co/400x300/00a5cf/fff?text=Clubhouse" class="img-fluid" alt="Gallery 2">
         </div>
         <div class="col-6 col-md-3">
-          <img src="https://placehold.co/400x300" class="img-fluid rounded" alt="Gallery 3">
+          <img src="https://placehold.co/400x300/ff6f61/fff?text=Security" class="img-fluid" alt="Gallery 3">
         </div>
         <div class="col-6 col-md-3">
-          <img src="https://placehold.co/400x300" class="img-fluid rounded" alt="Gallery 4">
+          <img src="https://placehold.co/400x300/004e64/fff?text=Community" class="img-fluid" alt="Gallery 4">
         </div>
       </div>
     </div>
   </section>
-  
-  <section id="contact" class="py-5 bg-light">
+
+  <section id="events" class="py-5">
     <div class="container">
-      <h2 class="mb-4 text-center">Contact Us</h2>
-      <div class="row">
-        <div class="col-md-6 mx-auto">
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" class="form-control" id="name" required>
+      <h2 class="mb-4 text-center">Upcoming Events</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Community Clean-up Drive</h5>
+              <p class="card-text">Join us on 18 Sept for a society-wide clean-up initiative.</p>
+              <span class="badge bg-success">18 Sept</span>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" required>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Ganesh Chaturthi Celebration</h5>
+              <p class="card-text">Cultural programs, music, and food stalls for all residents.</p>
+              <span class="badge bg-primary">28 Sept</span>
             </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="4" required></textarea>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Annual General Meeting</h5>
+              <p class="card-text">AGM to discuss society accounts and future projects.</p>
+              <span class="badge bg-warning text-dark">5 Oct</span>
             </div>
-            <button type="submit" class="btn btn-primary w-100">Send Message</button>
-          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="committee" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Our Committee Members</h2>
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <div class="card committee-card p-3">
+            <img src="https://placehold.co/150x150/00a5cf/fff?text=P" class="rounded-circle mx-auto mb-3" alt="President">
+            <h5>Mr. President</h5>
+            <p class="text-muted">President</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card committee-card p-3">
+            <img src="https://placehold.co/150x150/ff6f61/fff?text=S" class="rounded-circle mx-auto mb-3" alt="Secretary">
+            <h5>Miss. Secretary</h5>
+            <p class="text-muted">Secretary</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card committee-card p-3">
+            <img src="https://placehold.co/150x150/004e64/fff?text=T" class="rounded-circle mx-auto mb-3" alt="Treasurer">
+            <h5>Mr. Treasurer</h5>
+            <p class="text-muted">Treasurer</p>
+          </div>
         </div>
       </div>
     </div>
@@ -138,7 +212,7 @@
       <p>&copy; 2025 Alacrity Housing Society. All rights reserved.</p>
     </div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </body>
 </html>
