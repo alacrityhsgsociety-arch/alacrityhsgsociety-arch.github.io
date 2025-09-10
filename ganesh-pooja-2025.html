@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- Prevent indexing and following by search engines -->
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Embedded Google Sheet (noindex, nofollow)</title>
+  <style>
+    /* Basic reset and layout */
+    html,body { height:100%; margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:#f7f8fa; color:#111; }
+    .container { display:flex; flex-direction:column; min-height:100vh; }
+    header { padding:1rem; background:#fff; border-bottom:1px solid #e6e9ee; box-shadow:0 1px 0 rgba(0,0,0,0.02); }
+    header h1 { margin:0; font-size:1.125rem; }
+    main { flex:1; padding:1rem; display:flex; gap:1rem; align-items:flex-start; justify-content:center; }
+    .sheet-wrap { width:100%; max-width:1200px; background:#fff; border:1px solid #e6e9ee; border-radius:8px; overflow:hidden; box-shadow: 0 6px 20px rgba(20,20,50,0.04); }
+    /* Responsive iframe: keep height decent on desktop, taller on mobile */
+    .sheet-iframe { width:100%; height:70vh; border:0; min-height:480px; display:block; }
+    footer { padding:0.75rem 1rem; text-align:center; font-size:0.875rem; color:#666; background:#fff; border-top:1px solid #e6e9ee; }
+    /* Small helper area */
+    .note { padding:0.75rem 1rem; font-size:0.95rem; color:#333; }
+    @media (max-width:640px) {
+      .sheet-iframe { height:80vh; min-height:420px; }
+      header h1 { font-size:1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Embedded Google Spreadsheet (noindex, nofollow)</h1>
+    </header>
+
+    <main>
+      <div class="sheet-wrap" role="region" aria-label="Google spreadsheet">
+        <!--
+          REPLACE the src below with your Google Sheets embed URL:
+          - In Google Sheets: File → Share → Publish to web → Embed
+          - Copy the provided iframe src (starts with https://docs.google.com/spreadsheets/...)
+          Example format:
+          https://docs.google.com/spreadsheets/d/e/2PACX-EXAMPLE/pubhtml?widget=true&headers=true
+        -->
+        <iframe
+          class="sheet-iframe"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQFDhMXoIvcsFHETW4CTaxyVie8r6oUHu4w4myK4Y5-EkUt2aSKFUj3qvBxiA_y78G8UmyZGmlnSc-B/pubhtml?gid=60316299&amp;single=true&amp;widget=true&amp;headers=false"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Published Google Spreadsheet">
+        </iframe>
+      </div>
+    </main>
+
+    <div class="note" aria-hidden="false">
+      <strong>Note:</strong> Visitors will be able to use Google Sheets' built-in filter and sort UI (read-only). If you want visitors to edit directly, share the sheet with edit access (not recommended for public pages).
+    </div>
+
+    <footer>
+      Page set to <code>noindex, nofollow</code> — search engines should not index or follow links on this page.
+    </footer>
+  </div>
+</body>
+</html>
