@@ -2005,5 +2005,14 @@
     "Payment To": "GANESH Puja Expenses (Pending)",
     "Mode": "RTGS/IMPS",
     "Checked": ""
+  },
+  {
+    "Category": "MSEB Electricity",
+    "Sub Category": "",
+    "Date": "10-Sep-2025",
+    "Amount": "₹53,590.00",
+    "Payment To": "MSEB Bill",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
   }
 ]
