@@ -1974,7 +1974,7 @@
     "Category": "Ganesh Puja",
     "Sub Category": "",
     "Date": "06-Sep-2025",
-    "Amount": "₹49,500.00",
+    "Amount": "₹50,425.00",
     "Payment To": "Ganesh Puja (https://docs.google.com/spreadsheets/d/1YA3-2SM7ajbjRuTglQAJeOZmw3sz_k6HMcj1MS4AWdk/)",
     "Mode": "Cash",
     "Checked": "Yes"
@@ -1994,6 +1994,15 @@
     "Date": "7-Sep-2025",
     "Amount": "₹15,000.00",
     "Payment To": "ACHYUT OAK EXP ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "10-Sep-2025",
+    "Amount": "₹925.00",
+    "Payment To": "GANESH Puja Expenses (Pending)",
     "Mode": "RTGS/IMPS",
     "Checked": ""
   }
