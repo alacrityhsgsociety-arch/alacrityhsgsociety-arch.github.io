@@ -2059,5 +2059,32 @@
     "Payment To": "SHARA CONULTANTS  INCOM TAX -24-25",
     "Mode": "RTGS/IMPS",
     "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "8-Sep-2025",
+    "Amount": "₹120.00",
+    "Payment To": "MAHADEV ENTERPRISES housekeep materal",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Garbage",
+    "Date": "08-Sep-2025",
+    "Amount": "₹2,300.00",
+    "Payment To": "UDAI GARBAGE TEMPO",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Pest Control",
+    "Date": "11-Sep-2025",
+    "Amount": "₹800.00",
+    "Payment To": "AGRICULTTURAL STORE SNAKE POWDAR",
+    "Mode": "Cash",
+    "Checked": "Yes"
   }
 ]
