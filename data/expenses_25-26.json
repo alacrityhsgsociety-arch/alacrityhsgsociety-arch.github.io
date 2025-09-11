@@ -1611,7 +1611,7 @@
     "Checked": "Yes"
   },
   {
-    "Category": "AMC Compost Machine",
+    "Category": "Maintenance & Repair",
     "Sub Category": "",
     "Date": "06-Aug-2025",
     "Amount": "₹37,760.00",
@@ -1770,7 +1770,7 @@
     "Amount": "₹2,300.00",
     "Payment To": "Udai  garbage tempo",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -1788,7 +1788,7 @@
     "Amount": "₹500.00",
     "Payment To": "vilas chokeup a&b dry line",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Withdrawl Self",
@@ -2013,6 +2013,78 @@
     "Amount": "₹53,590.00",
     "Payment To": "MSEB Bill",
     "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Tax",
+    "Sub Category": "",
+    "Date": "11 Sep 2025",
+    "Amount": "₹25,000.00",
+    "Payment To": "SHARA CONULTANTS  INCOM TAX -24-25",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Tax",
+    "Sub Category": "",
+    "Date": "12 Sep 2025",
+    "Amount": "₹25,000.00",
+    "Payment To": "SHARA CONULTANTS  INCOM TAX -24-25",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Tax",
+    "Sub Category": "",
+    "Date": "13 Sep 2025",
+    "Amount": "₹25,000.00",
+    "Payment To": "SHARA CONULTANTS  INCOM TAX -24-25",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Tax",
+    "Sub Category": "",
+    "Date": "14 Sep 2025",
+    "Amount": "₹25,000.00",
+    "Payment To": "SHARA CONULTANTS  INCOM TAX -24-25",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Tax",
+    "Sub Category": "",
+    "Date": "15 Sep 2025",
+    "Amount": "₹14,270.00",
+    "Payment To": "SHARA CONULTANTS  INCOM TAX -24-25",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "8-Sep-2025",
+    "Amount": "₹120.00",
+    "Payment To": "MAHADEV ENTERPRISES housekeep materal",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "08-Sep-2025",
+    "Amount": "₹2,300.00",
+    "Payment To": "UDAI GARBAGE TEMPO",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Pest Control",
+    "Date": "11-Sep-2025",
+    "Amount": "₹800.00",
+    "Payment To": "AGRICULTTURAL STORE SNAKE POWDAR",
+    "Mode": "Cash",
     "Checked": "Yes"
   }
 ]
