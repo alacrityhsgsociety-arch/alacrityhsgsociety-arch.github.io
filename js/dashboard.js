@@ -238,9 +238,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       const category=(row["Category"]||row["category"]||"").trim().toLowerCase();
       if(amt===0) return;
       validRows++;
-      if(category!=="withdrawal self" && category!=="withdrawl self") totalAmount+=amt;
+      if(category!=="withdrawal self" && category!=="withdrawl self" && checked=="yes") totalAmount+=amt;
 
       const tr=document.createElement("tr");
+      tr.classList.add(checked==="yes"?"table-success":"table-warning");
       tr.innerHTML=`
         <td>${row["Date"]||row["date"]||""}</td>
         <td>${row["Category"]||row["category"]||""}</td>
