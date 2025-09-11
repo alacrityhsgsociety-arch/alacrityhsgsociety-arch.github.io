@@ -236,6 +236,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     expenseRows.forEach(row=>{
       const amt=parseAmount(row["Amount"]||row["amount"]);
       const category=(row["Category"]||row["category"]||"").trim().toLowerCase();
+      const checked=(row["Checked"]||row["checked"]||"").trim().toLowerCase();
       if(amt===0) return;
       validRows++;
       if(category!=="withdrawal self" && category!=="withdrawl self" && checked=="yes") totalAmount+=amt;
