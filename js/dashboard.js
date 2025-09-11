@@ -286,8 +286,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         const dateStr=row["Date"]||row["date"];
         const cat=(row["Category"]||row["category"]||"Other").trim();
         const amt=parseAmount(row["Amount"]||row["amount"]);
+        const checked=(row["Checked"]||row["checked"]||"").trim().toLowerCase();
         if(!dateStr||amt===0) return;
-        if(cat.toLowerCase()==="withdrawal self"||cat.toLowerCase()==="withdrawl self") return;
+        if(cat.toLowerCase()==="withdrawal self"||cat.toLowerCase()==="withdrawl self"|| checked!=="yes") return;
 
         const monthIndex=new Date(dateStr).getMonth();
         if(!monthTotals[cat]) monthTotals[cat]=Array(12).fill(0);
