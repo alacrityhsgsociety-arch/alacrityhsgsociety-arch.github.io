@@ -1788,7 +1788,7 @@
     "Amount": "₹500.00",
     "Payment To": "vilas chokeup a&b dry line",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Withdrawl Self",
@@ -2071,7 +2071,7 @@
   },
   {
     "Category": "Sundry",
-    "Sub Category": "Garbage",
+    "Sub Category": "Transport",
     "Date": "08-Sep-2025",
     "Amount": "₹2,300.00",
     "Payment To": "UDAI GARBAGE TEMPO",
