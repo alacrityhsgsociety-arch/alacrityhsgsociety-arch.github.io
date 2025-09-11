@@ -1137,6 +1137,46 @@
   },
   {
     "Item": "",
+    "Category": "Deposits",
+    "Date": "21-Aug-2025",
+    "Amount": "₹1,154,640.00",
+    "Payment From": "HDFC F D",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Bank Interest",
+    "Date": "3-Sep-2025",
+    "Amount": "₹28,761.00",
+    "Payment From": "pnb int",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "6-Sep-2025",
+    "Amount": "₹100.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "7-Sep-2025",
+    "Amount": "₹1,200.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "7-Sep-2025",
+    "Amount": "₹1,200.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",
     "Amount": "",
