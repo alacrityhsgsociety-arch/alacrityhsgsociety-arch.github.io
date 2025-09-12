@@ -3,8 +3,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   const expenseContainer = document.getElementById("expense-charts");
   const sundryContainer = document.getElementById("sundry-charts");
   const monthSelect = document.getElementById("monthSelect");
-  const periodSelect = document.getElementById("periodSelect");
+  const periodSelect = document.getElementById("periodSelect"); // may be null if not present
   const expenseTableBody = document.querySelector("#expense-table tbody");
+  const fdTableBody = document.getElementById("fd-table-body");
+  const fdTotalEl = document.getElementById("fd-total");
 
   const RAW_JSON_BASE = "https://raw.githubusercontent.com/alacrityhsgsociety-arch/alacrityhsgsociety-arch.github.io/refs/heads/main/data";
   const INDEX_FILE = `${RAW_JSON_BASE}/index.json?v=${Date.now()}`;
@@ -36,27 +38,35 @@ document.addEventListener("DOMContentLoaded", async () => {
     files = await res.json();
   } catch(err){
     console.error("Failed to load index.json:", err);
-    inflowContainer.innerHTML = `<p class="text-danger">Failed to load data.</p>`;
+    if(inflowContainer) inflowContainer.innerHTML = `<p class="text-danger">Failed to load data.</p>`;
     return;
   }
 
   const parseAmount = (value) => {
-    if(!value) return 0;
+    if(value === null || value === undefined || value === "") return 0;
     if(typeof value === "string"){
-      value = value.replace(/[₹,]/g,"");
-      return parseFloat(value)||0;
+      // remove currency symbol, spaces and commas
+      value = value.replace(/[₹,\s]/g,"");
+      // handle possible parentheses for negative numbers
+      if(value.startsWith("(") && value.endsWith(")")){
+        value = "-" + value.slice(1, -1);
+      }
+      return parseFloat(value) || 0;
     }
-    return value;
+    if(typeof value === "number") return value;
+    return 0;
   };
 
   const clearSections = () => {
-    inflowContainer.innerHTML = "";
-    expenseContainer.innerHTML = "";
-    sundryContainer.innerHTML = "";
-    expenseTableBody.innerHTML = "";
+    if(inflowContainer) inflowContainer.innerHTML = "";
+    if(expenseContainer) expenseContainer.innerHTML = "";
+    if(sundryContainer) sundryContainer.innerHTML = "";
+    if(expenseTableBody) expenseTableBody.innerHTML = "";
+    if(fdTableBody) fdTableBody.innerHTML = "";
+    if(fdTotalEl) fdTotalEl.textContent = "";
   };
 
-  // Plugin to show totals above stacked bars
+  // Plugin to show totals above stacked bars (unchanged)
   const showTotalsPlugin = {
     id: "showTotals",
     afterDatasetsDraw(chart){
@@ -66,8 +76,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         let total=0;
         chart.data.datasets.forEach(ds=> total += ds.data[index]||0);
         if(total>0){
-          const xPos=x.getPixelForValue(index);
-          const yPos=y.getPixelForValue(total);
+          const xPos = (typeof x.getPixelForValue === "function") ? x.getPixelForValue(index) : (index + 0.5) * (chart.width / chart.data.labels.length);
+          const yPos = (typeof y.getPixelForValue === "function") ? y.getPixelForValue(total) : chart.height - (total / (y.max || 1)) * chart.height;
           ctx.fillStyle="#000";
           ctx.font="bold 10px sans-serif";
           ctx.textAlign="center";
@@ -77,6 +87,70 @@ document.addEventListener("DOMContentLoaded", async () => {
       ctx.restore();
     }
   };
+
+  // ---- FD renderer (mirrors renderExpenseTable style) ----
+  function renderFixedDepositTable(fdRows){
+    if(!fdTableBody) return;
+    fdTableBody.innerHTML = "";
+
+    if(!Array.isArray(fdRows) || fdRows.length === 0){
+      // show empty row
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td colspan="3" class="text-center text-muted">No FDs found</td>`;
+      fdTableBody.appendChild(tr);
+      if(fdTotalEl) fdTotalEl.textContent = "";
+      return;
+    }
+
+    // sort optional: by Category then Account
+    fdRows.sort((a,b)=>{
+      const ca = (a.Category||a.category||"").localeCompare(b.Category||b.category||"");
+      if(ca!==0) return ca;
+      return (a.Account||a.account||"").localeCompare(b.Account||b.account||"");
+    });
+
+    let totalAmount = 0;
+    fdRows.forEach(row=>{
+      const amt = parseAmount(row["Amount"]||row["amount"]);
+      totalAmount += amt;
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${row["Category"]||row["category"]||""}</td>
+        <td>${row["Account"]||row["account"]||""}</td>
+        <td class="text-end">₹ ${amt.toLocaleString("en-IN",{minimumFractionDigits:2})}</td>
+      `;
+      fdTableBody.appendChild(tr);
+    });
+
+    // total row
+    const totalTr = document.createElement("tr");
+    totalTr.classList.add("fw-bold","table-light");
+    // totalTr.innerHTML = `
+    //   <td colspan="2" class="text-end">Total FD</td>
+    //   <td class="text-end">₹ ${totalAmount.toLocaleString("en-IN",{minimumFractionDigits:2})}</td>
+    // `;
+    fdTableBody.appendChild(totalTr);
+
+    if(fdTotalEl) fdTotalEl.textContent = `₹ ${totalAmount.toLocaleString("en-IN",{minimumFractionDigits:2})}`;
+  }
+
+  // Load FD JSON and render the FD table
+  async function loadFDData(){
+    try{
+      const res = await fetch(`${RAW_JSON_BASE}/fixed_deposit.json?v=${Date.now()}`);
+      if(!res.ok) {
+        // try fallback if index.json lists a different path
+        console.warn("fixed_deposit.json not found at base path, status:", res.status);
+        return;
+      }
+      const fdData = await res.json();
+      renderFixedDepositTable(fdData);
+    } catch(err){
+      console.error("Failed to load fd.json:", err);
+    }
+  }
+
+  // ---- existing functions for charts / sundry / expense (kept intact) ----
 
   async function renderCharts(monthIndex){
     clearSections();
@@ -94,10 +168,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error(`Failed to load ${filePath}:`, err);
         continue;
       }
-      if(!data.length) continue;
+      if(!data || !data.length) continue;
 
       const chartName = file.replace(".json","").replace(/_/g," ");
-      const headers = Object.keys(data[0]);
+      const headers = Object.keys(data[0] || {});
       const categoryCol = headers.find(h=>h.toLowerCase().includes("category"));
       const subCatCol = headers.find(h=>h.toLowerCase().includes("sub category"));
       const amountCol = headers.find(h=>h.toLowerCase().includes("amount"));
@@ -106,18 +180,19 @@ document.addEventListener("DOMContentLoaded", async () => {
       const categoryMap = {};
       data.forEach(row=>{
         const dateStr = row["Date"]||row["date"];
-        if(!dateStr) return;
+        if(!dateStr) return; // we only build charts from rows that have dates
         const d = new Date(dateStr);
-        if(d.getMonth()!==monthIndex) return;
+        if(isNaN(d)) return;
+        if(d.getMonth() !== monthIndex) return;
 
         const cat = row[categoryCol] || "Other";
-        const subCat = subCatCol ? row[subCatCol] || "Other" : "Other";
+        const subCat = subCatCol ? (row[subCatCol] || "Other") : "Other";
         const amt = parseAmount(row[amountCol]);
 
         if(!categoryMap[cat]) categoryMap[cat] = {};
         categoryMap[cat][subCat] = (categoryMap[cat][subCat]||0) + amt;
 
-        if((row["Category"]||row["category"]||"").toLowerCase()==="sundry") sundryRowsAll.push(row);
+        if((row["Category"]||row["category"]||"").toLowerCase() === "sundry") sundryRowsAll.push(row);
         if(file.toLowerCase().includes("expense")) expenseRowsAll.push(row);
       });
 
@@ -139,6 +214,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         backgroundColor: COLORS[i%COLORS.length]
       }));
 
+      // create canvas
       const colDiv = document.createElement("div");
       colDiv.className = "mb-4";
       const canvas = document.createElement("canvas");
@@ -148,79 +224,95 @@ document.addEventListener("DOMContentLoaded", async () => {
       if(file.toLowerCase().includes("expense")) targetContainer = expenseContainer;
       else if(file.toLowerCase().includes("inflow")) targetContainer = inflowContainer;
 
-      targetContainer.appendChild(colDiv);
+      if(targetContainer) targetContainer.appendChild(colDiv);
 
-      new Chart(canvas,{
-        type:"bar",
-        data:{labels:categories,datasets:datasets},
-        options:{
-          responsive:true,
-          plugins:{
-            legend:{position:"top"},
-            title:{display:true,text:`${chartName} (${monthNames[monthIndex]})`},
-            tooltip:{
-              callbacks:{
-                label:function(context){
-                  const category=context.chart.data.labels[context.dataIndex];
-                  const subCategory=context.dataset.label;
-                  const amount=context.raw;
-                  if(amount===0) return null;
-                  return `${category} → ${subCategory}: ₹ ${amount.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}`;
+      // draw chart
+      try{
+        new Chart(canvas,{
+          type:"bar",
+          data:{labels:categories,datasets:datasets},
+          options:{
+            responsive:true,
+            plugins:{
+              legend:{position:"top"},
+              title:{display:true,text:`${chartName} (${monthNames[monthIndex]})`},
+              tooltip:{
+                callbacks:{
+                  label:function(context){
+                    const category=context.chart.data.labels[context.dataIndex];
+                    const subCategory=context.dataset.label;
+                    const amount=context.raw;
+                    if(amount===0) return null;
+                    return `${category} → ${subCategory}: ₹ ${amount.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}`;
+                  }
                 }
               }
+            },
+            scales:{
+              x:{stacked:true,title:{display:true,text:"Category"}},
+              y:{stacked:true,beginAtZero:true,title:{display:true,text:"Amount"},
+                 ticks:{callback:value=>`₹ ${value.toLocaleString("en-IN")}`}}
             }
           },
-          scales:{
-            x:{stacked:true,title:{display:true,text:"Category"}},
-            y:{stacked:true,beginAtZero:true,title:{display:true,text:"Amount"},
-               ticks:{callback:value=>`₹ ${value.toLocaleString("en-IN")}`}}
-          }
-        },
-        plugins:[showTotalsPlugin]
-      });
+          plugins:[showTotalsPlugin]
+        });
+      } catch(e){
+        console.warn("Chart render error:", e);
+      }
     }
 
     renderSundryPie(sundryRowsAll,monthIndex);
     renderExpenseTable(expenseRowsAll);
     renderExpenseMonthSummary();
+
+    // always attempt to load FD data for the FD table
+    await loadFDData();
   }
 
   function renderSundryPie(sundryRows,monthIndex){
-    if(!sundryRows.length) return;
+    if(!sundryRows || !sundryRows.length) return;
     const subCatMap={};
     sundryRows.forEach(row=>{
-      const subCat=row["Sub Category"]||row["sub category"]||"Other";
-      const amt=parseAmount(row["Amount"]||row["amount"]);
-      subCatMap[subCat]=(subCatMap[subCat]||0)+amt;
+      const subCat = row["Sub Category"]||row["sub category"]||"Other";
+      const amt = parseAmount(row["Amount"]||row["amount"]);
+      subCatMap[subCat] = (subCatMap[subCat]||0) + amt;
     });
 
-    const labels=Object.keys(subCatMap);
-    const amounts=Object.values(subCatMap);
+    const labels = Object.keys(subCatMap);
+    const amounts = Object.values(subCatMap);
 
-    const colDiv=document.createElement("div");
-    colDiv.className="mb-4";
-    const canvas=document.createElement("canvas");
+    const colDiv = document.createElement("div");
+    colDiv.className = "mb-4";
+    const canvas = document.createElement("canvas");
     colDiv.appendChild(canvas);
-    sundryContainer.appendChild(colDiv);
+    if(sundryContainer) sundryContainer.appendChild(colDiv);
 
-    new Chart(canvas,{
-      type:"pie",
-      data:{labels:labels,datasets:[{data:amounts,backgroundColor:labels.map((_,i)=>COLORS[i%COLORS.length])}]},
-      options:{
-        responsive:true,
-        plugins:{
-          legend:{position:"top"},
-          title:{display:true,text:`Sundry (${monthNames[monthIndex]})`},
-          tooltip:{callbacks:{label:c=>`${c.label}: ₹ ${c.raw.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}`}}
+    try{
+      new Chart(canvas,{
+        type:"pie",
+        data:{labels:labels,datasets:[{data:amounts,backgroundColor:labels.map((_,i)=>COLORS[i%COLORS.length])}]},
+        options:{
+          responsive:true,
+          plugins:{
+            legend:{position:"top"},
+            title:{display:true,text:`Sundry (${monthNames[monthIndex]})`},
+            tooltip:{callbacks:{label:c=>`${c.label}: ₹ ${c.raw.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}`}}
+          }
         }
-      }
-    });
+      });
+    } catch(e){
+      console.warn("Sundry pie error:", e);
+    }
   }
 
   function renderExpenseTable(expenseRows){
-    if(!expenseRows.length) return;
+    if(!expenseTableBody) return;
+    if(!expenseRows || !expenseRows.length) {
+      expenseTableBody.innerHTML = `<tr><td colspan="6" class="text-center text-muted">No expense rows</td></tr>`;
+      return;
+    }
     expenseTableBody.innerHTML = "";
-    expenseRows.sort((a,b)=>new Date(a["Date"]||a["date"])-new Date(b["Date"]||b["date"]));
+    expenseRows.sort((a,b)=>new Date(a["Date"]||a["date"]) - new Date(b["Date"]||b["date"]));
     let totalAmount=0;
     let validRows=0;
 
@@ -261,9 +353,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const thead=document.getElementById("expense-month-header");
     const chartContainer=document.getElementById("expense-month-chart");
 
+    if(!tbody || !thead) return;
     tbody.innerHTML = "";
     thead.innerHTML = "<th>Category</th>";
-    chartContainer.innerHTML = "";
+    if(chartContainer) chartContainer.innerHTML = "";
 
     const monthTotals = {};
     const grandTotals = Array(12).fill(0);
@@ -278,7 +371,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         const checked=(row["Checked"]||row["checked"]||"").trim().toLowerCase();
         if(!dateStr||amt===0) return;
         if(cat.toLowerCase()==="withdrawal self"||cat.toLowerCase()==="withdrawl self" || checked!=="yes") return;
-        const monthIndex=new Date(dateStr).getMonth();
+        const d = new Date(dateStr);
+        if(isNaN(d)) return;
+        const monthIndex=d.getMonth();
         if(!monthTotals[cat]) monthTotals[cat]=Array(12).fill(0);
         monthTotals[cat][monthIndex]+=amt;
         grandTotals[monthIndex]+=amt;
@@ -301,36 +396,49 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Footer
     const tfoot=tbody.parentElement.querySelector("tfoot tr");
-    tfoot.innerHTML="<th>Grand Total</th>"+grandTotals.map(v=>v===0?"<th></th>":`<th>₹ ${v.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}</th>`).join("");
+    if(tfoot){
+      tfoot.innerHTML="<th>Grand Total</th>"+grandTotals.map(v=>v===0?"<th></th>":`<th>₹ ${v.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}</th>`).join("");
+    }
 
-    // Chart
-    const canvasDiv=document.createElement("div");
-    canvasDiv.className="mb-4";
-    const canvas=document.createElement("canvas");
-    canvasDiv.appendChild(canvas);
-    chartContainer.appendChild(canvasDiv);
+    // Chart (optional)
+    if(chartContainer){
+      const canvasDiv=document.createElement("div");
+      canvasDiv.className="mb-4";
+      const canvas=document.createElement("canvas");
+      canvasDiv.appendChild(canvas);
+      chartContainer.appendChild(canvasDiv);
 
-    new Chart(canvas,{
-      type:"bar",
-      data:{labels:monthNames,datasets:[{label:"Total Expense (₹)",data:grandTotals,backgroundColor:"#4e79a7"}]},
-      options:{
-        responsive:true,
-        plugins:{
-          legend:{display:false},
-          title:{display:true,text:"Expense: Monthly Totals"},
-          tooltip:{callbacks:{label:c=>`₹${c.raw.toLocaleString("en-IN",{minimumFractionDigits:2})}`}},
-          datalabels:{anchor:"end",align:"end",color:"#000",font:{weight:"normal",size:10},formatter:v=>v===0?"":`₹${v.toLocaleString("en-IN")}`}
-        },
-        scales:{x:{title:{display:true,text:"Months"}},y:{beginAtZero:true,title:{display:true,text:"Amount (₹)"},ticks:{callback:v=>`₹${v.toLocaleString("en-IN")}`}}}
-      },
-      plugins:[ChartDataLabels]
-    });
+      try{
+        new Chart(canvas,{
+          type:"bar",
+          data:{labels:monthNames,datasets:[{label:"Total Expense (₹)",data:grandTotals,backgroundColor:"#4e79a7"}]},
+          options:{
+            responsive:true,
+            plugins:{
+              legend:{display:false},
+              title:{display:true,text:"Expense: Monthly Totals"},
+              tooltip:{callbacks:{label:c=>`₹${c.raw.toLocaleString("en-IN",{minimumFractionDigits:2})}`}},
+              datalabels:{anchor:"end",align:"end",color:"#000",font:{weight:"normal",size:10},formatter:v=>v===0?"":`₹${v.toLocaleString("en-IN")}`}
+            },
+            scales:{x:{title:{display:true,text:"Months"}},y:{beginAtZero:true,title:{display:true,text:"Amount (₹)"},ticks:{callback:v=>`₹${v.toLocaleString("en-IN")}`}}}
+          },
+          plugins:[ChartDataLabels]
+        });
+      } catch(e){
+        console.warn("Expense month chart error:", e);
+      }
+    }
   }
 
   // Initial render
   const currentMonth = new Date().getMonth();
   await renderCharts(currentMonth);
 
-  monthSelect.addEventListener("change", e => renderCharts(parseInt(e.target.value)));
-  periodSelect.addEventListener("change", ()=>renderCharts(parseInt(monthSelect.value)));
+  // safe event listeners (only if elements exist)
+  if(monthSelect){
+    monthSelect.addEventListener("change", e => renderCharts(parseInt(e.target.value)));
+  }
+  if(periodSelect){
+    periodSelect.addEventListener("change", ()=>renderCharts(parseInt(monthSelect.value)));
+  }
 });
