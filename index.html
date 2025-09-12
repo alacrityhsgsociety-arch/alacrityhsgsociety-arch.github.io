@@ -1,175 +1,218 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Society Finance Dashboard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Chart.js Data Labels -->
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-      canvas {
-        width: 100% !important;
-        height: 400px !important;
-      }
-    </style>
-  </head>
-  <body>
-  <div class="container my-4">
-    <!-- Page Header -->
-    <div class="row mb-4">
-      <div class="col text-center">
-        <h2 class="fw-bold">🏢 Society Finance Dashboard</h2>
-        <p class="text-muted">Track inflows, expenses & sundry in real-time</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Alacrity Housing Society</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: #f8fafc;
+      color: #2b2b2b;
+    }
+    .navbar {
+      background: #004e64;
+    }
+    .navbar-brand, .nav-link {
+      font-weight: 600;
+    }
+    .hero {
+      background: linear-gradient(120deg, #004e64, #00a5cf);
+      color: #fff;
+      padding: 90px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .amenities .icon {
+      font-size: 2rem;
+      color: #ff6f61;
+    }
+    .gallery img {
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .card {
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    .committee-card img {
+      border: 3px solid #00a5cf;
+    }
+    footer {
+      background: #004e64;
+      color: #eee;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 40px;
+    }
+    h2 {
+      color: #004e64;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Alacrity Society</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#amenities">Amenities</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#committee">Committee</a></li>
+        </ul>
       </div>
     </div>
-
-    <!-- Filters -->
-    <div class="row mb-3">
-      <div class="col-md-6 mb-2">
-        <label for="monthSelect" class="form-label">Select Month</label>
-        <select id="monthSelect" class="form-select"></select>
-      </div>
-      <!-- periodSelect can be added back if needed -->
-      <!-- <div class="col-md-6 mb-2">
-        <label for="periodSelect" class="form-label">Select Period</label>
-        <select id="periodSelect" class="form-select">
-          <option value="month">Month</option>
-          <option value="quarter">Quarter</option>
-          <option value="half">Half-Year</option>
-          <option value="year">Year</option>
-        </select>
-      </div> -->
+  </nav>
+  
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4">Welcome to Alacrity Housing Society</h1>
+      <p class="lead">Modern living, vibrant community, and excellent amenities.</p>
     </div>
-
-    <!-- Top row: Inflow and Sundry -->
-    <div class="row g-4 mb-4">
-      <div class="col-lg-6">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title text-center">💰 Inflow</h5>
-            <div id="inflow-charts"></div>
-          </div>
+  </section>
+  
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">About Our Society</h2>
+      <p class="lead text-center">
+        Alacrity Housing Society is a thriving community located in the heart of the city, offering spacious homes, lush green spaces, and modern facilities. <br>
+        Our goal is to provide a safe, sustainable, and harmonious environment for families and individuals to flourish.
+      </p>
+    </div>
+  </section>
+  
+  <section id="amenities" class="amenities py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Amenities</h2>
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <div class="icon mb-2"><i class="bi bi-tree"></i></div>
+          <h5>Landscaped Gardens</h5>
+          <p>Beautifully maintained gardens and green spaces for relaxation.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="icon mb-2"><i class="bi bi-building"></i></div>
+          <h5>Clubhouse</h5>
+          <p>Modern clubhouse with gym, podium garden, and indoor games.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="icon mb-2"><i class="bi bi-shield-lock"></i></div>
+          <h5>24x7 Security</h5>
+          <p>Round-the-clock security and surveillance for residents' safety.</p>
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title text-center">📊 Sundry</h5>
-            <div id="sundry-charts"></div>
-          </div>
+    </div>
+  </section>
+  
+  <section id="gallery" class="gallery py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Gallery</h2>
+      <div class="row g-3">
+        <div class="col-6 col-md-3">
+          <img src="https://placehold.co/400x300/004e64/fff?text=Garden" class="img-fluid" alt="Gallery 1">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="https://placehold.co/400x300/00a5cf/fff?text=Clubhouse" class="img-fluid" alt="Gallery 2">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="https://placehold.co/400x300/ff6f61/fff?text=Security" class="img-fluid" alt="Gallery 3">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="https://placehold.co/400x300/004e64/fff?text=Community" class="img-fluid" alt="Gallery 4">
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Bottom row: Expenses -->
-    <div class="row g-4 mb-4">
-      <div class="col-12">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title text-center">📊 Expenses</h5>
-            <div id="expense-charts"></div>
+  <section id="events" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Upcoming Events</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Community Clean-up Drive</h5>
+              <p class="card-text">Join us on 18 Sept for a society-wide clean-up initiative.</p>
+              <span class="badge bg-success">18 Sept</span>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Expense Details Table -->
-    <div class="row g-4 mb-4">
-      <div class="col-12">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title text-center">📑 Expense Details</h5>
-            <div class="table-responsive">
-              <table class="table table-striped table-bordered align-middle" id="expense-table">
-                <thead class="table-dark">
-                  <tr>
-                    <th>Date</th>
-                    <th>Category</th>
-                    <th>Sub Category</th>
-                    <th>Payment To</th>
-                    <th>Mode</th>
-                    <th>Amount (₹)</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <!-- Filled dynamically via JS -->
-                </tbody>
-              </table>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Ganesh Chaturthi Celebration</h5>
+              <p class="card-text">Cultural programs, music, and food stalls for all residents.</p>
+              <span class="badge bg-primary">28 Sept</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Annual General Meeting</h5>
+              <p class="card-text">AGM to discuss society accounts and future projects.</p>
+              <span class="badge bg-warning text-dark">5 Oct</span>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-  <!-- Expense Monthly Totals Chart -->
-  <div class="row g-4 mb-4">
-    <div class="col-12">
-      <div class="card shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title text-center">📊 Expense: Category-wise Monthly Totals</h5>
-          <div id="expense-month-chart"></div>
+  <section id="committee" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Our Committee Members</h2>
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <div class="card committee-card p-3">
+            <img src="https://placehold.co/150x150/00a5cf/fff?text=P" class="rounded-circle mx-auto mb-3" alt="President">
+            <h5>Mr. President</h5>
+            <p class="text-muted">President</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card committee-card p-3">
+            <img src="https://placehold.co/150x150/ff6f61/fff?text=S" class="rounded-circle mx-auto mb-3" alt="Secretary">
+            <h5>Miss. Secretary</h5>
+            <p class="text-muted">Secretary</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card committee-card p-3">
+            <img src="https://placehold.co/150x150/004e64/fff?text=T" class="rounded-circle mx-auto mb-3" alt="Treasurer">
+            <h5>Mr. Treasurer</h5>
+            <p class="text-muted">Treasurer</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="row mt-4">
-    <div class="card shadow-sm">
-      <div class="card-body">
-        <div class="col-12">
-          <h5  class="card-title text-center">📑 Expense Details Monthly Totals</h4>
-          <table class="table table-striped table-bordered align-middle" id="expense-month-table">
-            <thead class="table-dark">
-              <tr id="expense-month-header">
-                <th>Category</th>
-                <!-- Month headers will be appended dynamically -->
-              </tr>
-            </thead>
-            <tbody id="expense-month-body">
-              <!-- Rows will be appended dynamically -->
-            </tbody>
-            <tfoot>
-              <tr>
-                <th>Grand Total</th>
-                <!-- Totals will be appended dynamically -->
-              </tr>
-            </tfoot>
-          </table>
-        </div>
-      </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Alacrity Housing Society. All rights reserved.</p>
     </div>
-  </div>
+  </footer>
 
-  <div class="row mt-4">
-    <div class="card shadow-sm">
-      <div class="card-body">
-        <div class="col-12">
-          <h5 class="card-title text-center">📑 Fixed Deposits</h4>
-          <table class="table table-striped table-bordered align-middle" id="fixed-deposit-table">
-            <thead class="table-dark">
-            <tr>
-              <th>Category</th>
-              <th>Account</th>
-              <th class="text-end">Amount</th>
-            </tr>
-          </thead>
-            <tbody id="fd-table-body"></tbody>
-            <tfoot>
-              <tr class="fw-bold table-light">
-                <td colspan="2" class="text-end">Total</td>
-                <td id="fd-total" class="text-end"></td>
-              </tr>
-          </tfoot>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="js/dashboard.js"></script>
-  </body>
-  </html>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
