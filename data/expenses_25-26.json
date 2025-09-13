@@ -1914,7 +1914,7 @@
     "Amount": "₹3,000.00",
     "Payment To": "VISION FACILITY SERVICE",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2085,6 +2085,15 @@
     "Amount": "₹800.00",
     "Payment To": "AGRICULTTURAL STORE SNAKE POWDAR",
     "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sinking Fund",
+    "Sub Category": "",
+    "Date": "15-Sep-2025",
+    "Amount": "₹115,464.00",
+    "Payment To": "Sinking Fund HDFC FD fd maturity reinvested in pnb bank fd 2 years 4 months",
+    "Mode": "Cheque",
     "Checked": "Yes"
   }
 ]
