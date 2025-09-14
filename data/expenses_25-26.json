@@ -2095,5 +2095,14 @@
     "Payment To": "Sinking Fund HDFC FD fd maturity reinvested in pnb bank fd 2 years 4 months",
     "Mode": "Cheque",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "14-Sep-2025",
+    "Amount": "₹462.00",
+    "Payment To": "Oak   स्पिकर पहाणे साठी स्वप्निल, अभिजित रिक्षा भाडे ",
+    "Mode": "Cash",
+    "Checked": "Yes"
   }
 ]
