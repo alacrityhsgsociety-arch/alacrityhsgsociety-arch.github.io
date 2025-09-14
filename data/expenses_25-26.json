@@ -2104,5 +2104,14 @@
     "Payment To": "Oak   स्पिकर पहाणे साठी स्वप्निल, अभिजित रिक्षा भाडे ",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "14-Sep-2025",
+    "Amount": "₹30,000.00",
+    "Payment To": "Cash for club house speakers",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
   }
 ]
