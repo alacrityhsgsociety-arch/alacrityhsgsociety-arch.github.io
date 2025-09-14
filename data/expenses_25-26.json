@@ -2113,5 +2113,14 @@
     "Payment To": "Cash for club house speakers",
     "Mode": "RTGS/IMPS",
     "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "15-Sep-2025",
+    "Amount": "₹27,500.00",
+    "Payment To": "OM Eelectronics (Cash By Oak)",
+    "Mode": "Cash",
+    "Checked": "Yes"
   }
 ]
