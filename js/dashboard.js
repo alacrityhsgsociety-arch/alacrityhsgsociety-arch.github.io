@@ -673,8 +673,7 @@ function calculateCashInHand(expenses, inflows) {
       const expenses = await fetchData("expenses"); // Fetch expenses data
       const inflows = await fetchData("inflow"); // Fetch inflows data
       const cashInHand = calculateCashInHand(expenses, inflows) - 4565; // Adjusted by ₹4565 as per original logic
-      console.log("Cash in Hand: ₹", cashInHand);
-      document.getElementById("result").textContent = `Cash in Hand: ₹${cashInHand.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      document.getElementById("result").textContent = `₹${cashInHand.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
   }
   await loadAndCalculate();
   // Initial render
