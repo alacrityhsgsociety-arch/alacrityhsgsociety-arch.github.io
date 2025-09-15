@@ -1975,7 +1975,7 @@
     "Sub Category": "",
     "Date": "06-Sep-2025",
     "Amount": "₹50,425.00",
-    "Payment To": "Ganesh Puja (https://alacrityhsgsociety-arch.github.io/ganesh-pooja-2025.html)",
+    "Payment To": "Ganesh Puja (https://docs.google.com/spreadsheets/d/e/2PACX-1vQFDhMXoIvcsFHETW4CTaxyVie8r6oUHu4w4myK4Y5-EkUt2aSKFUj3qvBxiA_y78G8UmyZGmlnSc-B/pubhtml?gid=60316299)",
     "Mode": "Cash",
     "Checked": "Yes"
   },
@@ -2120,6 +2120,24 @@
     "Date": "15-Sep-2025",
     "Amount": "₹27,500.00",
     "Payment To": "OM Eelectronics (Cash By Oak)",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "15-Sep-2025",
+    "Amount": "₹400.00",
+    "Payment To": "Mahalaxmi Plastics स्पिकर पॅकींग साठी ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "15-Sep-2025",
+    "Amount": "₹640.00",
+    "Payment To": "Oak स्पिकर साठी पोर्टर टेपो +बस प्रवास ",
     "Mode": "Cash",
     "Checked": "Yes"
   }
