@@ -7,8 +7,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   const expenseTableBody = document.querySelector("#expense-table tbody");
   const fdTableBody = document.getElementById("fd-table-body");
   const fdTotalEl = document.getElementById("fd-total");
+  const lastYearCashInHand = window.ENV.last_Year_Cash_In_Hand; // Adjust this
 
-  const RAW_JSON_BASE =
+  const RAW_JSON_BASE = 
     "https://raw.githubusercontent.com/alacrityhsgsociety-arch/alacrityhsgsociety-arch.github.io/refs/heads/main/data";
   const INDEX_FILE = `${RAW_JSON_BASE}/index.json?v=${Date.now()}`;
 
@@ -672,7 +673,7 @@ function calculateCashInHand(expenses, inflows) {
   async function loadAndCalculate() {
       const expenses = await fetchData("expenses"); // Fetch expenses data
       const inflows = await fetchData("inflow"); // Fetch inflows data
-      const cashInHand = calculateCashInHand(expenses, inflows) - 4565; // Adjusted by ₹4565 as per original logic
+      const cashInHand = calculateCashInHand(expenses, inflows) + lastYearCashInHand; // Adjusted by ₹4565 as per original logic
       document.getElementById("result").textContent = `₹${cashInHand.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
   }
   await loadAndCalculate();
