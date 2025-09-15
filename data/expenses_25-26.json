@@ -1914,7 +1914,7 @@
     "Amount": "₹3,000.00",
     "Payment To": "VISION FACILITY SERVICE",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2040,7 +2040,7 @@
     "Amount": "₹25,000.00",
     "Payment To": "SHARA CONULTANTS  INCOM TAX -24-25",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Tax",
@@ -2049,7 +2049,7 @@
     "Amount": "₹25,000.00",
     "Payment To": "SHARA CONULTANTS  INCOM TAX -24-25",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Tax",
@@ -2058,7 +2058,7 @@
     "Amount": "₹14,270.00",
     "Payment To": "SHARA CONULTANTS  INCOM TAX -24-25",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2084,6 +2084,42 @@
     "Date": "11-Sep-2025",
     "Amount": "₹800.00",
     "Payment To": "AGRICULTTURAL STORE SNAKE POWDAR",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sinking Fund",
+    "Sub Category": "",
+    "Date": "15-Sep-2025",
+    "Amount": "₹1,154,640.00",
+    "Payment To": "Sinking Fund HDFC FD fd maturity reinvested in pnb bank fd 2 years 4 months",
+    "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "14-Sep-2025",
+    "Amount": "₹462.00",
+    "Payment To": "Oak   स्पिकर पहाणे साठी स्वप्निल, अभिजित रिक्षा भाडे ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "14-Sep-2025",
+    "Amount": "₹30,000.00",
+    "Payment To": "Cash for club house speakers",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "15-Sep-2025",
+    "Amount": "₹27,500.00",
+    "Payment To": "OM Eelectronics (Cash By Oak)",
     "Mode": "Cash",
     "Checked": "Yes"
   }
