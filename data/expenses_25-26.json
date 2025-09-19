@@ -2148,7 +2148,7 @@
     "Amount": "₹3,000.00",
     "Payment To": "CHANDERE PETROLEUM",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Diesel for DG",
@@ -2157,7 +2157,7 @@
     "Amount": "₹3,000.00",
     "Payment To": "CHANDERE PETROLEUM",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Diesel for DG",
@@ -2166,7 +2166,7 @@
     "Amount": "₹3,000.00",
     "Payment To": "CHANDERE PETROLEUM",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2175,6 +2175,6 @@
     "Amount": "₹40.00",
     "Payment To": "pulse Hardware डिजी बॅटरी डिस्टल वाटर ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   }
 ]
