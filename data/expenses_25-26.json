@@ -2185,5 +2185,41 @@
     "Payment To": "ACHYUT OAK",
     "Mode": "RTGS/IMPS",
     "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "19-Sep-2025",
+    "Amount": "₹2,400.00",
+    "Payment To": "RG  ENTERPRISES garbage m oil",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "19-Sep-2025",
+    "Amount": "₹120.00",
+    "Payment To": "BALU SUPER MARKET झाडु 3",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "19-Sep-2025",
+    "Amount": "₹150.00",
+    "Payment To": "MAHADEV ENTERPRISES housekeep materal",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "19-Sep-2025",
+    "Amount": "₹900.00",
+    "Payment To": "MANOJ  A WING AROUND ROAD CLENIG",
+    "Mode": "Cash",
+    "Checked": "Yes"
   }
 ]
