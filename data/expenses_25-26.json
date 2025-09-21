@@ -2176,5 +2176,14 @@
     "Payment To": "pulse Hardware डिजी बॅटरी डिस्टल वाटर ",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "21-Sep-2025",
+    "Amount": "₹15,000.00",
+    "Payment To": "ACHYUT OAK",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
   }
 ]
