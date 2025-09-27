@@ -2221,5 +2221,50 @@
     "Payment To": "MANOJ  A WING AROUND ROAD CLENIG",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "21-Sep-2025",
+    "Amount": "₹126.00",
+    "Payment To": "PULSE HARDWAR SPEAKER SEL ,THAPE",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "22-Sep-2025",
+    "Amount": "₹100.00",
+    "Payment To": "OAK  फावडे वेल्डिंग ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "22-Sep-2025",
+    "Amount": "₹1,000.00",
+    "Payment To": "MAHADEV रोड साफ करणे ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "23-Sep-2025",
+    "Amount": "₹2,300.00",
+    "Payment To": "Udai garbage tampo ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "26-Sep-2025",
+    "Amount": "₹120.00",
+    "Payment To": "MAHADEV ENTERPRISES housekeep materal",
+    "Mode": "Cash",
+    "Checked": ""
   }
 ]
