@@ -2265,6 +2265,51 @@
     "Amount": "₹120.00",
     "Payment To": "MAHADEV ENTERPRISES housekeep materal",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "27-Sep-2025",
+    "Amount": "₹1,050.00",
+    "Payment To": "K V Enterprises पोछा 14",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "28-Sep-2025",
+    "Amount": "₹1,000.00",
+    "Payment To": "SAMARATH WADEWALE AGM VADAPAV 100",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "28-Sep-2025",
+    "Amount": "₹2,300.00",
+    "Payment To": "BHANDARI AGM PROJECTRO",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "28-Sep-2025",
+    "Amount": "₹300.00",
+    "Payment To": "OAK AGM TEA 30",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "28-Sep-2025",
+    "Amount": "₹32.00",
+    "Payment To": "Vinayak Novelty. पिन पेन ",
+    "Mode": "Cash",
+    "Checked": "Yes"
   }
 ]
