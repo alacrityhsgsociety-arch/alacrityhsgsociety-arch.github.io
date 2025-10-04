@@ -1975,7 +1975,7 @@
     "Sub Category": "",
     "Date": "06-Sep-2025",
     "Amount": "₹50,425.00",
-    "Payment To": "Ganesh Puja (https://docs.google.com/spreadsheets/d/e/2PACX-1vQFDhMXoIvcsFHETW4CTaxyVie8r6oUHu4w4myK4Y5-EkUt2aSKFUj3qvBxiA_y78G8UmyZGmlnSc-B/pubhtml?gid=60316299)",
+    "Payment To": "Ganesh Puja (https://alacrityhsgsociety-arch.github.io/ganesh-pooja-2025.html)",
     "Mode": "Cash",
     "Checked": "Yes"
   },
@@ -2311,5 +2311,167 @@
     "Payment To": "Vinayak Novelty. पिन पेन ",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "01-Oct-2025",
+    "Amount": "₹1,200.00",
+    "Payment To": "staff  tea oct2025",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "03-Oct-2025",
+    "Amount": "₹1,578.00",
+    "Payment To": "urban co club 2 tolite clen1378+200 ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "01-Oct-2025",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "04-Oct-2025",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "04-Oct-2025",
+    "Amount": "₹55,640.00",
+    "Payment To": "A S ENTERPRISES [UNION BANK BILL]",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "04-Oct-2025",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "04-Oct-2025",
+    "Amount": "₹12,870.00",
+    "Payment To": "SUNRISE CLEANING SERVICES (GARDEN)",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Solar Power",
+    "Sub Category": "",
+    "Date": "04-Oct-2025",
+    "Amount": "",
+    "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank  payment hold",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "04-Oct-2025",
+    "Amount": "₹560.00",
+    "Payment To": "A S ENTERPRISES",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "04-Oct-2025",
+    "Amount": "₹360.00",
+    "Payment To": "Pramod Enterprises",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "04-Oct-2025",
+    "Amount": "₹130.00",
+    "Payment To": "SUNRISE CLEANING SERVICES (GARDEN)",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "04-Oct-2025",
+    "Amount": "₹700.00",
+    "Payment To": "General hardware कचरा गाडी व्हील 10",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "04-Oct-2025",
+    "Amount": "₹540.00",
+    "Payment To": "vishal light b wing car light",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "04-Oct-2025",
+    "Amount": "₹1,030.00",
+    "Payment To": "BHAGVATI ELE  CLUB TOLIT EX FAN 1 NO",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "04-Oct-2025",
+    "Amount": "₹650.00",
+    "Payment To": "HAKIMI TRADERS CLUB TOLITE DOOR LOCK",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "04-Oct-2025",
+    "Amount": "₹170.00",
+    "Payment To": "TORA ELE  GARBAGE ROOM SWITCH BORD",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "04-Oct-2025",
+    "Amount": "₹350.00",
+    "Payment To": "CLUB GLASS DOOR WHEEL",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "04-Oct-2025",
+    "Amount": "₹350.00",
+    "Payment To": "ANAND FAN SWITCH BORD FIXING",
+    "Mode": "Cash",
+    "Checked": ""
   }
 ]
