@@ -2418,7 +2418,7 @@
     "Amount": "₹700.00",
     "Payment To": "General hardware कचरा गाडी व्हील 10",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2427,7 +2427,7 @@
     "Amount": "₹540.00",
     "Payment To": "vishal light b wing car light",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2436,7 +2436,7 @@
     "Amount": "₹1,030.00",
     "Payment To": "BHAGVATI ELE  CLUB TOLIT EX FAN 1 NO",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2445,7 +2445,7 @@
     "Amount": "₹650.00",
     "Payment To": "HAKIMI TRADERS CLUB TOLITE DOOR LOCK",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2454,7 +2454,7 @@
     "Amount": "₹170.00",
     "Payment To": "TORA ELE  GARBAGE ROOM SWITCH BORD",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2463,7 +2463,7 @@
     "Amount": "₹350.00",
     "Payment To": "CLUB GLASS DOOR WHEEL",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2472,6 +2472,6 @@
     "Amount": "₹350.00",
     "Payment To": "ANAND FAN SWITCH BORD FIXING",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   }
 ]
