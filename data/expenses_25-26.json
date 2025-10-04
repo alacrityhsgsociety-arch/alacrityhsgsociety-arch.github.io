@@ -2319,14 +2319,14 @@
     "Amount": "₹1,200.00",
     "Payment To": "staff  tea oct2025",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
     "Sub Category": "Hardware",
     "Date": "03-Oct-2025",
     "Amount": "₹1,578.00",
-    "Payment To": "urban co club 2 tolite clen1378+200 ",
+    "Payment To": "urban co club 2 tolite clean1378+200 ",
     "Mode": "Cash",
     "Checked": ""
   },
@@ -2337,7 +2337,7 @@
     "Amount": "₹20,000.00",
     "Payment To": "ACHYUT OAK ",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Withdrawl Self",
