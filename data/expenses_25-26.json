@@ -2433,7 +2433,7 @@
     "Category": "Sundry",
     "Sub Category": "Hardware",
     "Date": "04-Oct-2025",
-    "Amount": "₹650.00",
+    "Amount": "₹1,010.00",
     "Payment To": "HAKIMI TRADERS CLUB TOLITE DOOR LOCK",
     "Mode": "Cash",
     "Checked": "Yes"
@@ -2471,6 +2471,78 @@
     "Date": "5-Oct-2025",
     "Amount": "₹1,200.00",
     "Payment To": "sunil  kunchikar झाडु 20नग ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "7-Oct-2025",
+    "Amount": "₹2,300.00",
+    "Payment To": "Udai garbage tampo ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "10-Oct-2025",
+    "Amount": "₹3,000.00",
+    "Payment To": "CHANDERE PETROLEUM",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "10-Oct-2025",
+    "Amount": "₹2,000.00",
+    "Payment To": "CHANDERE PETROLEUM",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "10-Oct-2025",
+    "Amount": "₹600.00",
+    "Payment To": "IMRAN CLUB TOLITE LOCKCHANG",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "11-Oct-2025",
+    "Amount": "₹900.00",
+    "Payment To": "OAK SKY LANTERN 1 BIG 12 SMALL",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "11-Oct-2025",
+    "Amount": "₹2,100.00",
+    "Payment To": "VISHAL LIGHT ENT ROUND 3 LIGHT",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "11-Oct-2025",
+    "Amount": "₹1,225.00",
+    "Payment To": "PLUSE HARDWAR A SR 3 SOLER REPERING",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "12-Oct-2025",
+    "Amount": "₹600.00",
+    "Payment To": "GAEKWAD ROUND LIGHT FIX",
     "Mode": "Cash",
     "Checked": ""
   }

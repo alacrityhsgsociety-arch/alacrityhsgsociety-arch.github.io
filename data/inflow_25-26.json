@@ -1176,6 +1176,22 @@
     "Mode": "RTGS/IMPS"
   },
   {
+    "Item": "A 405",
+    "Category": "Fines / Penalties",
+    "Date": "8-Oct-2025",
+    "Amount": "₹10,000.00",
+    "Payment From": "Fine for property damage",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Clubhouse Usage Fees",
+    "Date": "8-Oct-2025",
+    "Amount": "₹140.00",
+    "Payment From": "Anuradha    SEP",
+    "Mode": "Cash"
+  },
+  {
     "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",
