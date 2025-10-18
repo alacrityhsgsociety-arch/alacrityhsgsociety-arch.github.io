@@ -2557,6 +2557,42 @@
   },
   {
     "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "13-Oct-2025",
+    "Amount": "₹2,000.00",
+    "Payment To": "Sabul Ali jym glass doors Reaper ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "13-Oct-2025",
+    "Amount": "₹180.00",
+    "Payment To": "prime hardware  glass doors wheel ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "19-Oct-2025",
+    "Amount": "₹3,409.00",
+    "Payment To": "Amazon Led light  डिलेव्हारी झाले वर बिल येईल चेंज करेन ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "18-Oct-2025",
+    "Amount": "₹490.00",
+    "Payment To": "PLUSE HARDWAR A SR 3 SOLER REPERING",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
     "Sub Category": "Diwali Bonus",
     "Date": "18 Oct 2025",
     "Amount": "₹4,000.00",
@@ -2617,5 +2653,14 @@
     "Payment To": "ACHYUT OAK ",
     "Mode": "RTGS/IMPS",
     "Checked": ""
+  },
+  {
+    "Category": "MSEB Electricity",
+    "Sub Category": "",
+    "Date": "18-Oct-2025",
+    "Amount": "₹67,650.00",
+    "Payment To": "",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
   }
 ]

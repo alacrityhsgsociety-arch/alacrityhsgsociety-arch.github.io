@@ -1192,6 +1192,30 @@
     "Mode": "Cash"
   },
   {
+    "Item": "B 505",
+    "Category": "Maintenance",
+    "Date": "25-Sep-2025",
+    "Amount": "₹20,850.00",
+    "Payment From": "",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "25-Aug-2025",
+    "Amount": "₹100.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Clubhouse Usage Fees",
+    "Date": "17-Oct-2025",
+    "Amount": "₹910.00",
+    "Payment From": "yojika jodha yoja class oct 25",
+    "Mode": "Cash"
+  },
+  {
     "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",
