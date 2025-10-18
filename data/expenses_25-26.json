@@ -2333,7 +2333,7 @@
   {
     "Category": "Withdrawl Self",
     "Sub Category": "",
-    "Date": "04-Oct-2025",
+    "Date": "05-Oct-2025",
     "Amount": "₹20,000.00",
     "Payment To": "ACHYUT OAK ",
     "Mode": "RTGS/IMPS",
@@ -2472,7 +2472,7 @@
     "Amount": "₹1,200.00",
     "Payment To": "sunil  kunchikar झाडु 20नग ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2481,7 +2481,7 @@
     "Amount": "₹2,300.00",
     "Payment To": "Udai garbage tampo ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Diesel for DG",
@@ -2490,7 +2490,7 @@
     "Amount": "₹3,000.00",
     "Payment To": "CHANDERE PETROLEUM",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Diesel for DG",
@@ -2499,7 +2499,7 @@
     "Amount": "₹2,000.00",
     "Payment To": "CHANDERE PETROLEUM",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2508,7 +2508,7 @@
     "Amount": "₹600.00",
     "Payment To": "IMRAN CLUB TOLITE LOCKCHANG",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2517,7 +2517,7 @@
     "Amount": "₹900.00",
     "Payment To": "OAK SKY LANTERN 1 BIG 12 SMALL",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2526,7 +2526,7 @@
     "Amount": "₹2,100.00",
     "Payment To": "VISHAL LIGHT ENT ROUND 3 LIGHT",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2535,7 +2535,7 @@
     "Amount": "₹1,225.00",
     "Payment To": "PLUSE HARDWAR A SR 3 SOLER REPERING",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2544,6 +2544,78 @@
     "Amount": "₹600.00",
     "Payment To": "GAEKWAD ROUND LIGHT FIX",
     "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "12-Oct-2025",
+    "Amount": "₹2,811.00",
+    "Payment To": "Amazon marpy 15 Led light 5",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Diwali Bonus",
+    "Date": "18 Oct 2025",
+    "Amount": "₹4,000.00",
+    "Payment To": "Security 2x2000",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Diwali Bonus",
+    "Date": "18-Oct-2025",
+    "Amount": "₹4,000.00",
+    "Payment To": "Housekeeping 2x2000",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Diwali Bonus",
+    "Date": "18-Oct-2025",
+    "Amount": "₹1,500.00",
+    "Payment To": "Garden 1x15000",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Diwali Bonus",
+    "Date": "18-Oct-2025",
+    "Amount": "₹500.00",
+    "Payment To": "Garbage Truck",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Diwali Bonus",
+    "Date": "18-Oct-2025",
+    "Amount": "₹1,000.00",
+    "Payment To": "MSEB",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Diwali Bonus",
+    "Date": "18-Oct-2025",
+    "Amount": "₹8,000.00",
+    "Payment To": "Manager",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "18-Oct-2025",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   }
 ]
