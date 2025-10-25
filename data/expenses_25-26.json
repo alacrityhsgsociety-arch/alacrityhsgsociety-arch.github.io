@@ -2579,7 +2579,7 @@
     "Date": "19-Oct-2025",
     "Amount": "₹3,409.00",
     "Payment To": "Amazon Led light  डिलेव्हारी झाले वर बिल येईल चेंज करेन ",
-    "Mode": "",
+    "Mode": "Cash",
     "Checked": ""
   },
   {
@@ -2588,7 +2588,7 @@
     "Date": "18-Oct-2025",
     "Amount": "₹490.00",
     "Payment To": "PLUSE HARDWAR A SR 3 SOLER REPERING",
-    "Mode": "",
+    "Mode": "Cash",
     "Checked": ""
   },
   {
@@ -2659,8 +2659,44 @@
     "Sub Category": "",
     "Date": "18-Oct-2025",
     "Amount": "₹67,650.00",
-    "Payment To": "",
+    "Payment To": "Light bill ",
     "Mode": "RTGS/IMPS",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "15-Oct-2025",
+    "Amount": "₹249.00",
+    "Payment To": "D MART all out",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Bank Charges",
+    "Date": "10-Oct-2025",
+    "Amount": "₹17.70",
+    "Payment To": "PNB SMS CHAR",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "19-Oct-2025",
+    "Amount": "₹150.00",
+    "Payment To": "vinayak novelty gate remote cell 5 no",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "23-Oct-2025",
+    "Amount": "₹128.00",
+    "Payment To": "prime harwader net bolt",
+    "Mode": "Cash",
+    "Checked": ""
   }
 ]

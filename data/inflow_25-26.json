@@ -1196,13 +1196,13 @@
     "Category": "Maintenance",
     "Date": "25-Sep-2025",
     "Amount": "₹20,850.00",
-    "Payment From": "",
+    "Payment From": "SANDIP PACHAPUKAR",
     "Mode": "RTGS/IMPS"
   },
   {
     "Item": "",
     "Category": "Misc",
-    "Date": "25-Aug-2025",
+    "Date": "25-Oct-2025",
     "Amount": "₹100.00",
     "Payment From": "my gate",
     "Mode": "RTGS/IMPS"
@@ -1214,6 +1214,54 @@
     "Amount": "₹910.00",
     "Payment From": "yojika jodha yoja class oct 25",
     "Mode": "Cash"
+  },
+  {
+    "Item": "A 605",
+    "Category": "Maintenance",
+    "Date": "16-Oct-2025",
+    "Amount": "₹20,850.00",
+    "Payment From": "ANURAG THAKRANI",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 901",
+    "Category": "Maintenance",
+    "Date": "16-Oct-2025",
+    "Amount": "₹20,850.00",
+    "Payment From": "MR. Sanket Patil  ",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A906",
+    "Category": "Maintenance",
+    "Date": "18-Oct-2025",
+    "Amount": "₹22,650.00",
+    "Payment From": "SANJEEV THAKUR ",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Rentals",
+    "Date": "8-Oct-2025",
+    "Amount": "₹15,400.00",
+    "Payment From": "AIRTEL  RENT",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "10-Oct-2025",
+    "Amount": "₹1,200.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "13-Oct-2025",
+    "Amount": "₹100.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
   },
   {
     "Item": "",
