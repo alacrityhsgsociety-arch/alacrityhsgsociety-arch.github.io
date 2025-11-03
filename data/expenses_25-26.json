@@ -2577,7 +2577,7 @@
     "Category": "Sundry",
     "Sub Category": "Electrical",
     "Date": "19-Oct-2025",
-    "Amount": "₹3,409.00",
+    "Amount": "₹3,579.00",
     "Payment To": "Amazon Led light  डिलेव्हारी झाले वर बिल येईल चेंज करेन ",
     "Mode": "Cash",
     "Checked": "Yes"
@@ -2698,5 +2698,113 @@
     "Payment To": "prime harwader net bolt",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Budgeted",
+    "Sub Category": "",
+    "Date": "02-Nov-2025",
+    "Amount": "₹69,600.00",
+    "Payment To": "Society First conveyance fee",
+    "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "30-Oct-2025",
+    "Amount": "₹100.00",
+    "Payment To": "oak revnue stamp 100",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "30-Oct-2025",
+    "Amount": "₹1,200.00",
+    "Payment To": "anand poidam cable reper light fixing",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "01-Nov-2025",
+    "Amount": "₹1,200.00",
+    "Payment To": "Tea for staff",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "01-Nov-2025",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "",
+    "Payment To": "ACHYUT OAK",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹55,640.00",
+    "Payment To": "A S ENTERPRISES [UNION BANK BILL]",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹12,870.00",
+    "Payment To": "SUNRISE CLEANING SERVICES (GARDEN)",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Solar Power",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "",
+    "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank  ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "AMC Lift",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹51,108.00",
+    "Payment To": "OLYMPI ELEVATORS PVT LTD NAME CHANG ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "",
+    "Amount": "",
+    "Payment To": "amzon swing set 2",
+    "Mode": "Cash",
+    "Checked": ""
   }
 ]

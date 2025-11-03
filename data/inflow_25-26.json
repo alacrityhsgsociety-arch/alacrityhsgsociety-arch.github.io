@@ -1264,6 +1264,46 @@
     "Mode": "RTGS/IMPS"
   },
   {
+    "Item": "A 505",
+    "Category": "Maintenance",
+    "Date": "18-Oct-2025",
+    "Amount": "₹22,650.00",
+    "Payment From": "SHAMIM AKHTAR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 405",
+    "Category": "Maintenance",
+    "Date": "19-Oct-2025",
+    "Amount": "₹2,530.00",
+    "Payment From": "SAPAN R",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 106",
+    "Category": "Maintenance",
+    "Date": "20-Oct-2025",
+    "Amount": "₹20,850.00",
+    "Payment From": "ABHIJEET KUNTURKAR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 1001",
+    "Category": "Maintenance",
+    "Date": "21-Oct-2025",
+    "Amount": "₹20,850.00",
+    "Payment From": "ANKUR UPADHYAY",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 703",
+    "Category": "Maintenance",
+    "Date": "24-Oct-2025",
+    "Amount": "₹21,375.00",
+    "Payment From": "RAJINDER SINGH SIYAN",
+    "Mode": "Cheque"
+  },
+  {
     "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",
