@@ -2747,8 +2747,8 @@
   {
     "Category": "Withdrawl Self",
     "Sub Category": "",
-    "Date": "",
-    "Amount": "",
+    "Date": "08-Nov-2025",
+    "Amount": "₹20,000.00",
     "Payment To": "ACHYUT OAK",
     "Mode": "RTGS/IMPS",
     "Checked": ""
@@ -2756,54 +2756,126 @@
   {
     "Category": "Security",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-Nov-2025",
     "Amount": "₹55,640.00",
     "Payment To": "A S ENTERPRISES [UNION BANK BILL]",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-Nov-2025",
     "Amount": "₹35,640.00",
     "Payment To": "Pramod Enterprises   ",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Garden Services",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-Nov-2025",
     "Amount": "₹12,870.00",
     "Payment To": "SUNRISE CLEANING SERVICES (GARDEN)",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Solar Power",
     "Sub Category": "",
     "Date": "",
-    "Amount": "",
-    "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank  ",
+    "Amount": "₹0.00",
+    "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank   sep,oct bill",
     "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
     "Category": "AMC Lift",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-Nov-2025",
     "Amount": "₹51,108.00",
     "Payment To": "OLYMPI ELEVATORS PVT LTD NAME CHANG ",
-    "Mode": "RTGS/IMPS",
+    "Mode": "Cheque",
     "Checked": ""
   },
   {
     "Category": "Sundry",
     "Sub Category": "Hardware",
     "Date": "",
-    "Amount": "",
-    "Payment To": "amzon swing set 2",
+    "Amount": "₹4,598.00",
+    "Payment To": "amzon swing set 2 bill after devlier",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹420.00",
+    "Payment To": "mahadev ent housing keep materal",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "08-Nov-2025",
+    "Amount": "₹560.00",
+    "Payment To": "A S ENTERPRISES",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "08-Nov-2025",
+    "Amount": "₹360.00",
+    "Payment To": "Pramod Enterprises",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "08-Nov-2025",
+    "Amount": "₹130.00",
+    "Payment To": "SUNRISE CLEANING SERVICES (GARDEN)",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "08-Nov-2025",
+    "Amount": "₹517.00",
+    "Payment To": "OLYMPI ELEVATORS PVT LTD NAME CHANG ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "06-Nov-2025",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "06-Nov-2025",
+    "Amount": "₹332.00",
+    "Payment To": "VINAYAK NOVELTY A4 PAPER NOTBOOK",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "07-Nov-2025",
+    "Amount": "₹2,380.00",
+    "Payment To": "PULSE HARDWARE CLUBHOUSE FAN REGULATER3 +FIXING",
     "Mode": "Cash",
     "Checked": ""
   }
