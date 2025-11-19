@@ -1304,6 +1304,110 @@
     "Mode": "Cheque"
   },
   {
+    "Item": "A 404",
+    "Category": "Maintenance",
+    "Date": "26-Oct-2025",
+    "Amount": "₹21,375.00",
+    "Payment From": "ANAND KULKARNI",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 606",
+    "Category": "Maintenance",
+    "Date": "27-Oct-2025",
+    "Amount": "₹22,650.00",
+    "Payment From": "RAVI DHAVALE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 101",
+    "Category": "Maintenance",
+    "Date": "31-Oct-2025",
+    "Amount": "₹22,650.00",
+    "Payment From": "MANISHA DEVEKAR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B102",
+    "Category": "Maintenance",
+    "Date": "31-Oct-2025",
+    "Amount": "₹20,850.00",
+    "Payment From": "RAKSHIT BHARDWAJ",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 103",
+    "Category": "Maintenance",
+    "Date": "31-Oct-2025",
+    "Amount": "₹21,375.00",
+    "Payment From": "RAKSHIT BHARDWAJ",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 1004",
+    "Category": "Maintenance",
+    "Date": "2-Nov-2025",
+    "Amount": "₹21,400.00",
+    "Payment From": "SANDEEP MANE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 205",
+    "Category": "Maintenance",
+    "Date": "3-Nov-2025",
+    "Amount": "₹22,650.00",
+    "Payment From": "MANGESH BUDKULE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "1-Nov-2025",
+    "Amount": "₹1,200.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 404",
+    "Category": "Fines / Penalties",
+    "Date": "5-Nov-2025",
+    "Amount": "₹1,500.00",
+    "Payment From": "NAGARKAR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "6-Nov-2025",
+    "Amount": "₹1,200.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "6-Nov-2025",
+    "Amount": "₹1,200.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 602",
+    "Category": "Maintenance",
+    "Date": "31-Oct-2025",
+    "Amount": "₹22,650.00",
+    "Payment From": "YOGITA KHUBCHANDANI",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 906",
+    "Category": "Deposits",
+    "Date": "17-Nov-2025",
+    "Amount": "₹2,000.00",
+    "Payment From": "SREEJESH PILLAL FOR EV CHARG",
+    "Mode": "Cash"
+  },
+  {
     "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",
