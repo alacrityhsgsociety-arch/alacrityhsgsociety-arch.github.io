@@ -2783,7 +2783,7 @@
   {
     "Category": "Solar Power",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-Nov-2025",
     "Amount": "₹0.00",
     "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank   sep,oct bill",
     "Mode": "RTGS/IMPS",
@@ -2796,25 +2796,25 @@
     "Amount": "₹51,108.00",
     "Payment To": "OLYMPI ELEVATORS PVT LTD NAME CHANG ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
     "Sub Category": "Hardware",
-    "Date": "",
+    "Date": "20-Nov-2025",
     "Amount": "₹4,603.00",
     "Payment To": "amzon swing set 2",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
     "Sub Category": "",
-    "Date": "",
+    "Date": "20-Nov-2025",
     "Amount": "₹420.00",
     "Payment To": "mahadev ent housing keep materal",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "TDS Payment",
@@ -2859,7 +2859,7 @@
     "Amount": "₹4,500.00",
     "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2868,7 +2868,7 @@
     "Amount": "₹332.00",
     "Payment To": "VINAYAK NOVELTY A4 PAPER NOTBOOK",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2877,7 +2877,7 @@
     "Amount": "₹2,380.00",
     "Payment To": "PULSE HARDWARE CLUBHOUSE FAN REGULATER3 +FIXING",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
@@ -2886,7 +2886,7 @@
     "Amount": "₹3,900.00",
     "Payment To": "Heera palace  garbage 🗑️ big 2 small 3",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
@@ -2895,7 +2895,7 @@
     "Amount": "₹480.00",
     "Payment To": "MAHADEV ENT garbag bag 3 pack",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2904,7 +2904,7 @@
     "Amount": "₹129.00",
     "Payment To": "D MART TUBE CLUB BACK SAID",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2913,7 +2913,7 @@
     "Amount": "₹160.00",
     "Payment To": "PLUSE HARDWAR  W D 40 FOR SWING ,TOLITE JALI",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2922,6 +2922,15 @@
     "Amount": "₹54.00",
     "Payment To": "VINAYAK NOVELTY A4 PRINT FOR PORPRT TAX  10%D",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
+  },
+  {
+    "Category": "MSEB Electricity",
+    "Sub Category": "",
+    "Date": "20-Nov-2025",
+    "Amount": "₹54,370.00",
+    "Payment To": "MSEB Bill Payment",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
   }
 ]
