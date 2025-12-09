@@ -3047,7 +3047,7 @@
     "Date": "10-Dec-2025",
     "Amount": "₹40,000.00",
     "Payment To": "ACHYUT OAK",
-    "Mode": "RTGS/IMPS",
+    "Mode": "Cheque",
     "Checked": ""
   },
   {
@@ -3056,8 +3056,8 @@
     "Date": "10-Dec-2025",
     "Amount": "₹55,640.00",
     "Payment To": "A S ENTERPRISES [UNION BANK BILL]",
-    "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Mode": "Cheque",
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
@@ -3065,8 +3065,8 @@
     "Date": "10-Dec-2025",
     "Amount": "₹35,640.00",
     "Payment To": "Pramod Enterprises   ",
-    "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Mode": "Cheque",
+    "Checked": "Yes"
   },
   {
     "Category": "Garden Services",
@@ -3074,17 +3074,17 @@
     "Date": "10-Dec-2025",
     "Amount": "₹9,500.00",
     "Payment To": "SUNRISE CLEANING SERVICES (GARDEN)",
-    "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Mode": "Cheque",
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
     "Sub Category": "",
-    "Date": "1-Nov-2025",
+    "Date": "1-Dec-2025",
     "Amount": "₹1,050.00",
     "Payment To": "K V Enterprises पोछा 10pic ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "TDS Payment",
@@ -3120,6 +3120,15 @@
     "Amount": "₹517.00",
     "Payment To": "OLYMPI ELEVATORS PVT LTD +318",
     "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "9-Dec-2025",
+    "Amount": "₹17,663.00",
+    "Payment To": "Radlant Electricals  2.5 MM 4core Armd cable Pump room to garbage room ",
+    "Mode": "Cash",
     "Checked": ""
   }
 ]
