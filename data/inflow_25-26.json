@@ -1408,6 +1408,38 @@
     "Mode": "Cash"
   },
   {
+    "Item": "A 403",
+    "Category": "Shifting",
+    "Date": "1-Dec-2025",
+    "Amount": "₹1,000.00",
+    "Payment From": "TATODE",
+    "Mode": "Cash"
+  },
+  {
+    "Item": "A 404",
+    "Category": "Clubhouse Usage Fees",
+    "Date": "1-Dec-2025",
+    "Amount": "₹5,400.00",
+    "Payment From": "ANAND KULKARNI",
+    "Mode": "Cash"
+  },
+  {
+    "Item": "B 1003",
+    "Category": "Shifting",
+    "Date": "1-Dec-2025",
+    "Amount": "₹1,000.00",
+    "Payment From": "KUMAR",
+    "Mode": "Cash"
+  },
+  {
+    "Item": "A 205",
+    "Category": "Shifting",
+    "Date": "2-Dec-2025",
+    "Amount": "₹1,000.00",
+    "Payment From": "MAYUR",
+    "Mode": "Cash"
+  },
+  {
     "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",

@@ -2932,5 +2932,194 @@
     "Payment To": "MSEB Bill Payment",
     "Mode": "RTGS/IMPS",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "29-Nov-2025",
+    "Amount": "₹300.00",
+    "Payment To": "pulse hardwar cement b 6 lobbby tiles fxing",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "29 Nov 2025",
+    "Amount": "₹1,600.00",
+    "Payment To": " कजबे b 6 lobbby fix ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "30-Nov-2025",
+    "Amount": "₹800.00",
+    "Payment To": "deshmuk a cctv reper ,adptar",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "30-Nov-2025",
+    "Amount": "₹760.00",
+    "Payment To": "mahadav ent house k materal",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "30-Nov-2025",
+    "Amount": "₹50.00",
+    "Payment To": "pluse hardwar  dg batt डिस्टल वाटर ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "01-Nov-2025",
+    "Amount": "₹3,000.00",
+    "Payment To": "chanderE PETROLEUM",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "AMC Compost Machine",
+    "Sub Category": "",
+    "Date": "02-Nov-2025",
+    "Amount": "₹2,100.00",
+    "Payment To": "R G ENT   GARBAG M OIL",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "02-Nov-2025",
+    "Amount": "₹800.00",
+    "Payment To": "TUKARAM SLOER POWER  CLENING CABLE FIXING",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "01-Nov-2025",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Water Tanker",
+    "Sub Category": "",
+    "Date": "1-Nov-2025",
+    "Amount": "₹2,000.00",
+    "Payment To": "SHIVKUPA WATER SUP 2 TRIP",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "1-Nov-2025",
+    "Amount": "₹1,200.00",
+    "Payment To": "Tea for staff",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "1-Nov-2025",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹40,000.00",
+    "Payment To": "ACHYUT OAK",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹55,640.00",
+    "Payment To": "A S ENTERPRISES [UNION BANK BILL]",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹9,500.00",
+    "Payment To": "SUNRISE CLEANING SERVICES (GARDEN)",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "1-Nov-2025",
+    "Amount": "₹1,050.00",
+    "Payment To": "K V Enterprises पोछा 10pic ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹1,120.00",
+    "Payment To": "A S ENTERPRISES +ROW 315",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹720.00",
+    "Payment To": "Pramod Enterprises  +ROW 316",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹200.00",
+    "Payment To": "SUNRISE CLEANING SERVICES (GARDEN) +ROW 317",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹517.00",
+    "Payment To": "OLYMPI ELEVATORS PVT LTD +318",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
   }
 ]
