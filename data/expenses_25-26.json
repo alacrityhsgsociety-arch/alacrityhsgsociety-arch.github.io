@@ -2981,7 +2981,7 @@
   {
     "Category": "Diesel for DG",
     "Sub Category": "",
-    "Date": "01-Nov-2025",
+    "Date": "01-Dec-2025",
     "Amount": "₹3,000.00",
     "Payment To": "chanderE PETROLEUM",
     "Mode": "Cash",
@@ -2990,7 +2990,7 @@
   {
     "Category": "AMC Compost Machine",
     "Sub Category": "",
-    "Date": "02-Nov-2025",
+    "Date": "02-Dec-2025",
     "Amount": "₹2,100.00",
     "Payment To": "R G ENT   GARBAG M OIL",
     "Mode": "Cash",
@@ -2999,7 +2999,7 @@
   {
     "Category": "Sundry",
     "Sub Category": "Labor",
-    "Date": "02-Nov-2025",
+    "Date": "02-Dec-2025",
     "Amount": "₹800.00",
     "Payment To": "TUKARAM SLOER POWER  CLENING CABLE FIXING",
     "Mode": "Cash",
@@ -3008,7 +3008,7 @@
   {
     "Category": "Sundry",
     "Sub Category": "Transport",
-    "Date": "01-Nov-2025",
+    "Date": "02-Dec-2025",
     "Amount": "₹4,500.00",
     "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
     "Mode": "Cash",
@@ -3017,7 +3017,7 @@
   {
     "Category": "Water Tanker",
     "Sub Category": "",
-    "Date": "1-Nov-2025",
+    "Date": "2-Dec-2025",
     "Amount": "₹2,000.00",
     "Payment To": "SHIVKUPA WATER SUP 2 TRIP",
     "Mode": "Cash",
@@ -3026,7 +3026,7 @@
   {
     "Category": "Sundry",
     "Sub Category": "Tea",
-    "Date": "1-Nov-2025",
+    "Date": "1-Dec-2025",
     "Amount": "₹1,200.00",
     "Payment To": "Tea for staff",
     "Mode": "Cash",
@@ -3035,7 +3035,7 @@
   {
     "Category": "Manager Salary",
     "Sub Category": "",
-    "Date": "1-Nov-2025",
+    "Date": "1-Dec-2025",
     "Amount": "₹20,000.00",
     "Payment To": "ACHYUT OAK ",
     "Mode": "RTGS/IMPS",
@@ -3130,5 +3130,113 @@
     "Payment To": "Radlant Electricals  2.5 MM 4core Armd cable Pump room to garbage room ",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "09-Dec-2025",
+    "Amount": "₹500.00",
+    "Payment To": "oak cable tempo",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "11-Dec-2025",
+    "Amount": "₹2,000.00",
+    "Payment To": "pluse hardware mcb 3pol cement screw ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "11-Dec-2025",
+    "Amount": "₹3,600.00",
+    "Payment To": " बाबु सोलंकी केबल काढणे टाकणे सिमेंट लावणे ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "11-Dec-2025",
+    "Amount": "₹1,200.00",
+    "Payment To": "PRAKESH  mcb fix and cable  मेन कनेक्शन ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "12-Dec-2025",
+    "Amount": "₹40.00",
+    "Payment To": "SAHIL copiers  PLAN Xerox  PMC TAX",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "12-Dec-2025",
+    "Amount": "₹490.00",
+    "Payment To": "PULSE HARDWARE SAID PLOT LOCK ,CHANI, K SODE",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "15-Dec-2025",
+    "Amount": "₹40.00",
+    "Payment To": "VINAYAK NOVELTY FILL   pmc मध्ये 5% लेटर पेपर सबमिट करणे साठी ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "16-Dec-2025",
+    "Amount": "₹760.00",
+    "Payment To": "PLUSE HARDWARE PODIM OUT LET PIPE ,CEMENT",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "12-Dec-2025",
+    "Amount": "₹200.00",
+    "Payment To": "OAK JCB OPERTAR SAID PLOT CLENING",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "16-Dec-2025",
+    "Amount": "₹3,000.00",
+    "Payment To": "PAWANKUMAR B WING2,3,4 LINE CHOKUP",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "18-Dec-2025",
+    "Amount": "₹500.00",
+    "Payment To": "BALRAM PODIAM PIPE REPERING",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "19-Dec-2025",
+    "Amount": "₹1,000.00",
+    "Payment To": "SURESH  GARDEN BOX BRAKEING",
+    "Mode": "Cash",
+    "Checked": ""
   }
 ]
