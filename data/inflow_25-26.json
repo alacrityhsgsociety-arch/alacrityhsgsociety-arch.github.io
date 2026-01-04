@@ -1456,6 +1456,22 @@
     "Mode": "Cash"
   },
   {
+    "Item": "A 103",
+    "Category": "Shifting",
+    "Date": "25-Dec-2025",
+    "Amount": "₹1,000.00",
+    "Payment From": "HARVINDER",
+    "Mode": "Cash"
+  },
+  {
+    "Item": "B 406 ",
+    "Category": "Clubhouse Usage Fees",
+    "Date": "29-Dec-2025",
+    "Amount": "₹1,800.00",
+    "Payment From": "SHIRALKAR",
+    "Mode": "Cash"
+  },
+  {
     "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",

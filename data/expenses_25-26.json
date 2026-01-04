@@ -3238,5 +3238,185 @@
     "Payment To": "SURESH  GARDEN BOX BRAKEING",
     "Mode": "Cash",
     "Checked": ""
+  },
+  {
+    "Category": "MSEB Electricity",
+    "Sub Category": "",
+    "Date": "28-Dec-2025",
+    "Amount": "₹51,170.00",
+    "Payment To": "Light bill ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "25-Dec-2025",
+    "Amount": "₹190.00",
+    "Payment To": "MAHADEV ENT Housing keep materal",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "25-Dec-2025",
+    "Amount": "₹170.00",
+    "Payment To": "pluse hardwar  switch ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "28-Dec-2025",
+    "Amount": "₹700.00",
+    "Payment To": "pluse hardwar podiam said  hol pipe,bit",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "28-Dec-2025",
+    "Amount": "₹2,000.00",
+    "Payment To": "dinesh  podiamsaid wall out lat hole 7 no",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "28-Dec-2025",
+    "Amount": "₹90.00",
+    "Payment To": "d mart steel glass 2 no",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "28-Dec-2025",
+    "Amount": "₹60.00",
+    "Payment To": "prime hardwar chain for glass fix",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "1-Jan-2026",
+    "Amount": "₹600.00",
+    "Payment To": "plus hardwar u pvc fitting chok repring a sr 1 m bed terrace",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "1-Jan-2026",
+    "Amount": "₹2,000.00",
+    "Payment To": "denish a sr 1 m bed terrace chokup",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "1-Jan-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "OAK TEA",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "1-Jan-2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "5-Jan-2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Maintenance & Repair",
+    "Sub Category": "Electrical",
+    "Date": "5-Jan-2026",
+    "Amount": "₹15,305.00",
+    "Payment To": "ACE ENTERPRISES BORE REPERING",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Water Tanker",
+    "Sub Category": "",
+    "Date": "5-Jan-2026",
+    "Amount": "₹4,000.00",
+    "Payment To": "SHIVKUPA WATER SUP 4 TRIP (5 टँकर आले आहेत त्याने 4 चे बिल दिले आहे तेवढेच पेमेंट करु)",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "5-Jan-2026",
+    "Amount": "₹55,640.00",
+    "Payment To": "A S ENTERPRISES [UNION BANK BILL]",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "5-Jan-2026",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "5-Jan-2026",
+    "Amount": "₹8,000.00",
+    "Payment To": "Mahadev Khandare चेकवरील नांव ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Solar Power",
+    "Sub Category": "",
+    "Date": "5-Jan-2026",
+    "Amount": "₹20,580.00",
+    "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank  हे सप्टेंबर आक्टोबर बिल आहे  नोव्हेंबर बिल आले आहे नंतर पेमेंट करु ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "28-Dec-2025",
+    "Amount": "₹100.00",
+    "Payment To": "DENISH CLUB CLENING B 406 BOOKING",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Tax",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹3,700.00",
+    "Payment To": "SHARA CONULTANTS    TDS  3477+ fine amount ",
+    "Mode": "Cheque",
+    "Checked": ""
   }
 ]
