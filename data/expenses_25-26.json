@@ -3408,7 +3408,16 @@
     "Amount": "₹100.00",
     "Payment To": "DENISH CLUB CLENING B 406 BOOKING",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "1-January-2026",
+    "Amount": "₹840.00",
+    "Payment To": "mahadev ENT housing keeping ",
+    "Mode": "Cash",
+    "Checked": "Yes"
   },
   {
     "Category": "Tax",
