@@ -3345,7 +3345,7 @@
     "Amount": "₹20,000.00",
     "Payment To": "ACHYUT OAK ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Maintenance & Repair",
@@ -3354,7 +3354,7 @@
     "Amount": "₹15,305.00",
     "Payment To": "ACE ENTERPRISES BORE REPERING",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Water Tanker",
@@ -3363,7 +3363,7 @@
     "Amount": "₹4,000.00",
     "Payment To": "SHIVKUPA WATER SUP 4 TRIP (5 टँकर आले आहेत त्याने 4 चे बिल दिले आहे तेवढेच पेमेंट करु)",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Security",
@@ -3372,7 +3372,7 @@
     "Amount": "₹55,640.00",
     "Payment To": "A S ENTERPRISES [UNION BANK BILL]",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
@@ -3381,7 +3381,7 @@
     "Amount": "₹35,640.00",
     "Payment To": "Pramod Enterprises   ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Garden Services",
@@ -3390,7 +3390,7 @@
     "Amount": "₹8,000.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Solar Power",
@@ -3399,7 +3399,7 @@
     "Amount": "₹20,580.00",
     "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank  हे सप्टेंबर आक्टोबर बिल आहे  नोव्हेंबर बिल आले आहे नंतर पेमेंट करु ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -3422,10 +3422,10 @@
   {
     "Category": "Tax",
     "Sub Category": "",
-    "Date": "",
+    "Date": "5-January-2026",
     "Amount": "₹3,700.00",
-    "Payment To": "SHARA CONULTANTS    TDS  3477+ fine amount ",
+    "Payment To": "SHARA CONSULTANTS    TDS  3477+ fine amount ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   }
 ]
