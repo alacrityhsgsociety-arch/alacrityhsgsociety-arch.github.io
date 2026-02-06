@@ -1472,6 +1472,94 @@
     "Mode": "Cash"
   },
   {
+    "Item": "B 401",
+    "Category": "Maintenance",
+    "Date": "28-Nov-2025",
+    "Amount": "21215",
+    "Payment From": "KULKARNI",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Bank Interest",
+    "Date": "2-Dec-2025",
+    "Amount": "21169",
+    "Payment From": "pnb int",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "8-Dec-2025",
+    "Amount": "₹1,200.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "8-Dec-2025",
+    "Amount": "₹100.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "18-Dec-2025",
+    "Amount": "₹100.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "22-Dec-2025",
+    "Amount": "₹100.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "24-Dec-2025",
+    "Amount": "₹100.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "24-Dec-2025",
+    "Amount": "₹100.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 501",
+    "Category": "Shifting",
+    "Date": "11-Jan-2026",
+    "Amount": "₹1,000.00",
+    "Payment From": "ankesh",
+    "Mode": "Cash"
+  },
+  {
+    "Item": "",
+    "Category": "Clubhouse Usage Fees",
+    "Date": "11-Jan-2026",
+    "Amount": "₹1,050.00",
+    "Payment From": "yojika jodha yoja class ",
+    "Mode": "Cash"
+  },
+  {
+    "Item": "B 605",
+    "Category": "Clubhouse Usage Fees",
+    "Date": "24-Jan-2026",
+    "Amount": "₹1,100.00",
+    "Payment From": "MADAN",
+    "Mode": "Cash"
+  },
+  {
     "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",

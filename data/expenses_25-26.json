@@ -3420,12 +3420,345 @@
     "Checked": "Yes"
   },
   {
-    "Category": "Tax",
+    "Category": "TDS Payment",
     "Sub Category": "",
     "Date": "5-January-2026",
     "Amount": "₹3,700.00",
     "Payment To": "SHARA CONSULTANTS    TDS  3477+ fine amount ",
     "Mode": "Cheque",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "6-January-2026",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "8-January-2026",
+    "Amount": "₹2,230.00",
+    "Payment To": "HA HAKIM PARKING BLUE MARKING PANT",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "8-January-2026",
+    "Amount": "₹150.00",
+    "Payment To": "MAHAVIR COMPANY 20 L WATER BOTTLE",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "6-January-2026",
+    "Amount": "₹3,109.00",
+    "Payment To": "Amazon 15w street light 5 no ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "12-January-2026",
+    "Amount": "₹2,300.00",
+    "Payment To": "udai garden मधील बाक्स तोडला ते मटेरियल ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "15-January-2026",
+    "Amount": "₹1,400.00",
+    "Payment To": "पतका बलुन रिळ 26 jan ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "15-January-2026",
+    "Amount": "₹1,500.00",
+    "Payment To": "baliram blue parking paint",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Garbage",
+    "Date": "15-January-2026",
+    "Amount": "₹450.00",
+    "Payment To": "rohit  owc gear box oil topup",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "18-Jan-2026",
+    "Amount": "₹2,000.00",
+    "Payment To": "shree ganesh fire box  ग्लास  रबर गास्केट नवीन बसवले 10 no ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "19-January-2026",
+    "Amount": "₹1,400.00",
+    "Payment To": " house keeping झाडु 20नग ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "3-January-2026",
+    "Amount": "₹100.00",
+    "Payment To": "pulse hardware गारबेज रुम बोअर लाईन रिपेअर ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "26-January-2026",
+    "Amount": "₹2,800.00",
+    "Payment To": "samarth wadewal 26 jan  वडा पाव ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "26-January-2026",
+    "Amount": "₹1,540.00",
+    "Payment To": "kaka halwai जिलेबी ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "26-January-2026",
+    "Amount": "₹310.00",
+    "Payment To": "Mahadev ENT 26 jan डिश ग्लास ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "24-January-2026",
+    "Amount": "₹1,850.00",
+    "Payment To": "UK key maker जिम टायलेट lock  नवीन बसवले ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "26-January-2026",
+    "Amount": "₹500.00",
+    "Payment To": "oak tea 26 jan",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "26-January-2026",
+    "Amount": "₹60.00",
+    "Payment To": "vinayak novelty  color print",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "26-January-2026",
+    "Amount": "₹2,960.00",
+    "Payment To": "IMPRINTS  BORD  2 BIG 4 SMALL",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "27-January-2026",
+    "Amount": "₹660.00",
+    "Payment To": "K V Enterprises  पोछा ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "1-January-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "staff  tea ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "25-January-2026",
+    "Amount": "₹72.00",
+    "Payment To": "pluse hardwar spaker cell",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹25,000.00",
+    "Payment To": "ACHYUT OAK  डिझेल+ होळी ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Water Tanker",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹16,000.00",
+    "Payment To": "SHIVKUPA WATER SUP ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹53,840.00",
+    "Payment To": "A S ENTERPRISES [UNION BANK BILL]may ते डिसेंबर 200पेमेट जास्त गेले आहे 1600+जानेवारी tds वजा करून पेमेंट अमाऊट  ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹8,000.00",
+    "Payment To": "Mahadev Khandare चेकवरील नांव ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Solar Power",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹12,791.00",
+    "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank   NOV BILL",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "AMC Fire System",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹23,714.00",
+    "Payment To": "SHREE GANESH FIRE AND SAFETY SOLUTION",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Maintenance & Repair",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹30,000.00",
+    "Payment To": "S PAINTING WORK  B wing+A wing  दोन्ही मिळून 84 ला ठरले आहे 30अडव्हास देणे ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "AMC Lift",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹53,660.00",
+    "Payment To": "OLYMPIA ELEVATORS PRIVATI LTD  ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹560.00",
+    "Payment To": "A S ENTERPRISES ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹360.00",
+    "Payment To": "Pramod Enterprises  ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹240.00",
+    "Payment To": "SHREE GANESH FIRE AND SAFETY SOLUTION",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹546.00",
+    "Payment To": "OLYMPI ELEVATORS PVT LTD ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Auditor",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹20,650.00",
+    "Payment To": "Shara consultant auditor part payment 25/26",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "",
+    "Amount": "₹1,350.00",
+    "Payment To": "IMPRINTS  BORD   no parking 6 bord",
+    "Mode": "Cash",
+    "Checked": ""
   }
 ]
