@@ -1475,7 +1475,7 @@
     "Item": "B 401",
     "Category": "Maintenance",
     "Date": "28-Nov-2025",
-    "Amount": "21215",
+    "Amount": "₹21,215.00",
     "Payment From": "KULKARNI",
     "Mode": "RTGS/IMPS"
   },
@@ -1483,7 +1483,7 @@
     "Item": "",
     "Category": "Bank Interest",
     "Date": "2-Dec-2025",
-    "Amount": "21169",
+    "Amount": "₹21,169.00",
     "Payment From": "pnb int",
     "Mode": "RTGS/IMPS"
   },
