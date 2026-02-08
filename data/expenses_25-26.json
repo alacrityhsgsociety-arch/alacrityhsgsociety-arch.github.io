@@ -3633,7 +3633,7 @@
     "Amount": "₹25,000.00",
     "Payment To": "ACHYUT OAK  डिझेल+ होळी ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Water Tanker",
@@ -3641,8 +3641,8 @@
     "Date": "",
     "Amount": "₹16,000.00",
     "Payment To": "SHIVKUPA WATER SUP ",
-    "Mode": "",
-    "Checked": ""
+    "Mode": "Cheque",
+    "Checked": "Yes"
   },
   {
     "Category": "Security",
@@ -3650,8 +3650,8 @@
     "Date": "",
     "Amount": "₹53,840.00",
     "Payment To": "A S ENTERPRISES [UNION BANK BILL]may ते डिसेंबर 200पेमेट जास्त गेले आहे 1600+जानेवारी tds वजा करून पेमेंट अमाऊट  ",
-    "Mode": "",
-    "Checked": ""
+    "Mode": "Cheque",
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
@@ -3659,8 +3659,8 @@
     "Date": "",
     "Amount": "₹35,640.00",
     "Payment To": "Pramod Enterprises   ",
-    "Mode": "",
-    "Checked": ""
+    "Mode": "Cheque",
+    "Checked": "Yes"
   },
   {
     "Category": "Garden Services",
@@ -3669,7 +3669,7 @@
     "Amount": "₹8,000.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Solar Power",
@@ -3678,7 +3678,7 @@
     "Amount": "₹12,791.00",
     "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank   NOV BILL",
     "Mode": "",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "AMC Fire System",
@@ -3687,7 +3687,7 @@
     "Amount": "₹23,714.00",
     "Payment To": "SHREE GANESH FIRE AND SAFETY SOLUTION",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Maintenance & Repair",
@@ -3696,7 +3696,7 @@
     "Amount": "₹30,000.00",
     "Payment To": "S PAINTING WORK  B wing+A wing  दोन्ही मिळून 84 ला ठरले आहे 30अडव्हास देणे ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "AMC Lift",
@@ -3704,8 +3704,8 @@
     "Date": "",
     "Amount": "₹53,660.00",
     "Payment To": "OLYMPIA ELEVATORS PRIVATI LTD  ",
-    "Mode": "",
-    "Checked": ""
+    "Mode": "Cheque",
+    "Checked": "Yes"
   },
   {
     "Category": "TDS Payment",
@@ -3749,8 +3749,8 @@
     "Date": "",
     "Amount": "₹20,650.00",
     "Payment To": "Shara consultant auditor part payment 25/26",
-    "Mode": "",
-    "Checked": ""
+    "Mode": "Cheque",
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -3759,6 +3759,6 @@
     "Amount": "₹1,350.00",
     "Payment To": "IMPRINTS  BORD   no parking 6 bord",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   }
 ]
