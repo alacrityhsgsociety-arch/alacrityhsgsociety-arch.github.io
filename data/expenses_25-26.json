@@ -3710,7 +3710,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "8-February-2026",
     "Amount": "₹560.00",
     "Payment To": "A S ENTERPRISES ",
     "Mode": "",
@@ -3719,7 +3719,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "8-February-2026",
     "Amount": "₹360.00",
     "Payment To": "Pramod Enterprises  ",
     "Mode": "",
@@ -3728,7 +3728,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "8-February-2026",
     "Amount": "₹240.00",
     "Payment To": "SHREE GANESH FIRE AND SAFETY SOLUTION",
     "Mode": "",
@@ -3737,7 +3737,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "8-February-2026",
     "Amount": "₹546.00",
     "Payment To": "OLYMPI ELEVATORS PVT LTD ",
     "Mode": "",
@@ -3758,6 +3758,42 @@
     "Date": "8-February-2026",
     "Amount": "₹1,350.00",
     "Payment To": "IMPRINTS  BORD   no parking 6 bord",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "",
+    "Date": "6-February-2026",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "",
+    "Date": "8-February-2026",
+    "Amount": "₹1,130.00",
+    "Payment To": "Pluse Hardware cricket मध्ये एक हॅलोजन बदलला, लॉक,रोलर ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "",
+    "Date": "8-February-2026",
+    "Amount": "₹380.00",
+    "Payment To": "Mahadev ENT फिनेल असिड ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "",
+    "Date": "8-February-2026",
+    "Amount": "₹1,320.00",
+    "Payment To": "K V Enterprises पोछा 12 stock ",
     "Mode": "Cash",
     "Checked": "Yes"
   }
