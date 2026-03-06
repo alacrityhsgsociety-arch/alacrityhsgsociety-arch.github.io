@@ -1561,6 +1561,70 @@
   },
   {
     "Item": "",
+    "Category": "Misc",
+    "Date": "8-Jan-2026",
+    "Amount": "₹100.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "8-Jan-2026",
+    "Amount": "₹1,200.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "8-Jan-2026",
+    "Amount": "₹1,200.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "8-Jan-2026",
+    "Amount": "₹100.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "9-Feb-2026",
+    "Amount": "₹1,200.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Misc",
+    "Date": "10-Feb-2026",
+    "Amount": "₹900.00",
+    "Payment From": "my gate",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 503",
+    "Category": "Fines / Penalties",
+    "Date": "20-Mar-2026",
+    "Amount": "₹10,000.00",
+    "Payment From": "ASHISH JOSHI ",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 503",
+    "Category": "Fines / Penalties",
+    "Date": "25-Mar-2026",
+    "Amount": "₹5,000.00",
+    "Payment From": "HAREKRISH",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",
     "Amount": "",

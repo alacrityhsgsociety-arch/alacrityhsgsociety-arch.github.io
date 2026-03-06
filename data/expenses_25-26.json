@@ -3411,6 +3411,42 @@
     "Checked": "Yes"
   },
   {
+    "Category": "Tax",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹1,680.00",
+    "Payment To": "A S ENTERPRISES +ROW 315+ROW 345",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Tax",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹1,080.00",
+    "Payment To": "Pramod Enterprises  +ROW 316+ROW 346",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Tax",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹200.00",
+    "Payment To": "SUNRISE CLEANING SERVICES (GARDEN) +ROW 317",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Tax",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹517.00",
+    "Payment To": "OLYMPI ELEVATORS PVT LTD ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
     "Category": "Sundry",
     "Sub Category": "Hardware",
     "Date": "1-January-2026",
@@ -3803,6 +3839,366 @@
     "Date": "8-February-2026",
     "Amount": "₹1,320.00",
     "Payment To": "K V Enterprises पोछा 12 stock ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "5-February-2026",
+    "Amount": "₹1,000.00",
+    "Payment To": "pradeep soler water tue a,b wing clening 12 units",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "6-February-2026",
+    "Amount": "₹1,000.00",
+    "Payment To": "oak no parking ord ms stand 2 no",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "",
+    "Date": "10-February-2026",
+    "Amount": "₹450.00",
+    "Payment To": "IMPRINTS  BORD   no parking 2 bord near manager cabin",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "",
+    "Date": "25-February-2026",
+    "Amount": "₹26,000.00",
+    "Payment To": "SABUL AIL  एवढे नांव चेक वर लिहिणे   CLUB NEW SLADING",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Budgeted",
+    "Sub Category": "",
+    "Date": "19-February-2026",
+    "Amount": "₹130,160.00",
+    "Payment To": "Light bill ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "",
+    "Date": "19-February-2026",
+    "Amount": "₹54,000.00",
+    "Payment To": "S PAINTING WORKS   A,B Wing लिकेज रिपेअर 84-30 अँडव्हान्स दिले आहे ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "14-Feb-2026",
+    "Amount": "₹10,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "16-February-2026",
+    "Amount": "₹3,200.00",
+    "Payment To": "CHANDERE PETROLEUM",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "16-February-2026",
+    "Amount": "₹2,000.00",
+    "Payment To": "CHANDERE PETROLEUM",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "08-February-2026",
+    "Amount": "₹280.00",
+    "Payment To": "Pulse Hardware bord fixing cement , MCB 1",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "19-February-2026",
+    "Amount": "₹60.00",
+    "Payment To": "Prime Hardware bore line cement ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "21-February-2026",
+    "Amount": "₹3,000.00",
+    "Payment To": "CHANDERE PETROLEUM",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "21-February-2026",
+    "Amount": "₹2,000.00",
+    "Payment To": "CHANDERE PETROLEUM",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "22-February-2026",
+    "Amount": "₹670.00",
+    "Payment To": "Mahadev Enterprises house keeping material ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "26-February-2026",
+    "Amount": "₹300.00",
+    "Payment To": " रामदास  सिमेंट टाकुन बोअर लाईन लिंक बंद करणे ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "27-February-2026",
+    "Amount": "₹950.00",
+    "Payment To": "ओक होळी लाकूड गोवरी ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "28-February-2026",
+    "Amount": "₹215.00",
+    "Payment To": "D Mart होळी तुप नारळ ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "28-February-2026",
+    "Amount": "₹656.00",
+    "Payment To": "pulse Hardware रंगपंचमी साठी पोडिअम वर पाणी व्यवस्था ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "28-February-2026",
+    "Amount": "₹11,980.00",
+    "Payment To": "AMAZON WZATCO PROJECTOR",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "01-March-2026",
+    "Amount": "₹4,000.00",
+    "Payment To": "padmauati mattress",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "",
+    "Date": "01-March-2026",
+    "Amount": "₹2,400.00",
+    "Payment To": "Imprint club,gym bord ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "1-March-2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "1-March-2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "01-March-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "Tea for staff",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "01-March-2026",
+    "Amount": "₹1,359.00",
+    "Payment To": "wi fi  club house",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "1-March-2026",
+    "Amount": "₹500.00",
+    "Payment To": "diesh plumber",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹25,000.00",
+    "Payment To": "ACHYUT OAK   bore  line",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Water Tanker",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹20,000.00",
+    "Payment To": "SHIVKUPA WATER SUP ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹55,540.00",
+    "Payment To": "A S ENTERPRISES [UNION BANK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹8,000.00",
+    "Payment To": "Mahadev Khandare चेकवरील नांव ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Solar Power",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹23,057.00",
+    "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank   dec ,jan BILL",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹28,500.00",
+    "Payment To": "Mahadev Khandare चेकवरील नांव  lobby clening",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹1,120.00",
+    "Payment To": "A S ENTERPRISES  RA 419",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹720.00",
+    "Payment To": "Pramod Enterprises  RAW 420",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹240.00",
+    "Payment To": "SHREE GANESH FIRE AND SAFETY SOLUTION",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹546.00",
+    "Payment To": "OLYMPI ELEVATORS PVT LTD ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "04-March-2026",
+    "Amount": "₹1,280.00",
+    "Payment To": "kesar sweet जिलेबी इमरी  रंगपंचमी ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "05-March-2026",
+    "Amount": "₹8,599.00",
+    "Payment To": "Porwal and Company  बोअर लाईन मटेरियल ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "05-March-2026",
+    "Amount": "₹1,500.00",
+    "Payment To": "अनिल गायकवाड पाईप टेम्पो भाडे (मार्केट यार्ड)",
     "Mode": "Cash",
     "Checked": "Yes"
   }
