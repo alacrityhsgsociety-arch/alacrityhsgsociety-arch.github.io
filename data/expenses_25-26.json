@@ -4079,8 +4079,8 @@
   {
     "Category": "Withdrawl Self",
     "Sub Category": "",
-    "Date": "",
-    "Amount": "₹25,000.00",
+    "Date": "8-March-2026",
+    "Amount": "₹30,000.00",
     "Payment To": "ACHYUT OAK   bore  line",
     "Mode": "RTGS/IMPS",
     "Checked": ""
@@ -4088,7 +4088,7 @@
   {
     "Category": "Water Tanker",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-March-2026",
     "Amount": "₹20,000.00",
     "Payment To": "SHIVKUPA WATER SUP ",
     "Mode": "Cheque",
@@ -4097,25 +4097,25 @@
   {
     "Category": "Security",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-March-2026",
     "Amount": "₹55,540.00",
     "Payment To": "A S ENTERPRISES [UNION BANK ",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-March-2026",
     "Amount": "₹35,640.00",
     "Payment To": "Pramod Enterprises   ",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Garden Services",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-March-2026",
     "Amount": "₹8,000.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव ",
     "Mode": "Cheque",
@@ -4124,8 +4124,8 @@
   {
     "Category": "Solar Power",
     "Sub Category": "",
-    "Date": "",
-    "Amount": "₹23,057.00",
+    "Date": "08-March-2026",
+    "Amount": "₹20,000.00",
     "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank   dec ,jan BILL",
     "Mode": "RTGS/IMPS",
     "Checked": ""
@@ -4133,7 +4133,7 @@
   {
     "Category": "Housekeeping",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-March-2026",
     "Amount": "₹28,500.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव  lobby clening",
     "Mode": "Cheque",
@@ -4142,7 +4142,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-March-2026",
     "Amount": "₹1,120.00",
     "Payment To": "A S ENTERPRISES  RA 419",
     "Mode": "RTGS/IMPS",
@@ -4151,7 +4151,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "8-Mar-2026",
     "Amount": "₹720.00",
     "Payment To": "Pramod Enterprises  RAW 420",
     "Mode": "RTGS/IMPS",
@@ -4160,7 +4160,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-March-2026",
     "Amount": "₹240.00",
     "Payment To": "SHREE GANESH FIRE AND SAFETY SOLUTION",
     "Mode": "RTGS/IMPS",
@@ -4169,7 +4169,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "08-March-2026",
     "Amount": "₹546.00",
     "Payment To": "OLYMPI ELEVATORS PVT LTD ",
     "Mode": "RTGS/IMPS",
@@ -4201,5 +4201,14 @@
     "Payment To": "अनिल गायकवाड पाईप टेम्पो भाडे (मार्केट यार्ड)",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "",
+    "Date": "08-March-2026",
+    "Amount": "₹4,650.00",
+    "Payment To": "D Soft Infotech  club camera ",
+    "Mode": "Cheque",
+    "Checked": ""
   }
 ]
