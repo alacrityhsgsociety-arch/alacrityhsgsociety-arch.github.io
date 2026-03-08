@@ -4092,7 +4092,7 @@
     "Amount": "₹20,000.00",
     "Payment To": "SHIVKUPA WATER SUP ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Security",
@@ -4119,7 +4119,7 @@
     "Amount": "₹8,000.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Solar Power",
@@ -4137,7 +4137,7 @@
     "Amount": "₹28,500.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव  lobby clening",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "TDS Payment",
@@ -4204,7 +4204,7 @@
   },
   {
     "Category": "Sundry",
-    "Sub Category": "",
+    "Sub Category": "Misc",
     "Date": "08-March-2026",
     "Amount": "₹4,650.00",
     "Payment To": "D Soft Infotech  club camera ",
@@ -4213,7 +4213,7 @@
   },
   {
     "Category": "Sundry",
-    "Sub Category": "",
+    "Sub Category": "Misc",
     "Date": "08-March-2026",
     "Amount": "₹1,454.00",
     "Payment To": "wifi  unit A Wing cctv ",
