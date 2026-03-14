@@ -4081,7 +4081,7 @@
     "Sub Category": "",
     "Date": "8-March-2026",
     "Amount": "₹30,000.00",
-    "Payment To": "ACHYUT OAK   bore  line",
+    "Payment To": "ACHYUT OAK",
     "Mode": "RTGS/IMPS",
     "Checked": ""
   },
@@ -4209,7 +4209,7 @@
     "Amount": "₹4,650.00",
     "Payment To": "D Soft Infotech  club camera ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -4299,7 +4299,7 @@
     "Amount": "₹2,000.00",
     "Payment To": "CHANDERE PETROLEUM ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -4308,7 +4308,7 @@
     "Amount": "₹140.00",
     "Payment To": "Mahadev ENT  glass, plate AGM ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -4335,6 +4335,6 @@
     "Amount": "₹4,500.00",
     "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   }
 ]
