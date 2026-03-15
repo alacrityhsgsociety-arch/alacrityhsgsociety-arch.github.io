@@ -1632,6 +1632,22 @@
     "Mode": "RTGS/IMPS"
   },
   {
+    "Item": "a 403",
+    "Category": "Shifting",
+    "Date": "14-Mar-2026",
+    "Amount": "₹1,000.00",
+    "Payment From": "POONAM KANOJE",
+    "Mode": "Cash"
+  },
+  {
+    "Item": "A 103",
+    "Category": "Shifting",
+    "Date": "14-Mar-2026",
+    "Amount": "₹1,000.00",
+    "Payment From": "KARTIK",
+    "Mode": "Cash"
+  },
+  {
     "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",
