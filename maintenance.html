@@ -127,12 +127,13 @@ function validateUser() {
 function render(r) {
     let occupancy = (r.occupancy || "").toLowerCase();
     let isRented = occupancy === "tenant" || occupancy === "rented";
-
+    
     let additional = isRented ? r.additional : 0;
-    let status = r.paid === true ? "paid" : "pending";
-    let badge = status === "paid"
-        ? `<span class="badge bg-success">PAID</span>`
-        : `<span class="badge bg-danger">PENDING</span>`;
+    let status = r.full_payment === true ? "PAID" : r.paid_installment_1 === true ? "PART PAYMENT" : "PENDING";
+    let bageColor = status === "PAID" ? "bg-success" : "bg-danger";
+    let badge = `<span class="badge ${bageColor}">${status}</span>`;
+        // ? `<span class="badge bg-success">${status}</span>`
+        // : `<span class="badge ${bageColor}">${status}</span>`;
 
     let eligible = r.maintenance + additional;
     let discount = (eligible * 0.05).toFixed(2);
