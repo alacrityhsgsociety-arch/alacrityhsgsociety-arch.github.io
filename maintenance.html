@@ -13,7 +13,7 @@ body {
     background: #f4f6f8;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #2c3e50;
-    line-height: 1.4;
+    line-height: 1.3;
     margin: 0;
     padding: 0;
 }
@@ -85,6 +85,7 @@ body {
 <div id="app"></div>
 
 <script>
+
 // LOGIN UI
 document.getElementById("login").innerHTML = `
 <div class="card shadow mx-auto" style="max-width: 400px;">
@@ -127,7 +128,7 @@ function validateUser() {
 function render(r) {
     let occupancy = (r.occupancy || "").toLowerCase();
     let isRented = occupancy === "tenant" || occupancy === "rented";
-    
+    let receiptNo = `${r.flat}-${'26/27'}`;
     let additional = isRented ? r.additional : 0;
     let status = r.full_payment === true ? "PAID" : r.paid_installment_1 === true ? "PART PAYMENT" : "PENDING";
     let bageColor = status === "PAID" ? "bg-success" : "bg-danger";
@@ -150,6 +151,7 @@ function render(r) {
   <div class="header">
     <h4>Alacrity Co-operative Housing Society Ltd.</h4>
     <h5>Maintenance Payment Due (FY 2026-27)</h5>
+    <p><b>Demand</b> ${receiptNo}</p>
   </div>
 
   <p class="notice">PLEASE READ THE NOTICE CAREFULLY</p>
@@ -199,7 +201,6 @@ function render(r) {
       <tr class="table-danger"><td><b>Grand Total Payable</b></td><td class="highlight">₹${Math.round(r.discounted)}</td></tr>
     </tbody>
   </table>
-
   <!-- PAYMENT METHODS -->
 <h6 class="section-title">Payment Methods</h6>
 <hr/>
@@ -208,7 +209,7 @@ function render(r) {
   <div class="col-md-6 col-sm-12 mb-2">
     <div class="p-2 border rounded">
       <b>Account Payee Cheque:</b><br>
-      Alacrity Co-operative Housing Society Ltd.<br><br>
+      Alacrity Co-operative Housing Society Ltd.<br>
       <b>Submit to:</b> Achyut Oak (Society Manager)<br>
       9:30 AM – 6:30 PM (Except Wednesday)<br>
       <b>Phone:</b> 8208146541
@@ -233,8 +234,8 @@ function render(r) {
 <div class="footer mt-3" style="font-size: 0.95rem;">
   With Regards,<br>
   <b>Alacrity Committee</b>
-    <p style="font-size: 0.75rem; color: #555; margin-top: 5px;">
-    Note: Payment updates are done on weekends, so expect a delay in status changes (PAID / PART PAYMENT).
+    <p style="font-size: 0.75rem; color: #555;">
+    <b>Note:</b> Payment updates are done on weekends, so expect a delay in status changes (PAID / PART PAYMENT).
   </p>
 </div>
 `;
