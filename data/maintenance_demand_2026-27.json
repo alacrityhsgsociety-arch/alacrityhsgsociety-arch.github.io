@@ -141,8 +141,8 @@
   },
   {
     "flat": "A202",
-    "name": "Mr Sharad Mahajan",
-    "email1": "sharadjmahajan@gmail.com",
+    "name": "VISHAL DHANDE",
+    "email1": "drvishaldhande@gmail.com",
     "email2": "",
     "occupancy": "owner",
     "maintenance": 37300.0,
@@ -614,8 +614,8 @@
     "discounted": 44135.0,
     "inst1": 23000.0,
     "inst2": 23000.0,
-    "full_payment": false,
-    "paid_installment_1": true,
+    "full_payment": true,
+    "paid_installment_1": false,
     "paid_installment_2": false,
     "conveyance": 3000.0
   },
@@ -741,8 +741,8 @@
   },
   {
     "flat": "A702",
-    "name": "MR. DHANANJAY MANOHAR KAPALE",
-    "email1": "dkapale@gmail.com",
+    "name": "MR. SHAILESH TURIA",
+    "email1": "shailesh.turia@gmail.com",
     "email2": "",
     "occupancy": "owner",
     "maintenance": 37300.0,
