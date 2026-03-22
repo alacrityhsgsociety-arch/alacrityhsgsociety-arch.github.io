@@ -195,7 +195,7 @@ function render(r) {
       <tr><td>Maintenance (After Discount)</td><td>₹${Math.round(eligible - discount)}</td></tr>
       <tr><td>Previous Balance</td><td>₹${r.previous}</td></tr>
       <tr><td>Sinking Fund</td><td>₹${r.sinking}</td></tr>
-      ${r.conveyance > 0 ? `<tr><td>Conveyance Charges</td><td>₹${r.conveyance}</td></tr>` : ''}
+      ${r.conveyance > 0 ? `<tr><td>Conveyance Deed Charges (One-time)</td><td>₹${r.conveyance}</td></tr>` : ''}
       <tr class="table-danger"><td><b>Grand Total Payable</b></td><td class="highlight">₹${Math.round(r.discounted)}</td></tr>
     </tbody>
   </table>
