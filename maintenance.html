@@ -190,8 +190,8 @@ function render(r) {
     <tbody>
       <tr><td>Maintenance</td><td>₹${Math.round(r.maintenance)}</td></tr>
       ${isRented ? `<tr><td>Additional (Rented Property)</td><td>₹${Math.round(r.additional)}</td></tr>` : ''}
-      <tr><td>Eligible Amount</td><td>₹${Math.round(eligible)}</td></tr>
-      <tr><td>5% Discount</td><td>₹${discount}</td></tr>
+      <tr><td>Eligible Amount for Discount</td><td>₹${Math.round(eligible)}</td></tr>
+      <tr><td>5% Discount (Applicable only for Full Payment)</td><td style="color: red;">₹${discount}</td></tr>
       <tr><td>Maintenance (After Discount)</td><td>₹${Math.round(eligible - discount)}</td></tr>
       <tr><td>Previous Balance</td><td>₹${r.previous}</td></tr>
       <tr><td>Sinking Fund</td><td>₹${r.sinking}</td></tr>
