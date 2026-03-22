@@ -95,8 +95,7 @@ function render(r) {
 
     // STATUS
     let status = "pending";
-    if (r.status && r.status.toLowerCase() === "paid") status = "paid";
-    if (r.pending && r.pending.toLowerCase() === "yes") status = "pending";
+    if (r.paid === true) status = "paid";
 
     let badge = status === "paid"
         ? `<span class="badge bg-success">PAID</span>`

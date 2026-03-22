@@ -554,7 +554,7 @@
     "discounted": 44135.0,
     "inst1": 23000.0,
     "inst2": 23000.0,
-    "paid": false,
+    "paid": true,
     "conveyance": 3000.0
   },
   {
