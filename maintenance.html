@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <title>Maintenance Demand</title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
@@ -12,46 +14,66 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #2c3e50;
     line-height: 1.4;
-    font-size: 0.95rem;
+    margin: 0;
+    padding: 0;
 }
 
-/* A4 page size with margins */
-@page {
-    size: A4;
-    margin: 15mm;
-}
-
+/* Adaptive container for mobile/tablet/desktop */
 .print-container {
+    width: 100%;
     max-width: 210mm;
-    margin: 15mm auto;
+    min-height: 297mm;
+    margin: 10px auto;
+    padding: 20mm;
     background: white;
-    padding: 15mm;
-    border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
     position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
+/* Print styling - keep margins same */
 @media print {
-    .no-print { display: none !important; }
     body { background: white; }
+    .no-print { display: none !important; }
     .print-container {
+        width: 100%;
+        padding: 20mm;
         margin: 0;
-        padding: 15mm;
+        min-height: 100%;
         box-shadow: none;
-        page-break-inside: avoid;
+        page-break-after: avoid;
     }
-    .row { page-break-inside: avoid; }
-    table { page-break-inside: avoid; }
 }
 
-.header { text-align: center; margin-bottom: 0.8rem; }
-.notice { text-align:center; font-weight:bold; margin-bottom:12px; color:#c0392b; font-size: 1rem; }
-.section-title { font-weight: 600; margin-top: 0.8rem; margin-bottom: 0.4rem; font-size: 1rem; }
-.highlight { font-weight:bold; color:#c0392b; font-size:1.1rem; }
+/* Header & Text */
+.header { text-align: center; margin-bottom: 1rem; }
+.notice { text-align:center; font-weight:bold; margin-bottom:10px; color:#c0392b; font-size: 1rem; }
+.section-title { font-weight: 600; margin-top: 10px; margin-bottom: 5px; }
+.highlight { font-weight:bold; color:#c0392b; font-size:1.2rem; }
 
-.table td, .table th { vertical-align: middle; padding: 0.4rem; font-size: 0.95rem; }
+/* Tables */
+.table td, .table th { vertical-align: middle; font-size: 0.95rem; }
 
-.card { padding: 0.5rem; font-size: 0.95rem; }
+/* Prevent page break inside table and important divs */
+.print-container, .table, h6, p {
+    page-break-inside: avoid;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 768px) {
+    .print-container {
+        padding: 15px;
+    }
+    .notice { font-size: 0.9rem; }
+    .highlight { font-size: 1rem; }
+    .table td, .table th { font-size: 0.85rem; padding: 0.3rem; }
+    h4 { font-size: 1.2rem; }
+    h5 { font-size: 1rem; }
+    h6 { font-size: 0.95rem; }
+    .card p { font-size: 0.85rem; }
+}
 </style>
 </head>
 <body>
@@ -116,7 +138,7 @@ function render(r) {
     let discount = (eligible * 0.05).toFixed(2);
 
     document.getElementById("app").innerHTML = `
-<div class="print-container container-fluid">
+<div class="print-container">
 
   <!-- PRINT BUTTON -->
   <button class="btn btn-secondary btn-sm position-absolute top-0 end-0 m-2 no-print" onclick="window.print()">
@@ -131,7 +153,7 @@ function render(r) {
 
   <p class="notice">PLEASE READ THE NOTICE CAREFULLY</p>
 
-  <div class="row mb-3">
+  <div class="row mb-2">
     <div class="col-md-6 col-sm-12">
       <b>Flat:</b> ${r.flat} ${isRented ? `<span class="badge bg-warning text-dark ms-2">RENTED</span>` : ``}
     </div>
@@ -145,14 +167,14 @@ function render(r) {
 
   <!-- PAYMENT OPTIONS -->
   <h6 class="section-title">Payment Options</h6>
-  <div class="row mb-3">
-    <div class="col-md-6 col-sm-12 mb-2">
+  <div class="row mb-2">
+    <div class="col-md-6 col-sm-12 mb-1">
       <div class="card p-2">
         <h6>A) Full Payment (5% Discount)</h6>
         <p class="mb-0"><b>₹${Math.round(r.discounted)}</b> before 30 April 2026</p>
       </div>
     </div>
-    <div class="col-md-6 col-sm-12 mb-2">
+    <div class="col-md-6 col-sm-12 mb-1">
       <div class="card p-2">
         <h6>B) Installments</h6>
         <p class="mb-0"><b>₹${Math.round(r.inst1)}</b> (30 April 2026)</p>
@@ -161,46 +183,25 @@ function render(r) {
     </div>
   </div>
 
-  <!-- SUMMARY TABLE -->
+  <!-- PAYMENT SUMMARY -->
   <h6 class="section-title">Payment Summary</h6>
-  <table class="table table-bordered">
+  <table class="table table-bordered table-sm mb-2">
     <tbody>
-      <tr>
-        <td>Maintenance</td>
-        <td>₹${Math.round(r.maintenance)}</td>
-      </tr>
+      <tr><td>Maintenance</td><td>₹${Math.round(r.maintenance)}</td></tr>
       ${isRented ? `<tr><td>Additional (Rented Property)</td><td>₹${Math.round(r.additional)}</td></tr>` : ''}
-      <tr>
-        <td>Eligible Amount</td>
-        <td>₹${Math.round(eligible)}</td>
-      </tr>
-      <tr>
-        <td>5% Discount</td>
-        <td>₹${discount}</td>
-      </tr>
-      <tr>
-        <td>Maintenance (After Discount)</td>
-        <td>₹${Math.round(eligible - discount)}</td>
-      </tr>
-      <tr>
-        <td>Previous Balance</td>
-        <td>₹${r.previous}</td>
-      </tr>
-      <tr>
-        <td>Sinking Fund</td>
-        <td>₹${r.sinking}</td>
-      </tr>
+      <tr><td>Eligible Amount</td><td>₹${Math.round(eligible)}</td></tr>
+      <tr><td>5% Discount</td><td>₹${discount}</td></tr>
+      <tr><td>Maintenance (After Discount)</td><td>₹${Math.round(eligible - discount)}</td></tr>
+      <tr><td>Previous Balance</td><td>₹${r.previous}</td></tr>
+      <tr><td>Sinking Fund</td><td>₹${r.sinking}</td></tr>
       ${r.conveyance > 0 ? `<tr><td>Conveyance Charges</td><td>₹${r.conveyance}</td></tr>` : ''}
-      <tr class="table-danger">
-        <td><b>Grand Total Payable</b></td>
-        <td class="highlight">₹${Math.round(r.discounted)}</td>
-      </tr>
+      <tr class="table-danger"><td><b>Grand Total Payable</b></td><td class="highlight">₹${Math.round(r.discounted)}</td></tr>
     </tbody>
   </table>
 
   <!-- PAYMENT METHODS -->
   <h6 class="section-title">Payment Methods</h6>
-  <div class="row mb-3">
+  <div class="row mb-1">
     <div class="col-md-6 col-sm-12">
       <p><b>Cheque:</b><br>
       Alacrity Co-operative Housing Society Ltd.<br>
