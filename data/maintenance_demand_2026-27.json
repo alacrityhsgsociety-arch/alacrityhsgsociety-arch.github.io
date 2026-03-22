@@ -614,7 +614,7 @@
     "discounted": 44135.0,
     "inst1": 23000.0,
     "inst2": 23000.0,
-    "full_payment": true,
+    "full_payment": false,
     "paid_installment_1": false,
     "paid_installment_2": false,
     "conveyance": 3000.0
