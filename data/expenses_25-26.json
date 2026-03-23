@@ -4363,5 +4363,104 @@
     "Payment To": "Electricity bill payment ",
     "Mode": "RTGS/IMPS",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "14-March-2026",
+    "Amount": "₹200.00",
+    "Payment To": "PULSE HARDWAR MT  WATER BOTAL",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "16-March-2026",
+    "Amount": "₹1,300.00",
+    "Payment To": "Gautam block fixing",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "16-March-2026",
+    "Amount": "₹350.00",
+    "Payment To": "VADESHWAR T CEMENT 1 BAG",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "19-March-2026",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "19-March-2026",
+    "Amount": "₹250.00",
+    "Payment To": "PMC LINE REPERING",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "20-March-2026",
+    "Amount": "₹350.00",
+    "Payment To": "VADESHWAR T CEMENT 1 BAG",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "21-March-2026",
+    "Amount": "₹350.00",
+    "Payment To": "VADESHWAR T CEMENT 1 BAG",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "21-March-2026",
+    "Amount": "₹6,000.00",
+    "Payment To": "Gautam +1 (17,20,21 march) garden गटार खोदाई , सिमेंट काम ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "21-March-2026",
+    "Amount": "",
+    "Payment To": "PULSE HARDWAR   PMC LINE MATERAL, गटार चिकनमेस जाळी dr fixing लिकविड ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "21-March-2026",
+    "Amount": "₹130.00",
+    "Payment To": "NNEW METRO TIPANI",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "22-March-2026",
+    "Amount": "₹480.00",
+    "Payment To": "Mahadev Enterprises house keeping material ",
+    "Mode": "Cash",
+    "Checked": "Yes"
   }
 ]
