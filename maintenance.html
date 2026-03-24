@@ -207,7 +207,7 @@ function render(r) {
   <table class="table table-bordered table-sm mb-2">
     <tbody>
       <tr><td>Maintenance</td><td>₹${Math.round(r.maintenance)}</td></tr>
-      ${isRented ? `<tr><td>Additional (Rented Property)</td><td>₹${Math.round(r.additional)}</td></tr>` : ''}
+      ${isRented ? `<tr><td>Additional 10% (Rented Property)</td><td>₹${Math.round(r.additional)}</td></tr>` : ''}
       <tr><td>Eligible Amount for Discount</td><td>₹${Math.round(eligible)}</td></tr>
       <tr><td>5% Discount (Applicable only for Full Payment)</td><td style="color: red;">₹${Math.round(discount)}</td></tr>
       <tr><td>Maintenance (After Discount)</td><td>₹${Math.round(eligible - discount)}</td></tr>
