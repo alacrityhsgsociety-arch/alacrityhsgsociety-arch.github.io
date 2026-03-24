@@ -87,7 +87,7 @@ body {
 <script>
 
 const demandSources = [
-    { year: "2026-27", label: "FY 2026-27", file: "data/maintenance_demand_2026-27.json" },
+    { year: "2026-27", label: "FY 2026-27", file: "data/maintenance_demand_2026-27.json", default: true },
     { year: "2025-26", label: "FY 2025-26", file: "data/maintenance_demand_2025-26.json" }
 ];
 
@@ -99,7 +99,9 @@ document.getElementById("login").innerHTML = `
     <p class="text-muted">Maintenance Demand Access</p>
 
     <select class="form-select mb-2" id="yearSelect">
-      ${demandSources.map(src => `<option value="${src.year}">${src.label}</option>`).join('')}
+      ${demandSources.map(src => `
+        <option value="${src.year}"${src.default ? ' selected' : ''}>${src.label}</option>
+      `).join('')}
     </select>
     <input class="form-control mb-2" id="flatInput" placeholder="Flat (e.g. A601)">
     <input class="form-control mb-2" id="emailInput" placeholder="Email">
