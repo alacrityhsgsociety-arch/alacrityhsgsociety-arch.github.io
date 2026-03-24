@@ -86,6 +86,11 @@ body {
 
 <script>
 
+const demandSources = [
+    { year: "2026-27", label: "FY 2026-27", file: "data/maintenance_demand_2026-27.json" },
+    { year: "2025-26", label: "FY 2025-26", file: "data/maintenance_demand_2025-26.json" }
+];
+
 // LOGIN UI
 document.getElementById("login").innerHTML = `
 <div class="card shadow mx-auto" style="max-width: 400px;">
@@ -93,6 +98,9 @@ document.getElementById("login").innerHTML = `
     <h4 class="card-title">Alacrity Co-operative Housing Society Ltd.</h4>
     <p class="text-muted">Maintenance Demand Access</p>
 
+    <select class="form-select mb-2" id="yearSelect">
+      ${demandSources.map(src => `<option value="${src.year}">${src.label}</option>`).join('')}
+    </select>
     <input class="form-control mb-2" id="flatInput" placeholder="Flat (e.g. A601)">
     <input class="form-control mb-2" id="emailInput" placeholder="Email">
 
@@ -105,8 +113,12 @@ document.getElementById("login").innerHTML = `
 function validateUser() {
     let f = document.getElementById("flatInput").value.trim().toUpperCase();
     let e = document.getElementById("emailInput").value.trim().toLowerCase();
+    let year = document.getElementById("yearSelect").value;
 
-    fetch("data/maintenance_demand_2026-27.json")
+    let source = demandSources.find(src => src.year === year) || demandSources[0];
+    let file = source.file;
+
+    fetch(file)
     .then(r => r.json())
     .then(data => {
         let rec = data.find(x =>
@@ -120,6 +132,7 @@ function validateUser() {
             return;
         }
 
+        rec._year = year;
         document.getElementById("login").style.display = "none";
         render(rec);
     });
@@ -128,7 +141,8 @@ function validateUser() {
 function render(r) {
     let occupancy = (r.occupancy || "").toLowerCase();
     let isRented = occupancy === "tenant" || occupancy === "rented";
-    let receiptNo = `${r.flat}-${'26/27'}`;
+    let year = r._year || '2026-27';
+    let receiptNo = `${r.flat}-${year}`;
     let additional = isRented ? r.additional : 0;
     let status = r.full_payment === true ? "PAID" : r.paid_installment_1 === true ? "PART PAYMENT" : "PENDING";
     let bageColor = status === "PAID" ? "bg-success" : "bg-danger";
@@ -150,7 +164,7 @@ function render(r) {
   <!-- HEADER -->
   <div class="header">
     <h4>Alacrity Co-operative Housing Society Ltd.</h4>
-    <h5>Maintenance Payment Due (FY 2026-27)</h5>
+    <h5>Maintenance Payment Due (FY ${year})</h5>
     <p><b>Demand</b> ${receiptNo}</p>
   </div>
 
