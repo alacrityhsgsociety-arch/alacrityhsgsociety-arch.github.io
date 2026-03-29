@@ -4439,20 +4439,20 @@
   {
     "Category": "Sundry",
     "Sub Category": "Hardware",
-    "Date": "21-March-2026",
-    "Amount": "",
+    "Date": "23-March-2026",
+    "Amount": "₹1,591.00",
     "Payment To": "PULSE HARDWAR   PMC LINE MATERAL, गटार चिकनमेस जाळी dr fixing लिकविड ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
     "Sub Category": "Hardware",
     "Date": "21-March-2026",
     "Amount": "₹130.00",
-    "Payment To": "NNEW METRO TIPANI",
+    "Payment To": "NNEW METRO  थापी सिमेंट कामा साठी ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -4461,6 +4461,78 @@
     "Amount": "₹480.00",
     "Payment To": "Mahadev Enterprises house keeping material ",
     "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "23-March-2026",
+    "Amount": "₹1,600.00",
+    "Payment To": "dinesh chauhan garden wall होल मारुन पाईप टाकणे, chamber  hole ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Maintenance & Repair",
+    "Sub Category": "",
+    "Date": "23-March-2026",
+    "Amount": "₹1,500.00",
+    "Payment To": "ROHIT  owc  oil topup",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "24-March-2026",
+    "Amount": "₹100.00",
+    "Payment To": "Sahil copies  alacrity layout Xerox ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Service",
+    "Date": "26-March-2026",
+    "Amount": "₹200.00",
+    "Payment To": "Snake catcher ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "Maintenance & Repair",
+    "Sub Category": "Electrical",
+    "Date": "26-March-2026",
+    "Amount": "₹3,300.00",
+    "Payment To": "Tora Electric 63 A MCB  2 no Reples near DG panal ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Maintenance & Repair",
+    "Sub Category": "Electrical",
+    "Date": "27-March-2026",
+    "Amount": "₹1,000.00",
+    "Payment To": "Suryakant Pawar MCB चेंज करणे ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Budgeted",
+    "Sub Category": "",
+    "Date": "29-March-2026",
+    "Amount": "₹48,720.00",
+    "Payment To": "Society First",
+    "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Society Insurance",
+    "Sub Category": "",
+    "Date": "29-March-2026",
+    "Amount": "₹36,329.00",
+    "Payment To": "SBI GIC LTD",
+    "Mode": "Cheque",
     "Checked": "Yes"
   }
 ]
