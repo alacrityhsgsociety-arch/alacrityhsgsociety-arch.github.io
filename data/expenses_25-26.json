@@ -4496,8 +4496,8 @@
     "Date": "26-March-2026",
     "Amount": "₹200.00",
     "Payment To": "Snake catcher ",
-    "Mode": "",
-    "Checked": ""
+    "Mode": "Cash",
+    "Checked": "Yes"
   },
   {
     "Category": "Maintenance & Repair",
@@ -4534,5 +4534,59 @@
     "Payment To": "SBI GIC LTD",
     "Mode": "Cheque",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "29-March-2026",
+    "Amount": "₹20.00",
+    "Payment To": "vinayak novelty xerox",
+    "Mode": "Cash",
+    "Checked": " "
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "31-March-2026",
+    "Amount": "₹280.00",
+    "Payment To": "prime hardwar danger tape garden",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "31-March-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "Gautam garden flag ,wall Braking",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "27-March-2026",
+    "Amount": "₹400.00",
+    "Payment To": "IMPRINTS SHOE  sticker club house",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "27-March-2026",
+    "Amount": "₹1,440.00",
+    "Payment To": "IMPRINTS  Rual bord a&b",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "31-March-2026",
+    "Amount": "₹5,000.00",
+    "Payment To": "DINESH PLUMBER B SR 2 MASTER BEDROOM FLUSH LINE REPERING",
+    "Mode": "Cash",
+    "Checked": ""
   }
 ]
