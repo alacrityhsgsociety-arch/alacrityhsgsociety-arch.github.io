@@ -1,0 +1,146 @@
+[
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "1-Apr-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "Tea for staff",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "5-Apr-2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "5-Apr-2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Water Tanker",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹8,000.00",
+    "Payment To": "SHIVKUPA WATER SUP ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "5-Apr-2026",
+    "Amount": "₹55,440.00",
+    "Payment To": "A S ENTERPRISES [UNION BANK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "5-Apr-2026",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹8,000.00",
+    "Payment To": "Mahadev Khandare चेकवरील नांव ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "5-Apr-2026",
+    "Amount": "₹560.00",
+    "Payment To": "A S ENTERPRISES [UNION BANK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "5-Apr-2026",
+    "Amount": "₹360.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "5-Apr-2026",
+    "Amount": "₹20,880.00",
+    "Payment To": "SOCIETY FIST",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "2-Apr-2026",
+    "Amount": "₹376.00",
+    "Payment To": "Pluse Hardware  B sr 2 flush line repair materials ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "3-Apr-2026",
+    "Amount": "₹3,000.00",
+    "Payment To": "Chandere Petroleum ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "3-Apr-2026",
+    "Amount": "₹2,000.00",
+    "Payment To": "Chandere Petroleum ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "3-Apr-2026",
+    "Amount": "₹50.00",
+    "Payment To": "Pluse Hardware distil water DG ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Maintenance & Repair",
+    "Sub Category": "Plumbing",
+    "Date": "5-Apr-2026",
+    "Amount": "₹15,260.00",
+    "Payment To": "Ace Enterprises Tjsb bank  पंप रुम सक पंप फ्लश पंप स्टार्टर ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "5-Apr-2026",
+    "Amount": "₹20,880.00",
+    "Payment To": "SHARA CONSULTANTS",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  }
+]
