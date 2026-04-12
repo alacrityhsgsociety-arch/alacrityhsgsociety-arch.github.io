@@ -6,7 +6,7 @@
     "Amount": "₹1,200.00",
     "Payment To": "Tea for staff",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Manager Salary",
@@ -40,7 +40,7 @@
     "Sub Category": "",
     "Date": "5-Apr-2026",
     "Amount": "₹55,440.00",
-    "Payment To": "A S ENTERPRISES [UNION BANK ",
+    "Payment To": "A S ENTERPRISES [UNION BANK]",
     "Mode": "RTGS/IMPS",
     "Checked": "Yes"
   },
