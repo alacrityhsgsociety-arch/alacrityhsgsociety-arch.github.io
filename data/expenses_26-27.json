@@ -81,15 +81,6 @@
     "Checked": "Yes"
   },
   {
-    "Category": "TDS Payment",
-    "Sub Category": "",
-    "Date": "5-Apr-2026",
-    "Amount": "₹20,880.00",
-    "Payment To": "SOCIETY FIST",
-    "Mode": "RTGS/IMPS",
-    "Checked": ""
-  },
-  {
     "Category": "Sundry",
     "Sub Category": "Hardware",
     "Date": "2-Apr-2026",
@@ -148,7 +139,7 @@
     "Sub Category": "",
     "Date": "5-Apr-2026",
     "Amount": "₹20,880.00",
-    "Payment To": "SHARA CONSULTANTS",
+    "Payment To": "SHARA CONSULTANTS [SOCIETY FIST]",
     "Mode": "RTGS/IMPS",
     "Checked": "Yes"
   },
