@@ -259,5 +259,194 @@
     "Payment To": "MILK BASKET FLOOR CLEANERS",
     "Mode": "Cash",
     "Checked": ""
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "Misc",
+    "Date": "17-Apr-2026",
+    "Amount": "₹1,000.00",
+    "Payment To": "SANJAY YADAV (SECURITY GAS)",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "17-Apr-2026",
+    "Amount": "₹1,300.00",
+    "Payment To": "GAUTAM GATE PUMP WORK",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "17-Apr-2026",
+    "Amount": "₹3,665.00",
+    "Payment To": "PULSE HARDWARE  GATE PUMP MCB, METAL BOX PIPE ELBOW,BEND ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "23-Apr-2026",
+    "Amount": "₹590.00",
+    "Payment To": "sahil copiers  shop agrment xerox,2 folder",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "25-Apr-2026",
+    "Amount": "₹970.00",
+    "Payment To": "Mahadev Enterprises house keeping material ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "1-Apr-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "STAF TEA",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "28-Apr-2026",
+    "Amount": "₹2,500.00",
+    "Payment To": "VERTEX FITESS SERVICES JYM",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "1-May-2026",
+    "Amount": "₹23,000.00",
+    "Payment To": "ACHYUT OAK",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Water Tanker",
+    "Sub Category": "",
+    "Date": "30-Apr-2026",
+    "Amount": "₹14,300.00",
+    "Payment To": "Shivkrupa Water Suppliers",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹8,000.00",
+    "Payment To": "Mahadev Khandare चेकवरील नांव ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "AMC MyGate",
+    "Sub Category": "",
+    "Date": "28-Apr-2026",
+    "Amount": "₹42,480.00",
+    "Payment To": "VIVISH TECHNOLOGIES PRIVATE LIMITED MY GATE AMC OCT 2029",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Maintenance & Repair",
+    "Sub Category": "",
+    "Date": "23-Apr-2026",
+    "Amount": "₹24,000.00",
+    "Payment To": "S PAINTING WORKS B WING SR 3 WATER PROFF",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "DG Maintenance",
+    "Sub Category": "",
+    "Date": "23-Apr-2026",
+    "Amount": "₹18,034.00",
+    "Payment To": "DYNAPULSE ENGINEERING PRIVATE LIMITED DG ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹55,440.00",
+    "Payment To": "A S ENTERPRISES [UNION BANK]",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "AMC Lift",
+    "Sub Category": "",
+    "Date": "14-Apr-2026",
+    "Amount": "₹53,660.00",
+    "Payment To": "OLYMPI ELEVATORS PVT LTD  AMC",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Lift Parts",
+    "Date": "30-Apr-2026",
+    "Amount": "₹7,670.00",
+    "Payment To": "OLYMPI ELEVATORS PVT LTD  B WING FAN",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹560.00",
+    "Payment To": "A S ENTERPRISES [UNION BANK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹360.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹546.00",
+    "Payment To": "OLYMPI ELEVATORS PVT LTD  ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
   }
 ]

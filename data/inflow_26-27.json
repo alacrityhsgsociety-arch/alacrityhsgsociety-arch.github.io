@@ -248,6 +248,190 @@
     "Mode": "RTGS/IMPS"
   },
   {
+    "Item": "A 503",
+    "Category": "Maintenance",
+    "Date": "12-Apr-2026",
+    "Amount": "₹45,185.00",
+    "Payment From": "ASHISH JOSHI ",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 101",
+    "Category": "Maintenance",
+    "Date": "12-Apr-2026",
+    "Amount": "₹46,000.00",
+    "Payment From": "PREETI  SUBHASH BINDU",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 904",
+    "Category": "Maintenance",
+    "Date": "13-Apr-2026",
+    "Amount": "₹45,185.00",
+    "Payment From": "RUPALI KUMAR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 105",
+    "Category": "Maintenance",
+    "Date": "14-Apr-2026",
+    "Amount": "₹47,679.00",
+    "Payment From": "ALOK KUMAR MISHRA",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "BB 904",
+    "Category": "Maintenance",
+    "Date": "15-Apr-2026",
+    "Amount": "₹45,185.00",
+    "Payment From": "Swapnil Kulkarni ",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 201",
+    "Category": "Maintenance",
+    "Date": "16-Apr-2026",
+    "Amount": "₹44,135.00",
+    "Payment From": "AKHAY DESHAPANDE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 1003",
+    "Category": "Maintenance",
+    "Date": "16-Apr-2026",
+    "Amount": "₹48,419.00",
+    "Payment From": "ARUNA NEWASKAR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 501",
+    "Category": "Maintenance",
+    "Date": "17-Apr-2026",
+    "Amount": "₹47,679.00",
+    "Payment From": "LATIKA BHOSALE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 901",
+    "Category": "Maintenance",
+    "Date": "17-Apr-2026",
+    "Amount": "₹23,000.00",
+    "Payment From": "MR. Sanket Patil  ",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 406",
+    "Category": "Maintenance",
+    "Date": "17-Apr-2026",
+    "Amount": "₹44,135.00",
+    "Payment From": "ANAGHA KULKARNI",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 1004",
+    "Category": "Maintenance",
+    "Date": "20-Apr-2026",
+    "Amount": "₹23,525.00",
+    "Payment From": "SANDEEP MANE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 104",
+    "Category": "Maintenance",
+    "Date": "20-Apr-2026",
+    "Amount": "₹48,729.00",
+    "Payment From": "RAHUL CHIVATE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 604",
+    "Category": "Maintenance",
+    "Date": "21-Apr-2026",
+    "Amount": "₹48,729.00",
+    "Payment From": "VIKRAM BHOSALE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 301",
+    "Category": "Maintenance",
+    "Date": "22-Apr-2026",
+    "Amount": "₹44,135.00",
+    "Payment From": "VAIBHAV DHARMADHIKARI",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 304",
+    "Category": "Maintenance",
+    "Date": "23-Apr-2026",
+    "Amount": "₹45,185.00",
+    "Payment From": "SWANAND KANEKAR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 302",
+    "Category": "Maintenance",
+    "Date": "24-Apr-2026",
+    "Amount": "₹44,135.00",
+    "Payment From": "VAIBHAV DHOPTE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 1005",
+    "Category": "Maintenance",
+    "Date": "24-Apr-2026",
+    "Amount": "₹44,135.00",
+    "Payment From": "MANOJ PARLIKAR ",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 505",
+    "Category": "Maintenance",
+    "Date": "24-Apr-2026",
+    "Amount": "₹44,135.00",
+    "Payment From": "SANDIP PACHAPUKAR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 204",
+    "Category": "Maintenance",
+    "Date": "24-Apr-2026",
+    "Amount": "₹45,185.00",
+    "Payment From": "PRIYANKA NAMBIAR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 205",
+    "Category": "Maintenance",
+    "Date": "25-Apr-2026",
+    "Amount": "₹44,135.00",
+    "Payment From": "ASHISH RUDRAWAR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 604",
+    "Category": "Maintenance",
+    "Date": "25-Apr-2026",
+    "Amount": "₹48,729.00",
+    "Payment From": "ATUL SAHANE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 601",
+    "Category": "Maintenance",
+    "Date": "25-Apr-2026",
+    "Amount": "₹23,000.00",
+    "Payment From": "MRS. RUPALI  FALKE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 904",
+    "Category": "Clubhouse Usage Fees",
+    "Date": "30-Apr-2026",
+    "Amount": "₹1,800.00",
+    "Payment From": "Swapnil Kulkarni ",
+    "Mode": "Cash"
+  },
+  {
     "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",
