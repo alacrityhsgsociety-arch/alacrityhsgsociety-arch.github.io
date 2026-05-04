@@ -330,12 +330,12 @@
     "Amount": "₹23,000.00",
     "Payment To": "ACHYUT OAK",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Withdrawl Self",
     "Sub Category": "",
-    "Date": "",
+    "Date": "4-May-2026",
     "Amount": "₹20,000.00",
     "Payment To": "ACHYUT OAK ",
     "Mode": "RTGS/IMPS",
@@ -344,74 +344,74 @@
   {
     "Category": "Water Tanker",
     "Sub Category": "",
-    "Date": "30-Apr-2026",
+    "Date": "4-May-2026",
     "Amount": "₹14,300.00",
     "Payment To": "Shivkrupa Water Suppliers",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Garden Services",
     "Sub Category": "",
-    "Date": "",
+    "Date": "4-May-2026",
     "Amount": "₹8,000.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "AMC MyGate",
     "Sub Category": "",
-    "Date": "28-Apr-2026",
+    "Date": "4-May-2026",
     "Amount": "₹42,480.00",
     "Payment To": "VIVISH TECHNOLOGIES PRIVATE LIMITED MY GATE AMC OCT 2029",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Maintenance & Repair",
     "Sub Category": "",
-    "Date": "23-Apr-2026",
+    "Date": "4-May-2026",
     "Amount": "₹24,000.00",
     "Payment To": "S PAINTING WORKS B WING SR 3 WATER PROFF",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "DG Maintenance",
     "Sub Category": "",
-    "Date": "23-Apr-2026",
+    "Date": "4-May-2026",
     "Amount": "₹18,034.00",
     "Payment To": "DYNAPULSE ENGINEERING PRIVATE LIMITED DG ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Security",
     "Sub Category": "",
-    "Date": "",
+    "Date": "4-May-2026",
     "Amount": "₹55,440.00",
     "Payment To": "A S ENTERPRISES [UNION BANK]",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
     "Sub Category": "",
-    "Date": "",
+    "Date": "4-May-2026",
     "Amount": "₹35,640.00",
     "Payment To": "Pramod Enterprises   ",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "AMC Lift",
     "Sub Category": "",
-    "Date": "14-Apr-2026",
+    "Date": "4-May-2026",
     "Amount": "₹53,660.00",
     "Payment To": "OLYMPI ELEVATORS PVT LTD  AMC",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -448,5 +448,23 @@
     "Payment To": "OLYMPI ELEVATORS PVT LTD  ",
     "Mode": "RTGS/IMPS",
     "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "4-May-2026",
+    "Amount": "₹2,250.00",
+    "Payment To": "Elite Facility Management, mosquito spray ",
+    "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "4-May-2026",
+    "Amount": "₹7,725.00",
+    "Payment To": "Aditi Garden Lawns And Landscape   Said 🌲",
+    "Mode": "Cheque",
+    "Checked": "Yes"
   }
 ]
