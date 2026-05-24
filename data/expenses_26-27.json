@@ -425,7 +425,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "4-May-2026",
     "Amount": "₹560.00",
     "Payment To": "A S ENTERPRISES [UNION BANK ",
     "Mode": "RTGS/IMPS",
@@ -434,7 +434,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "4-May-2026",
     "Amount": "₹360.00",
     "Payment To": "Pramod Enterprises   ",
     "Mode": "RTGS/IMPS",
@@ -443,7 +443,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "4-May-2026",
     "Amount": "₹546.00",
     "Payment To": "OLYMPI ELEVATORS PVT LTD  ",
     "Mode": "RTGS/IMPS",
@@ -466,5 +466,194 @@
     "Payment To": "Aditi Garden Lawns And Landscape   Said 🌲",
     "Mode": "Cheque",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "4-May-2026",
+    "Amount": "₹140.00",
+    "Payment To": "MILK BASKET FLOOR CLEANERS",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "2-May-2026",
+    "Amount": "₹130.00",
+    "Payment To": "d mart all out security",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "27-Apr-2026",
+    "Amount": "₹580.00",
+    "Payment To": "PLUSE HARDWAR WHIT PAINT TREE CUTER",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "7-May-2026",
+    "Amount": "₹100.00",
+    "Payment To": "PRIME HARDWARE CEMENT",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "7-May-2026",
+    "Amount": "₹1,300.00",
+    "Payment To": "Gautam  झेंडा पाईप बसवणे ब्लॉक रिपेअर ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Solar Power",
+    "Sub Category": "",
+    "Date": "6-May-2026",
+    "Amount": "₹31,261.00",
+    "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank   feb,march, april bill अडजेस्ट 13500इटरेस्ट",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "6-May-2026",
+    "Amount": "₹100.00",
+    "Payment To": "oak रेव्हेन्यू स्टँप 100",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "9-May-2026",
+    "Amount": "₹625.00",
+    "Payment To": "oak Ashish Joshi भवानी पेठ मार्केट रिक्षा भाडे ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "10-May-2026",
+    "Amount": "₹200.00",
+    "Payment To": "oak tea SIR  club house ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "10-May-2026",
+    "Amount": "₹70.00",
+    "Payment To": "Vinayak Novelty pen SIR",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "11-May-2026",
+    "Amount": "₹340.00",
+    "Payment To": "Mahadev Enterprises house keeping material ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "11-May-2026",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "8-May-2026",
+    "Amount": "₹922.00",
+    "Payment To": "pluse hardware रस्सी garden ,बेल पुश पासवर्ड door,pvc socket 6",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "15-May-2026",
+    "Amount": "₹1,750.00",
+    "Payment To": "रोशन झाडु 25 नग ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Budgeted",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹30,000.00",
+    "Payment To": "Aditi Garden Lawns And Landscape   ROW 24 FANAL PAYMENT",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "MSEB Electricity",
+    "Sub Category": "",
+    "Date": "19-May-2026",
+    "Amount": "₹64,110.00",
+    "Payment To": "LIGHT BILL",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "19-May-2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "18-May-2026",
+    "Amount": "₹1,500.00",
+    "Payment To": "Shinde A 504 outer wall Repair ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "21-May-2026",
+    "Amount": "₹3,000.00",
+    "Payment To": "Chandere Petroleum ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "21-May-2026",
+    "Amount": "₹2,000.00",
+    "Payment To": "Chandere Petroleum ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "22-May-2026",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPOgarden rabit",
+    "Mode": "Cash",
+    "Checked": ""
   }
 ]
