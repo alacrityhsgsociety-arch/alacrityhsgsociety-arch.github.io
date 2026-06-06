@@ -577,12 +577,30 @@
   },
   {
     "Category": "Sundry",
+    "Sub Category": "Bank Charges",
+    "Date": "4-May-2026",
+    "Amount": "₹236.00",
+    "Payment To": "PNB CHEQUE REJECTION CHARG A 402,403",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Bank Charges",
+    "Date": "20-Apr-2026",
+    "Amount": "₹83.00",
+    "Payment To": "PNB ACCOUNT MAINTENACE CHARG",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
     "Sub Category": "Hardware",
     "Date": "8-May-2026",
     "Amount": "₹922.00",
     "Payment To": "pluse hardware रस्सी garden ,बेल पुश पासवर्ड door,pvc socket 6",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
@@ -627,7 +645,7 @@
     "Amount": "₹1,500.00",
     "Payment To": "Shinde A 504 outer wall Repair ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Diesel for DG",
@@ -672,6 +690,159 @@
     "Amount": "₹192,600.00",
     "Payment To": "PNB FD WATER BILL",
     "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "24-May-2026",
+    "Amount": "₹100.00",
+    "Payment To": "Mahadev Enterprises house keeping material ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "1-Jun-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "STAF TEA",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "1-Jun-2026",
+    "Amount": "₹23,000.00",
+    "Payment To": "ACHYUT OAK",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "AMC Compost Machine",
+    "Sub Category": "",
+    "Date": "6-Jun-2026",
+    "Amount": "₹50,000.00",
+    "Payment To": "ENVIRO SHIELD SOLUTIONS PVT LTD   AXIS BANK",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Water Tanker",
+    "Sub Category": "",
+    "Date": "1-Jun-2026",
+    "Amount": "₹29,700.00",
+    "Payment To": "Shivkrupa Water Suppliers",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "6-Jun-2026",
+    "Amount": "₹55,440.00",
+    "Payment To": "A S ENTERPRISES [UNION BANK]",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "1-Jun-2026",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "1-Jun-2026",
+    "Amount": "₹8,000.00",
+    "Payment To": "Mahadev Khandare चेकवरील नांव ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "1-Jun-2026",
+    "Amount": "₹950.00",
+    "Payment To": "SHARA CONSULTANTS 21830-20880 (ROW 17)TDS DIFFERENCE",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "6-Jun-2026",
+    "Amount": "₹560.00",
+    "Payment To": "A S ENTERPRISES ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "6-Jun-2026",
+    "Amount": "₹360.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "1-Jun-2026",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "3-Jun-2026",
+    "Amount": "₹500.00",
+    "Payment To": "Vishal Light House B wing Lift car light ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Solar Power",
+    "Sub Category": "",
+    "Date": "2-Jun-2026",
+    "Amount": "₹17,521.00",
+    "Payment To": "DYNAMIC CORPORATE SOLUTION RBL bank    may 2026",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Maintenance & Repair",
+    "Sub Category": "",
+    "Date": "5-Jun-2026",
+    "Amount": "₹575.00",
+    "Payment To": "pluse Hardware  A sr 6 flush line Repair material ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Maintenance & Repair",
+    "Sub Category": "",
+    "Date": "6-Jun-2026",
+    "Amount": "₹2,500.00",
+    "Payment To": "Dinesh Kumar A sr 6 flush line Repair ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Maintenance & Repair",
+    "Sub Category": "",
+    "Date": "6-Jun-2026",
+    "Amount": "₹480.00",
+    "Payment To": "Mahadev Enterprises house keeping material ",
+    "Mode": "Cash",
     "Checked": "Yes"
   }
 ]

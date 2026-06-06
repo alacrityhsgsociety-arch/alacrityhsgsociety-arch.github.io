@@ -48,5 +48,15 @@
     "Category": "Sinking Fund",
     "Account": "HDFC FD",
     "Amount": "₹1,154,640"
+  },
+  {
+    "Category": "Provision for PMC Water Backlog",
+    "Account": "PNB FD",
+    "Amount": "₹703,200"
+  },
+  {
+    "Category": "Sinking Fund",
+    "Account": "PNB FD",
+    "Amount": "₹192,600"
   }
 ]
