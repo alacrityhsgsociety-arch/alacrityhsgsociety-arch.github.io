@@ -844,5 +844,356 @@
     "Payment To": "Mahadev Enterprises house keeping material ",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "9-Jun-2026",
+    "Amount": "₹2,000.00",
+    "Payment To": "Dinesh Kumar B sr 3 टेरेस लाईन चोक अप",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "7-Jun-2026",
+    "Amount": "₹100.00",
+    "Payment To": "prime Hardware acid b chokeup ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "9-Jun-2026",
+    "Amount": "₹420.00",
+    "Payment To": "pluse Hardware gi wire , pipe, socket B sr 3 chokeup ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "AMC Compost Machine",
+    "Sub Category": "",
+    "Date": "10-Jun-2026",
+    "Amount": "₹8,410.00",
+    "Payment To": "ENVIRO SHIELD SOLUTIONS PVT LTD   AXIS BANK",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "17-Jun-2026",
+    "Amount": "₹1,000.00",
+    "Payment To": "pavan kumar a wing lsr 2 line chokeup",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "13-Jun-2026",
+    "Amount": "₹20.00",
+    "Payment To": "Vinayak Novelty pen SIR",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "12-Jun-2026",
+    "Amount": "₹50.00",
+    "Payment To": "Vinayak Novelty pen SIR",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "17-Jun-2026",
+    "Amount": "₹280.00",
+    "Payment To": "prime hardware ele karvat (cutar)",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "MSEB Electricity",
+    "Sub Category": "",
+    "Date": "21-Jun-2026",
+    "Amount": "₹58,800.00",
+    "Payment To": "Electicity Bill",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "21-Jun-2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "15-Jun-2026",
+    "Amount": "₹5,445.00",
+    "Payment To": "Amazon swarn jal indicator a flish tank",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "22-Jun-2026",
+    "Amount": "₹6,695.00",
+    "Payment To": "Amazon swarn jal indicator  b flish tank",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "16-Jun-2026",
+    "Amount": "₹290.00",
+    "Payment To": "oak बोअर 4 नारळ अगरबत्ती हिंग ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Water Tanker",
+    "Sub Category": "",
+    "Date": "17-Jun-2026",
+    "Amount": "₹6,000.00",
+    "Payment To": "RAJU WATER TANKER(PMC)",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "17-Jun-2026",
+    "Amount": "₹60.00",
+    "Payment To": "PULSE HARDWARE  KEY TAG",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "14-Jun-2026",
+    "Amount": "₹20.00",
+    "Payment To": "Vinayak Novelty  PRINT",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "25-Jun-2026",
+    "Amount": "₹2,000.00",
+    "Payment To": "TUKARAM +2 पंप जुने बोअर मधुन काढणे नवीन मध्ये टाकणे ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "24-Jun-2026",
+    "Amount": "₹30.00",
+    "Payment To": "PULSE HARDWARE   ELE TAPE",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "22-Jun-2026",
+    "Amount": "₹3,100.00",
+    "Payment To": "थोरवे  बोअर point ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "23-Jun-2026",
+    "Amount": "₹44,800.00",
+    "Payment To": "GURUDATTA BOREWELL NEW BORE GARDEN",
+    "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "27-Jun-2026",
+    "Amount": "₹240.00",
+    "Payment To": "MAHADEV ENT HOUSE KEEP MATERAL",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "1-Jul-2026",
+    "Amount": "₹23,000.00",
+    "Payment To": "ACHYUT OAK",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹25,000.00",
+    "Payment To": "ACHYUT OAK बोअर आणि डिझेल ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Auditor",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "SHARA CONSULTANTS 2025-26 फायनल पेमेंट ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹27,720.00",
+    "Payment To": "A S ENTERPRISE  युनिअन बँक जुने सिक्युरिटी चे फायनल पेमेंट ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹8,000.00",
+    "Payment To": "Mahadev Khandare चेकवरील नांव ",
+    "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Water Tanker",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹70,400.00",
+    "Payment To": "Shivkrupa Water Suppliers",
+    "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "AMC Fire System",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹15,770.00",
+    "Payment To": "SHREE GANESH FIRE AND SAFETY SOLUTION",
+    "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹32,670.00",
+    "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹280.00",
+    "Payment To": "A S ENTERPRISES ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹360.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹160.00",
+    "Payment To": "SHREE GANESH FIRE AND SAFETY SOLUTION",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "",
+    "Payment To": "NEW",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "1-Jul-2026",
+    "Amount": "₹330.00",
+    "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "2-Jul-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "STAF TEA",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "",
+    "Date": "2-Jul-2026",
+    "Amount": "₹300.00",
+    "Payment To": "Milk Basket Finnel",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Water Tanker",
+    "Sub Category": "",
+    "Date": "3-Jul-2026",
+    "Amount": "₹1,500.00",
+    "Payment To": "Raju pmc water tanker ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "5-Jul-2026",
+    "Amount": "₹3,500.00",
+    "Payment To": " Elite Facility Management ",
+    "Mode": "Cheque",
+    "Checked": "Yes"
   }
 ]
