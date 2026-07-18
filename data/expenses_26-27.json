@@ -1195,5 +1195,176 @@
     "Payment To": " Elite Facility Management ",
     "Mode": "Cheque",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "4-Jul-2026",
+    "Amount": "₹700.00",
+    "Payment To": "pavan kumar a wing lsr 6 top  terrace chokeup",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "4-Jul-2026",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "4-Jul-2026",
+    "Amount": "₹1,700.00",
+    "Payment To": "Gautam  बोअर लाईन खोदाई जोडणे  ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "5-Jul-2026",
+    "Amount": "₹1,000.00",
+    "Payment To": "pawar tanker  gift",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "6-Jul-2026",
+    "Amount": "₹3,300.00",
+    "Payment To": "Chandere Petroleum ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "6-Jul-2026",
+    "Amount": "₹3,000.00",
+    "Payment To": "Chandere Petroleum ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "6-Jul-2026",
+    "Amount": "₹2,500.00",
+    "Payment To": "Chandere Petroleum ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "4-Jul-2026",
+    "Amount": "₹40.00",
+    "Payment To": "prime Hardware cement ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "6-Jul-2026",
+    "Amount": "₹3,865.00",
+    "Payment To": "pulse hardware नवीन बोअर लाईन मटेरियल ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "11-Jul-2026",
+    "Amount": "₹4,890.00",
+    "Payment To": "AZAM SHEIKH A WING LIGHT REPERING 3000+1890HRC FUSE 6 NOS",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "11-Jul-2026",
+    "Amount": "₹1,000.00",
+    "Payment To": "ROHIT  GARABAG M OIL TOP UP",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "10-Jul-2026",
+    "Amount": "₹1,540.00",
+    "Payment To": "K V ENTERPRISES POCH 14 N0",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "18-Jul-2026",
+    "Amount": "₹8,040.00",
+    "Payment To": "SUSHANT DESHMUKH A WING 63B 4 FLUSH PER 120",
+    "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "18-Jul-2026",
+    "Amount": "₹9,400.00",
+    "Payment To": "A N  HYGIENES WATER  TANK CLENING",
+    "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "14-Jul-2026",
+    "Amount": "₹6,000.00",
+    "Payment To": "DINESH A WING SR 5 MASTER VANT LINE 10 JOINT REPER ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "13-Jul-2026",
+    "Amount": "₹1,300.00",
+    "Payment To": "GAUTAM NEAR WATER TANK BLOCK REPERING LIGH ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "14-Jul-2026",
+    "Amount": "₹410.00",
+    "Payment To": "PLUSE HARDWAR  पाईप साकेट लिक्वीड ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "13-Jul-2026",
+    "Amount": "₹350.00",
+    "Payment To": "vyadeshwar trads cement",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "23-Jun-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "SHEKH SULEMAN बोअर मारले तेव्हा पुजा करताना 200+संध्याकाळी 1000gift  ",
+    "Mode": "Cash",
+    "Checked": "Yes"
   }
 ]

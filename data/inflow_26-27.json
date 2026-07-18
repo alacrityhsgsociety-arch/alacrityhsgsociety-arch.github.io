@@ -1016,6 +1016,30 @@
     "Mode": "RTGS/IMPS"
   },
   {
+    "Item": "A 1002",
+    "Category": "Shifting",
+    "Date": "1-Jul-2026",
+    "Amount": "₹1,000.00",
+    "Payment From": "YATNALKAR ",
+    "Mode": "Cash"
+  },
+  {
+    "Item": "B 204",
+    "Category": "Deposits",
+    "Date": "1-Jul-2026",
+    "Amount": "₹2,000.00",
+    "Payment From": "DHIRAJ NAMBIAR EV CHARG",
+    "Mode": "Cash"
+  },
+  {
+    "Item": "",
+    "Category": "Clubhouse Usage Fees",
+    "Date": "11-Jul-2026",
+    "Amount": "₹840.00",
+    "Payment From": "yojika jodha yoja class ",
+    "Mode": "Cash"
+  },
+  {
     "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",
