@@ -1366,5 +1366,14 @@
     "Payment To": "SHEKH SULEMAN बोअर मारले तेव्हा पुजा करताना 200+संध्याकाळी 1000gift  ",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Bonus",
+    "Sub Category": "",
+    "Date": "18-Jul-2026",
+    "Amount": "₹6,000.00",
+    "Payment To": "Q2 Bonus",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
   }
 ]
