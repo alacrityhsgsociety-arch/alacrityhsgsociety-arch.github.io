@@ -42,11 +42,15 @@
             <select id="monthSelect" class="form-select"></select>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-2">
-          <div class="metric-card">
+        <div class="col-sm-12 col-lg-3">
+          <div class="metric-card metric-card-highlight">
             <label class="form-label">With Oak Cash In Hand</label>
             <h2 id="result" class="metric-value"></h2>
-            <div class="small text-white-50 mt-2">Total society cash: <span id="society-cash-total"></span></div>
+            <div class="metric-breakdown mt-3" aria-label="With Oak cash in hand calculation">
+              <div><span>Cash inflow</span><strong id="cash-inflow-total"></strong></div>
+              <div><span>Withdrawl Self</span><strong id="cash-withdrawal-total"></strong></div>
+              <div><span>Cash expenses</span><strong id="cash-expense-total"></strong></div>
+            </div>
           </div>
         </div>
       </div>

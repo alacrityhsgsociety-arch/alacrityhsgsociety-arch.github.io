@@ -620,8 +620,6 @@ function calculateCashInHand(expenses, inflows) {
   let totalCashHoldings = 0;
   let totalCashExpenses = 0;
   let totalCashInflows = 0;
-  const openingCashHolding = window.ENV.opening_Cash_Holding_26_27 || 0;
-  const otherCashHoldings = window.ENV.other_Cash_Holdings_26_27 || 0;
 
   for (const e of expenses) {
     const category = normalize(e.Category || e.category);
@@ -645,15 +643,13 @@ function calculateCashInHand(expenses, inflows) {
     }
   }
 
-  const withOak =
-    openingCashHolding +
-    totalCashHoldings +
-    totalCashInflows -
-    totalCashExpenses;
+  const withOak = totalCashInflows + totalCashHoldings - totalCashExpenses;
 
   return {
     withOak,
-    societyCashBalance: withOak + otherCashHoldings,
+    totalCashInflows,
+    totalCashHoldings,
+    totalCashExpenses,
   };
 }
 
@@ -679,10 +675,9 @@ function calculateCashInHand(expenses, inflows) {
       const inflows = await fetchData("inflow"); // Fetch inflows data
       const cashInHand = calculateCashInHand(expenses, inflows);
       document.getElementById("result").textContent = `₹${cashInHand.withOak.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
-      const societyCashTotalEl = document.getElementById("society-cash-total");
-      if (societyCashTotalEl) {
-        societyCashTotalEl.textContent = `₹${cashInHand.societyCashBalance.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
-      }
+      document.getElementById("cash-inflow-total").textContent = `₹${cashInHand.totalCashInflows.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      document.getElementById("cash-withdrawal-total").textContent = `₹${cashInHand.totalCashHoldings.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      document.getElementById("cash-expense-total").textContent = `-₹${cashInHand.totalCashExpenses.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
   }
   await loadAndCalculate();
   // Initial render

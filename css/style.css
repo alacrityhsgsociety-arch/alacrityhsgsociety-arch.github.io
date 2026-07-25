@@ -229,6 +229,11 @@ canvas {
   background: rgba(255, 255, 255, 0.1);
 }
 
+.metric-card-highlight {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.32);
+}
+
 .metric-card label {
   color: rgba(255, 255, 255, 0.76);
   font-size: 0.85rem;
@@ -249,6 +254,29 @@ canvas {
   font-weight: 800;
   line-height: 1.1;
   overflow-wrap: anywhere;
+}
+
+.metric-breakdown {
+  display: grid;
+  gap: 0.35rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.metric-breakdown div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.78rem;
+}
+
+.metric-breakdown strong {
+  color: #ffffff;
+  font-weight: 800;
+  text-align: right;
+  white-space: nowrap;
 }
 
 .dashboard-card .card-body {
