@@ -658,7 +658,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     if (!tbody || !thead) return;
     tbody.innerHTML = "";
-    thead.innerHTML = "<th>Category</th>";
+    thead.innerHTML = '<th class="text-start">Category</th>';
     if (chartContainer) chartContainer.innerHTML = "";
 
     const monthTotals = {};
@@ -696,6 +696,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     monthNames.forEach((m) => {
       const th = document.createElement("th");
       th.textContent = m;
+      th.className = "text-end";
       thead.appendChild(th);
     });
 
@@ -703,12 +704,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     for (const cat of Object.keys(monthTotals)) {
       const tr = document.createElement("tr");
       tr.innerHTML =
-        `<td>${cat}</td>` +
+        `<td class="text-start">${cat}</td>` +
         monthTotals[cat]
           .map((v) =>
             v === 0
-              ? "<td></td>"
-              : `<td>₹ ${v.toLocaleString("en-IN", {
+              ? '<td class="text-end"></td>'
+              : `<td class="text-end">₹ ${v.toLocaleString("en-IN", {
                   minimumFractionDigits: 2,
                   maximumFractionDigits: 2,
                 })}</td>`
@@ -721,12 +722,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     const tfoot = tbody.parentElement.querySelector("tfoot tr");
     if (tfoot) {
       tfoot.innerHTML =
-        "<th>Grand Total</th>" +
+        '<th class="text-start">Grand Total</th>' +
         grandTotals
           .map((v) =>
             v === 0
-              ? "<th></th>"
-              : `<th>₹ ${v.toLocaleString("en-IN", {
+              ? '<th class="text-end"></th>'
+              : `<th class="text-end">₹ ${v.toLocaleString("en-IN", {
                   minimumFractionDigits: 2,
                   maximumFractionDigits: 2,
                 })}</th>`
