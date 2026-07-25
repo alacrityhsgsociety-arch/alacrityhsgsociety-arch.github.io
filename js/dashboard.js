@@ -390,6 +390,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     renderSundryPie(sundryRowsAll, monthIndex);
     renderExpenseTable(expenseRowsAll);
     //renderExpenseMonthSummary();
+    renderMonthlyHealthChart();
     renderinflowMonthSummary("inflow");
     renderinflowMonthSummary("expense");
     // Load FD data only after the section is unlocked.
@@ -507,6 +508,146 @@ document.addEventListener("DOMContentLoaded", async () => {
         })}</td>
       `;
       expenseTableBody.appendChild(totalTr);
+    }
+  }
+
+  function getMonthlyFinanceTotals() {
+    const inflows = Array(12).fill(0);
+    const cashInflows = Array(12).fill(0);
+    const expenses = Array(12).fill(0);
+    const withdrawals = Array(12).fill(0);
+    const cashExpenses = Array(12).fill(0);
+
+    for (const file of files) {
+      const data = allData[file] || [];
+      const isExpense = file.toLowerCase().includes("expense");
+      const isInflow = file.toLowerCase().includes("inflow");
+      if (!isExpense && !isInflow) continue;
+
+      data.forEach((row) => {
+        const dateStr = row["Date"] || row["date"];
+        const amount = parseAmount(row["Amount"] || row["amount"]);
+        if (!dateStr || amount === 0) return;
+        const date = new Date(dateStr);
+        if (isNaN(date)) return;
+
+        const monthIndex = date.getMonth();
+        const category = (row["Category"] || row["category"] || "")
+          .trim()
+          .toLowerCase();
+        const checked = (row["Checked"] || row["checked"] || "")
+          .trim()
+          .toLowerCase();
+        const mode = (row["Mode"] || row["mode"] || "").trim().toLowerCase();
+
+        if (isInflow) {
+          inflows[monthIndex] += amount;
+          if (mode === "cash") cashInflows[monthIndex] += amount;
+          return;
+        }
+
+        if (category === "withdrawal self" || category === "withdrawl self") {
+          withdrawals[monthIndex] += amount;
+          return;
+        }
+
+        if (checked === "yes") {
+          expenses[monthIndex] += amount;
+          if (mode === "cash") cashExpenses[monthIndex] += amount;
+        }
+      });
+    }
+
+    const net = inflows.map((value, index) => value - expenses[index]);
+    let runningCash = OAK_CASH_HOLDING_25_26;
+    const cashPosition = inflows.map((value, index) => {
+      runningCash += cashInflows[index] + withdrawals[index] - cashExpenses[index];
+      return runningCash;
+    });
+
+    return { inflows, expenses, net, cashPosition };
+  }
+
+  function renderMonthlyHealthChart() {
+    const chartContainer = document.getElementById("monthly-health-chart");
+    if (!chartContainer) return;
+    chartContainer.innerHTML = "";
+
+    const canvas = document.createElement("canvas");
+    chartContainer.appendChild(canvas);
+    const { inflows, expenses, net, cashPosition } = getMonthlyFinanceTotals();
+
+    try {
+      new Chart(canvas, {
+        data: {
+          labels: monthNames,
+          datasets: [
+            {
+              type: "bar",
+              label: "Inflow",
+              data: inflows,
+              backgroundColor: "rgba(35, 134, 84, 0.72)",
+              borderColor: "#238654",
+              borderWidth: 1,
+            },
+            {
+              type: "bar",
+              label: "Expense",
+              data: expenses,
+              backgroundColor: "rgba(205, 65, 75, 0.72)",
+              borderColor: "#cd414b",
+              borderWidth: 1,
+            },
+            {
+              type: "line",
+              label: "Net",
+              data: net,
+              borderColor: "#075766",
+              backgroundColor: "#075766",
+              tension: 0.28,
+              pointRadius: 3,
+              borderWidth: 2,
+            },
+            {
+              type: "line",
+              label: "Cash position",
+              data: cashPosition,
+              borderColor: "#f28e2b",
+              backgroundColor: "#f28e2b",
+              tension: 0.28,
+              pointRadius: 3,
+              borderDash: [6, 4],
+              borderWidth: 2,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: "index", intersect: false },
+          plugins: {
+            legend: { position: "top" },
+            tooltip: {
+              callbacks: {
+                label: (context) =>
+                  `${context.dataset.label}: ₹ ${context.raw.toLocaleString("en-IN", {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2,
+                  })}`,
+              },
+            },
+          },
+          scales: {
+            x: { title: { display: true, text: "Month" } },
+            y: {
+              title: { display: true, text: "Amount (₹)" },
+              ticks: { callback: (value) => `₹${value.toLocaleString("en-IN")}` },
+            },
+          },
+        },
+      });
+    } catch (err) {
+      console.warn("Monthly health chart error:", err);
     }
   }
 

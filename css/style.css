@@ -299,12 +299,20 @@ canvas {
   min-height: 360px;
 }
 
+.chart-box-tall {
+  min-height: 460px;
+}
+
 .dashboard-page canvas {
   width: 100% !important;
   height: clamp(280px, 42vw, 420px) !important;
   padding: 0.35rem;
   background: #ffffff;
   border-radius: 8px;
+}
+
+.dashboard-page .chart-box-tall canvas {
+  height: clamp(360px, 48vw, 520px) !important;
 }
 
 .table-responsive {
