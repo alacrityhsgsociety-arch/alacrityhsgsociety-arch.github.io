@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const RAW_JSON_BASE = window.ENV.RAW_JSON_BASE || "data";
   const INDEX_FILE = `${RAW_JSON_BASE}/index.json?v=${Date.now()}`;
+  const OAK_CASH_HOLDING_25_26 = -7340;
 
   const monthNames = [
     "January",
@@ -643,13 +644,14 @@ function calculateCashInHand(expenses, inflows) {
     }
   }
 
-  const withOak = totalCashInflows + totalCashHoldings - totalCashExpenses;
+  const withOak = totalCashInflows + totalCashHoldings - totalCashExpenses + OAK_CASH_HOLDING_25_26;
 
   return {
     withOak,
     totalCashInflows,
     totalCashHoldings,
     totalCashExpenses,
+    cashHolding25_26: OAK_CASH_HOLDING_25_26,
   };
 }
 
@@ -678,6 +680,7 @@ function calculateCashInHand(expenses, inflows) {
       document.getElementById("cash-inflow-total").textContent = `₹${cashInHand.totalCashInflows.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-withdrawal-total").textContent = `₹${cashInHand.totalCashHoldings.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-expense-total").textContent = `-₹${cashInHand.totalCashExpenses.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      document.getElementById("cash-holding-25-26").textContent = `₹${cashInHand.cashHolding25_26.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
   }
   await loadAndCalculate();
   // Initial render

@@ -252,7 +252,8 @@ canvas {
   color: #ffffff;
   font-size: clamp(1.45rem, 4vw, 2.2rem);
   font-weight: 800;
-  line-height: 1.1;
+  line-height: 1.25;
+  min-height: 1.25em;
   overflow-wrap: anywhere;
 }
 
@@ -270,6 +271,7 @@ canvas {
   gap: 0.75rem;
   color: rgba(255, 255, 255, 0.72);
   font-size: 0.78rem;
+  line-height: 1.25;
 }
 
 .metric-breakdown strong {
