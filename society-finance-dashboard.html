@@ -5,84 +5,89 @@
   <meta charset="UTF-8">
   <title>Society Finance Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Chart.js -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <!-- Chart.js Data Labels -->
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
   <link rel="stylesheet" href="css/style.css">
-  <style>
-    canvas {
-      width: 100% !important;
-      height: 400px !important;
-    }
-  </style>
 </head>
 
-<body>
-  <div class="container my-4">
-    <!-- Page Header -->
-    <div class="row mb-4">
-      <div class="col text-center">
-        <h2 class="fw-bold">🏢 Society Finance Dashboard</h2>
-        <p class="text-muted">Track inflows, expenses & sundry in real-time</p>
+<body class="dashboard-page">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container-fluid px-3 px-lg-4">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <i class="bi bi-buildings"></i>
+        <span>Alacrity Society</span>
+      </a>
+      <div class="ms-auto">
+        <a class="btn btn-sm btn-outline-light" href="index.html">
+          <i class="bi bi-house-door me-1"></i>Home
+        </a>
       </div>
     </div>
+  </nav>
 
-    <!-- Filters -->
-    <div class="row mb-3">
-      <div class="col-md-6 mb-2">
-        <label for="monthSelect" class="form-label">Select Month</label>
-        <select id="monthSelect" class="form-select"></select>
+  <main class="dashboard-shell">
+    <section class="dashboard-hero mb-4">
+      <div class="row g-3 align-items-end">
+        <div class="col-lg-7">
+          <span class="section-kicker text-white-50">Finance Dashboard</span>
+          <h1 class="h2 fw-bold mt-2 mb-2">Society Finance Dashboard</h1>
+          <p class="mb-0">Track inflows, expenses, sundry spends, and monthly totals from the latest published records.</p>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="metric-card">
+            <label for="monthSelect" class="form-label">Select Month</label>
+            <select id="monthSelect" class="form-select"></select>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <div class="metric-card">
+            <label class="form-label">Cash In Hand</label>
+            <h2 id="result" class="metric-value"></h2>
+          </div>
+        </div>
       </div>
-      <!-- periodSelect can be added back if needed -->
-      <div class="col-md-6 mb-2">
-        <label for="periodSelect" class="form-label">Cash In Hand</label>
-        <h5 id="result"></h5>
-      </div>
-    </div>
+    </section>
 
-    <!-- Top row: Inflow and Sundry -->
     <div class="row g-4 mb-4">
       <div class="col-lg-6">
-        <div class="card shadow-sm">
+        <div class="card dashboard-card">
           <div class="card-body">
-            <h5 class="card-title text-center">💰 Inflow</h5>
-            <div id="inflow-charts"></div>
+            <h5 class="card-title"><span>Inflow</span><i class="bi bi-arrow-down-circle text-success"></i></h5>
+            <div id="inflow-charts" class="chart-box"></div>
           </div>
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="card shadow-sm">
+        <div class="card dashboard-card">
           <div class="card-body">
-            <h5 class="card-title text-center">📊 Sundry</h5>
-            <div id="sundry-charts"></div>
+            <h5 class="card-title"><span>Sundry</span><i class="bi bi-pie-chart text-primary"></i></h5>
+            <div id="sundry-charts" class="chart-box"></div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Bottom row: Expenses -->
     <div class="row g-4 mb-4">
       <div class="col-12">
-        <div class="card shadow-sm">
+        <div class="card dashboard-card">
           <div class="card-body">
-            <h5 class="card-title text-center">📊 Expenses</h5>
-            <div id="expense-charts"></div>
+            <h5 class="card-title"><span>Expenses</span><i class="bi bi-arrow-up-circle text-danger"></i></h5>
+            <div id="expense-charts" class="chart-box"></div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Expense Details Table -->
     <div class="row g-4 mb-4">
       <div class="col-12">
-        <div class="card shadow-sm">
+        <div class="card dashboard-card">
           <div class="card-body">
-            <h5 class="card-title text-center">📑 Expense Details</h5>
+            <h5 class="card-title"><span>Expense Details</span><i class="bi bi-receipt text-secondary"></i></h5>
             <div class="table-responsive">
-              <table class="table table-striped table-bordered align-middle" id="expense-table">
+              <table class="table table-striped table-hover align-middle" id="expense-table">
                 <thead class="table-dark">
                   <tr>
                     <th>Date</th>
@@ -103,24 +108,24 @@
       </div>
     </div>
 
-    <!-- Expense Monthly Totals Chart -->
     <div class="row g-4 mb-4">
       <div class="col-12">
-        <div class="card shadow-sm">
+        <div class="card dashboard-card">
           <div class="card-body">
-            <h5 class="card-title text-center">📊 Expense Details Monthly Totals</h5>
-            <div id="expense-month-chart"></div>
+            <h5 class="card-title"><span>Expense Monthly Totals</span><i class="bi bi-bar-chart text-danger"></i></h5>
+            <div id="expense-month-chart" class="chart-box"></div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row mt-4">
-      <div class="card shadow-sm">
-        <div class="card-body">
-          <div class="col-12">
-            <h5 class="card-title text-center">📑 Expense Details Monthly Totals</h5>
-            <table class="table table-striped table-bordered align-middle" id="expense-month-table">
+    <div class="row g-4 mb-4">
+      <div class="col-12">
+        <div class="card dashboard-card">
+          <div class="card-body">
+            <h5 class="card-title"><span>Expense Monthly Summary</span><i class="bi bi-table text-secondary"></i></h5>
+            <div class="table-responsive">
+            <table class="table table-striped table-hover align-middle" id="expense-month-table">
               <thead class="table-dark">
                 <tr id="expense-month-header">
                   <th>Category</th>
@@ -137,30 +142,30 @@
                 </tr>
               </tfoot>
             </table>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-
-    <!-- Expense Monthly Totals Chart -->
     <div class="row g-4 mb-4">
       <div class="col-12">
-        <div class="card shadow-sm">
+        <div class="card dashboard-card">
           <div class="card-body">
-            <h5 class="card-title text-center">📊 Inflow Details Monthly Totals</h5>
-            <div id="inflow-month-chart"></div>
+            <h5 class="card-title"><span>Inflow Monthly Totals</span><i class="bi bi-bar-chart text-success"></i></h5>
+            <div id="inflow-month-chart" class="chart-box"></div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row mt-4">
-      <div class="card shadow-sm">
-        <div class="card-body">
-          <div class="col-12">
-            <h5 class="card-title text-center">📑 Inflow Details Monthly Totals</h5>
-            <table class="table table-striped table-bordered align-middle" id="inflow-month-table">
+    <div class="row g-4 mb-4">
+      <div class="col-12">
+        <div class="card dashboard-card">
+          <div class="card-body">
+            <h5 class="card-title"><span>Inflow Monthly Summary</span><i class="bi bi-table text-secondary"></i></h5>
+            <div class="table-responsive">
+            <table class="table table-striped table-hover align-middle" id="inflow-month-table">
               <thead class="table-dark">
                 <tr id="inflow-month-header">
                   <th>Category</th>
@@ -177,16 +182,18 @@
                 </tr>
               </tfoot>
             </table>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="row mt-4" style="display:none;">
-      <div class="card shadow-sm">
-        <div class="card-body">
-          <div class="col-12">
-            <h5 class="card-title text-center">📑 Fixed Deposits</h4>
-              <table class="table table-striped table-bordered align-middle" id="fixed-deposit-table">
+      <div class="col-12">
+        <div class="card dashboard-card">
+          <div class="card-body">
+            <h5 class="card-title">Fixed Deposits</h5>
+            <div class="table-responsive">
+              <table class="table table-striped table-hover align-middle" id="fixed-deposit-table">
                 <thead class="table-dark">
                   <tr>
                     <th>Category</th>
@@ -202,12 +209,15 @@
                   </tr>
                 </tfoot>
               </table>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="js/config.js"></script>
-    <script src="js/dashboard.mini.js"></script>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/dashboard.js"></script>
 </body>
 
 </html>

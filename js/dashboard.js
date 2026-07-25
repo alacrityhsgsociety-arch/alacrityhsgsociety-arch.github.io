@@ -9,8 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const fdTotalEl = document.getElementById("fd-total");
   const lastYearCashInHand = window.ENV.last_Year_Cash_In_Hand; // Adjust this
 
-  const RAW_JSON_BASE = 
-    "https://raw.githubusercontent.com/alacrityhsgsociety-arch/alacrityhsgsociety-arch.github.io/refs/heads/main/data";
+  const RAW_JSON_BASE = window.ENV.RAW_JSON_BASE || "data";
   const INDEX_FILE = `${RAW_JSON_BASE}/index.json?v=${Date.now()}`;
 
   const monthNames = [
