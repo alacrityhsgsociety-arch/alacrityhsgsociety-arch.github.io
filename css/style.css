@@ -348,18 +348,16 @@ canvas {
 }
 
 .monthly-summary-table {
-  table-layout: fixed;
-  min-width: 1180px;
+  min-width: max-content;
 }
 
 .monthly-summary-table th:first-child,
 .monthly-summary-table td:first-child {
-  width: 180px;
+  min-width: 160px;
 }
 
 .monthly-summary-table th:not(:first-child),
 .monthly-summary-table td:not(:first-child) {
-  width: 90px;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
