@@ -1318,7 +1318,7 @@
     "Sub Category": "",
     "Date": "18-Jul-2026",
     "Amount": "₹9,400.00",
-    "Payment To": "A N  HYGIENES WATER  TANK CLENING",
+    "Payment To": "A N  HYGIENES टाकी धुणे ",
     "Mode": "Cheque",
     "Checked": "Yes"
   },
@@ -1383,6 +1383,24 @@
     "Amount": "₹65,240.00",
     "Payment To": "Electicity Bill",
     "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "20-Jul-2026",
+    "Amount": "₹810.00",
+    "Payment To": "Mahadev Enterprises house keeping material ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "21-Jul-2026",
+    "Amount": "₹620.00",
+    "Payment To": "PLUSE HARDWAR गेट रिमोट अडप्टर, केबिन बोर्ड फ्लश cock elbow socket ",
+    "Mode": "Cash",
     "Checked": "Yes"
   }
 ]
