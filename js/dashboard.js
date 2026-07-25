@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const INDEX_FILE = `${RAW_JSON_BASE}/index.json?v=${Date.now()}`;
   const FD_PASSWORD_HASH = window.ENV.FD_PASSWORD_HASH || "";
   const OAK_CASH_HOLDING_25_26 = -7340;
-  let fdUnlocked = sessionStorage.getItem("fdUnlocked") === "true";
+  let fdUnlocked = false;
 
   const monthNames = [
     "January",
@@ -222,7 +222,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     fdUnlocked = true;
-    sessionStorage.setItem("fdUnlocked", "true");
     setFDUnlockedState();
     await loadFDData();
   }
