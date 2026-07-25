@@ -702,6 +702,24 @@
     "Checked": "Yes"
   },
   {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "29-May-2026",
+    "Amount": "₹48.00",
+    "Payment To": "Ram enterprises Audi Report xerox ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "31-May-2026",
+    "Amount": "₹99.00",
+    "Payment To": "plus Chemist hand wash Jim ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
     "Category": "Sundry",
     "Sub Category": "Tea",
     "Date": "1-Jun-2026",
@@ -1383,6 +1401,15 @@
     "Amount": "₹65,240.00",
     "Payment To": "Electicity Bill",
     "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "",
+    "Sub Category": "Transport",
+    "Date": "18-Jul-2026",
+    "Amount": "₹2,300.00",
+    "Payment To": "udai बोअर राबिट टेप्पो ",
+    "Mode": "Cash",
     "Checked": "Yes"
   },
   {

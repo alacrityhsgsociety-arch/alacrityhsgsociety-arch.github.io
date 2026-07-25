@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   const expenseTableBody = document.querySelector("#expense-table tbody");
   const fdTableBody = document.getElementById("fd-table-body");
   const fdTotalEl = document.getElementById("fd-total");
-  const lastYearCashInHand = window.ENV.last_Year_Cash_In_Hand; // Adjust this
 
   const RAW_JSON_BASE = window.ENV.RAW_JSON_BASE || "data";
   const INDEX_FILE = `${RAW_JSON_BASE}/index.json?v=${Date.now()}`;
@@ -618,38 +617,41 @@ function calculateCashInHand(expenses, inflows) {
     return parseFloat(val.toString().replace(/[₹,]/g, "").trim()) || 0;
   };
 
-  let totalWithdrawals = 0;
+  let totalCashHoldings = 0;
   let totalCashExpenses = 0;
   let totalCashInflows = 0;
+  const openingCashHolding = window.ENV.opening_Cash_Holding_26_27 || 0;
+  const otherCashHoldings = window.ENV.other_Cash_Holdings_26_27 || 0;
 
-  // --- Expenses Processing ---
   for (const e of expenses) {
     const category = normalize(e.Category || e.category);
     const mode = normalize(e.Mode || e.mode);
+    const checked = normalize(e.Checked || e.checked);
     const amount = toNumber(e.Amount || e.amount);
 
     if (category === "withdrawl self" || category === "withdrawal self") {
-      totalWithdrawals += amount; // cash deposited from bank
-    } else if (mode === "cash") {
-      totalCashExpenses += amount; // cash spent
+      totalCashHoldings += amount;
+    } else if (mode === "cash" && checked === "yes") {
+      totalCashExpenses += amount;
     }
   }
 
-  // --- Inflows Processing ---
   for (const i of inflows) {
     const mode = normalize(i.Mode || i.mode);
     const amount = toNumber(i.Amount || i.amount);
 
     if (mode === "cash") {
-      totalCashInflows += amount; // cash received directly
+      totalCashInflows += amount;
     }
   }
 
-  console.log("Total Withdrawals:", totalWithdrawals);
-  console.log("Total Cash Expenses:", totalCashExpenses);
-  console.log("Total Cash Inflows:", totalCashInflows);
-
-  return totalWithdrawals + totalCashInflows - totalCashExpenses;
+  return (
+    openingCashHolding +
+    totalCashHoldings +
+    totalCashInflows -
+    totalCashExpenses +
+    otherCashHoldings
+  );
 }
 
   async function fetchData(fileName="expenses") {
@@ -672,7 +674,7 @@ function calculateCashInHand(expenses, inflows) {
   async function loadAndCalculate() {
       const expenses = await fetchData("expenses"); // Fetch expenses data
       const inflows = await fetchData("inflow"); // Fetch inflows data
-      const cashInHand = calculateCashInHand(expenses, inflows) + lastYearCashInHand; // Adjusted by ₹4565 as per original logic
+      const cashInHand = calculateCashInHand(expenses, inflows);
       document.getElementById("result").textContent = `₹${cashInHand.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
   }
   await loadAndCalculate();
