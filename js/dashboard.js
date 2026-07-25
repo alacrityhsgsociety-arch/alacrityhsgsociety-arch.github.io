@@ -645,13 +645,16 @@ function calculateCashInHand(expenses, inflows) {
     }
   }
 
-  return (
+  const withOak =
     openingCashHolding +
     totalCashHoldings +
     totalCashInflows -
-    totalCashExpenses +
-    otherCashHoldings
-  );
+    totalCashExpenses;
+
+  return {
+    withOak,
+    societyCashBalance: withOak + otherCashHoldings,
+  };
 }
 
   async function fetchData(fileName="expenses") {
@@ -675,7 +678,11 @@ function calculateCashInHand(expenses, inflows) {
       const expenses = await fetchData("expenses"); // Fetch expenses data
       const inflows = await fetchData("inflow"); // Fetch inflows data
       const cashInHand = calculateCashInHand(expenses, inflows);
-      document.getElementById("result").textContent = `₹${cashInHand.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      document.getElementById("result").textContent = `₹${cashInHand.withOak.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      const societyCashTotalEl = document.getElementById("society-cash-total");
+      if (societyCashTotalEl) {
+        societyCashTotalEl.textContent = `₹${cashInHand.societyCashBalance.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      }
   }
   await loadAndCalculate();
   // Initial render
