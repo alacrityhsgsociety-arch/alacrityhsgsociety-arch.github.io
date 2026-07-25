@@ -7,10 +7,16 @@ document.addEventListener("DOMContentLoaded", async () => {
   const expenseTableBody = document.querySelector("#expense-table tbody");
   const fdTableBody = document.getElementById("fd-table-body");
   const fdTotalEl = document.getElementById("fd-total");
+  const fdContent = document.getElementById("fd-content");
+  const fdLockedMessage = document.getElementById("fd-locked-message");
+  const fdUnlockBtn = document.getElementById("fd-unlock-btn");
+  const fdLockIcon = document.getElementById("fd-lock-icon");
 
   const RAW_JSON_BASE = window.ENV.RAW_JSON_BASE || "data";
   const INDEX_FILE = `${RAW_JSON_BASE}/index.json?v=${Date.now()}`;
+  const FD_PASSWORD_HASH = window.ENV.FD_PASSWORD_HASH || "";
   const OAK_CASH_HOLDING_25_26 = -7340;
+  let fdUnlocked = sessionStorage.getItem("fdUnlocked") === "true";
 
   const monthNames = [
     "January",
@@ -178,8 +184,52 @@ document.addEventListener("DOMContentLoaded", async () => {
       })}`;
   }
 
+  function setFDUnlockedState() {
+    if (!fdContent || !fdLockedMessage || !fdUnlockBtn) return;
+    fdContent.classList.toggle("d-none", !fdUnlocked);
+    fdLockedMessage.classList.toggle("d-none", fdUnlocked);
+    fdUnlockBtn.classList.toggle("d-none", fdUnlocked);
+    if (fdLockIcon) {
+      fdLockIcon.className = fdUnlocked
+        ? "bi bi-unlock-fill me-2"
+        : "bi bi-lock-fill me-2";
+    }
+  }
+
+  async function sha256(value) {
+    if (!window.crypto || !crypto.subtle) {
+      throw new Error("Password check is unavailable in this browser.");
+    }
+    const data = new TextEncoder().encode(value);
+    const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+    return Array.from(new Uint8Array(hashBuffer))
+      .map((byte) => byte.toString(16).padStart(2, "0"))
+      .join("");
+  }
+
+  async function unlockFDSection() {
+    const password = prompt("Enter FD password");
+    if (password === null) return;
+
+    try {
+      if (!FD_PASSWORD_HASH || (await sha256(password)) !== FD_PASSWORD_HASH) {
+        alert("Incorrect password");
+        return;
+      }
+    } catch (err) {
+      alert(err.message);
+      return;
+    }
+
+    fdUnlocked = true;
+    sessionStorage.setItem("fdUnlocked", "true");
+    setFDUnlockedState();
+    await loadFDData();
+  }
+
   // Load FD JSON and render the FD table
   async function loadFDData() {
+    if (!fdUnlocked) return;
     try {
       const res = await fetch(
         `${RAW_JSON_BASE}/fixed_deposit.json?v=${Date.now()}`
@@ -343,7 +393,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     //renderExpenseMonthSummary();
     renderinflowMonthSummary("inflow");
     renderinflowMonthSummary("expense");
-    // always attempt to load FD data for the FD table
+    // Load FD data only after the section is unlocked.
     await loadFDData();
   }
 
@@ -681,6 +731,10 @@ function calculateCashInHand(expenses, inflows) {
       document.getElementById("cash-withdrawal-total").textContent = `₹${cashInHand.totalCashHoldings.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-expense-total").textContent = `-₹${cashInHand.totalCashExpenses.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-holding-25-26").textContent = `₹${cashInHand.cashHolding25_26.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+  }
+  setFDUnlockedState();
+  if (fdUnlockBtn) {
+    fdUnlockBtn.addEventListener("click", unlockFDSection);
   }
   await loadAndCalculate();
   // Initial render

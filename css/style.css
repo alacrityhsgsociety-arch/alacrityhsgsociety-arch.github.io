@@ -312,6 +312,23 @@ canvas {
   border-radius: 8px;
 }
 
+.fd-locked-message {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 1rem;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  background: #f8fafc;
+  font-weight: 700;
+}
+
+.fd-locked-message i {
+  color: var(--brand);
+  font-size: 1.1rem;
+}
+
 .table {
   margin-bottom: 0;
   vertical-align: middle;

@@ -193,12 +193,21 @@
         </div>
       </div>
     </div>
-    <div class="row mt-4" style="display:none;">
+    <div class="row mt-4">
       <div class="col-12">
-        <div class="card dashboard-card">
+        <div class="card dashboard-card fd-card" id="fd-section">
           <div class="card-body">
-            <h5 class="card-title">Fixed Deposits</h5>
-            <div class="table-responsive">
+            <h5 class="card-title">
+              <span><i class="bi bi-lock-fill me-2" id="fd-lock-icon"></i>Fixed Deposits</span>
+              <button type="button" class="btn btn-sm btn-outline-primary" id="fd-unlock-btn">
+                <i class="bi bi-unlock me-1"></i>Unlock
+              </button>
+            </h5>
+            <div class="fd-locked-message" id="fd-locked-message">
+              <i class="bi bi-shield-lock"></i>
+              <span>Enter password to view fixed deposit details.</span>
+            </div>
+            <div class="table-responsive d-none" id="fd-content">
               <table class="table table-striped table-hover align-middle" id="fixed-deposit-table">
                 <thead class="table-dark">
                   <tr>
