@@ -1337,8 +1337,8 @@
     "Date": "18-Jul-2026",
     "Amount": "₹9,400.00",
     "Payment To": "A N  HYGIENES टाकी धुणे ",
-    "Mode": "Cheque",
-    "Checked": "Yes"
+    "Mode": "Cash",
+    "Checked": ""
   },
   {
     "Category": "Sundry",
@@ -1431,12 +1431,12 @@
     "Checked": "Yes"
   },
   {
-    "Category": "Sundry",
-    "Sub Category": "Refreshments",
-    "Date": "25-Jul-2026",
-    "Amount": "₹100.00",
-    "Payment To": "SAMPLE CRON JOB CHECK",
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "26-Jul-2026",
+    "Amount": "₹25,000.00",
+    "Payment To": "ACHYUT OAK बोअर आणि डिझेल ",
     "Mode": "Cash",
-    "Checked": "Yes"
+    "Checked": ""
   }
 ]
