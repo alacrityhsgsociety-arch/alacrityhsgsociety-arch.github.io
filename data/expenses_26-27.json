@@ -1447,5 +1447,86 @@
     "Payment To": "D MART  air fr for lift dustbin",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "26-Jul-2026",
+    "Amount": "₹2,500.00",
+    "Payment To": "pawar  pump room supply reper ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "28-Jul-2026",
+    "Amount": "₹3,300.00",
+    "Payment To": "Chandere Petroleum ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Diesel for DG",
+    "Sub Category": "",
+    "Date": "28-Jul-2026",
+    "Amount": "₹2,000.00",
+    "Payment To": "Chandere Petroleum ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "",
+    "Amount": "₹18,581.00",
+    "Payment To": "RADIANT ELECTRICALC  मिटर रुम ते पंप रुम नवीन केबल ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "",
+    "Amount": "₹15,500.00",
+    "Payment To": "ARIF ENTERPRISES B wing लिफ्ट आणि वाटर टाकी मधिल पत्रा बसवणे ,पिणेचे टाकी झाकण रिपेअर A 1006 रिपेअर ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Security",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹65,340.00",
+    "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Water Tanker",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹9,800.00",
+    "Payment To": "Shivkrupa Water Suppliers",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Garden Services",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹8,000.00",
+    "Payment To": "Mahadev Khandare चेकवरील नांव ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "AMC Lift",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹53,660.00",
+    "Payment To": "OLYMPIA ELEVATORS PRIVATI LTD  ",
+    "Mode": "Cheque",
+    "Checked": ""
   }
 ]
