@@ -702,7 +702,7 @@
     "Checked": "Yes"
   },
   {
-    "Category": "",
+    "Category": "Sundry",
     "Sub Category": "",
     "Date": "29-May-2026",
     "Amount": "₹48.00",
@@ -711,8 +711,8 @@
     "Checked": "Yes"
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
     "Date": "31-May-2026",
     "Amount": "₹99.00",
     "Payment To": "plus Chemist hand wash Jim ",
@@ -1338,7 +1338,7 @@
     "Amount": "₹9,400.00",
     "Payment To": "A N  HYGIENES टाकी धुणे ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -1404,7 +1404,7 @@
     "Checked": "Yes"
   },
   {
-    "Category": "",
+    "Category": "Sundry",
     "Sub Category": "Transport",
     "Date": "18-Jul-2026",
     "Amount": "₹2,300.00",
@@ -1455,7 +1455,7 @@
     "Amount": "₹2,500.00",
     "Payment To": "pawar  pump room supply reper ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Diesel for DG",
@@ -1464,7 +1464,7 @@
     "Amount": "₹3,300.00",
     "Payment To": "Chandere Petroleum ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Diesel for DG",
@@ -1473,12 +1473,12 @@
     "Amount": "₹2,000.00",
     "Payment To": "Chandere Petroleum ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
     "Sub Category": "Electrical",
-    "Date": "",
+    "Date": "1-Aug-2026",
     "Amount": "₹18,581.00",
     "Payment To": "RADIANT ELECTRICALC  मिटर रुम ते पंप रुम नवीन केबल ",
     "Mode": "Cheque",
@@ -1487,7 +1487,7 @@
   {
     "Category": "Sundry",
     "Sub Category": "Hardware",
-    "Date": "",
+    "Date": "1-Aug-2026",
     "Amount": "₹15,500.00",
     "Payment To": "ARIF ENTERPRISES B wing लिफ्ट आणि वाटर टाकी मधिल पत्रा बसवणे ,पिणेचे टाकी झाकण रिपेअर A 1006 रिपेअर ",
     "Mode": "Cheque",
@@ -1496,7 +1496,7 @@
   {
     "Category": "Security",
     "Sub Category": "",
-    "Date": "",
+    "Date": "1-Aug-2026",
     "Amount": "₹65,340.00",
     "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
     "Mode": "Cheque",
@@ -1505,7 +1505,7 @@
   {
     "Category": "Water Tanker",
     "Sub Category": "",
-    "Date": "",
+    "Date": "1-Aug-2026",
     "Amount": "₹9,800.00",
     "Payment To": "Shivkrupa Water Suppliers",
     "Mode": "Cheque",
@@ -1514,7 +1514,7 @@
   {
     "Category": "Garden Services",
     "Sub Category": "",
-    "Date": "",
+    "Date": "1-Aug-2026",
     "Amount": "₹8,000.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव ",
     "Mode": "Cheque",
@@ -1523,7 +1523,7 @@
   {
     "Category": "AMC Lift",
     "Sub Category": "",
-    "Date": "",
+    "Date": "1-Aug-2026",
     "Amount": "₹53,660.00",
     "Payment To": "OLYMPIA ELEVATORS PRIVATI LTD  ",
     "Mode": "Cheque",
