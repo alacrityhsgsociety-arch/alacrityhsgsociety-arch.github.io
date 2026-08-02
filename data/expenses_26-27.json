@@ -1478,55 +1478,145 @@
   {
     "Category": "Sundry",
     "Sub Category": "Electrical",
-    "Date": "1-Aug-2026",
+    "Date": "2-Aug-2026",
     "Amount": "₹18,581.00",
-    "Payment To": "RADIANT ELECTRICALC  मिटर रुम ते पंप रुम नवीन केबल ",
+    "Payment To": "RADIANT ELECTRICALCS  मिटर रुम ते पंप रुम नवीन केबल ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
     "Sub Category": "Hardware",
-    "Date": "1-Aug-2026",
+    "Date": "2-Aug-2026",
     "Amount": "₹15,500.00",
     "Payment To": "ARIF ENTERPRISES B wing लिफ्ट आणि वाटर टाकी मधिल पत्रा बसवणे ,पिणेचे टाकी झाकण रिपेअर A 1006 रिपेअर ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Security",
     "Sub Category": "",
-    "Date": "1-Aug-2026",
+    "Date": "2-Aug-2026",
     "Amount": "₹65,340.00",
     "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Water Tanker",
     "Sub Category": "",
-    "Date": "1-Aug-2026",
+    "Date": "2-Aug-2026",
     "Amount": "₹9,800.00",
     "Payment To": "Shivkrupa Water Suppliers",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Garden Services",
     "Sub Category": "",
-    "Date": "1-Aug-2026",
+    "Date": "2-Aug-2026",
     "Amount": "₹8,000.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "AMC Lift",
     "Sub Category": "",
-    "Date": "1-Aug-2026",
+    "Date": "2-Aug-2026",
     "Amount": "₹53,660.00",
     "Payment To": "OLYMPIA ELEVATORS PRIVATI LTD  ",
     "Mode": "Cheque",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "25-Jul-2026",
+    "Amount": "₹17,550.00",
+    "Payment To": "Ace Enterprises Tjsb bank  3 पंप स्टार्टर ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "2-Jul-2026",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "01-Aug-2026",
+    "Amount": "₹23,000.00",
+    "Payment To": "ACHYUT OAK",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "01-Aug-2026",
+    "Amount": "₹25,000.00",
+    "Payment To": "ACHYUT OAK (AGM ,15 AUG)",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Refreshments",
+    "Date": "01-Aug-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "STAF TEA",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "01-Aug-2026",
+    "Amount": "₹360.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "01-Aug-2026",
+    "Amount": "₹660.00",
+    "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "01-Aug-2026",
+    "Amount": "₹540.00",
+    "Payment To": "OLYMPIA ELEVATORS PRIVATI LTD  ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "28-Jul-2026",
+    "Amount": "₹720.00",
+    "Payment To": "IMPRINTS no spitting bord 3",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "",
+    "Payment To": "OM ELECTRICL",
+    "Mode": "Cash",
     "Checked": ""
   }
 ]
