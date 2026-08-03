@@ -1608,14 +1608,14 @@
     "Amount": "₹720.00",
     "Payment To": "IMPRINTS no spitting bord 3",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Solar Power",
     "Sub Category": "",
     "Date": "",
-    "Amount": "₹46,844.00",
-    "Payment To": "DYNAMIC CORPORATE SOLUTION PVT LTD टोटल 246844-2 लाख डिपाझिट वजा 46844 चेक अमाऊट ",
+    "Amount": "",
+    "Payment To": "",
     "Mode": "Cheque",
     "Checked": ""
   }
