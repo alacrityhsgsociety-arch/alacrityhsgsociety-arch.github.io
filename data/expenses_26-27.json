@@ -1612,11 +1612,83 @@
   },
   {
     "Category": "Solar Power",
+    "Sub Category": "Stationary",
+    "Date": "03-Aug-2026",
+    "Amount": "₹288.00",
+    "Payment To": "D MART  DOOR MAT",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "06-Aug-2026",
+    "Amount": "₹800.00",
+    "Payment To": "MUDASSAR CABLE TAMPO RENT",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "06-Aug-2026",
+    "Amount": "₹1,500.00",
+    "Payment To": "OM ELE GARBAGE M TRANSFORMER REPERING",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "05-Aug-2026",
+    "Amount": "₹10,000.00",
+    "Payment To": "YASHWANT PAWAR  मिटर ते पंप रुम केबल टाकणे कनेक्शन करणे दुसरा सप्लाय वर MCB बसवून पोडिअम गारबेज गार्डन वेगळे करणे ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "6-Aug-2026",
+    "Amount": "₹3,735.00",
+    "Payment To": "PULSE HARDWAR 40a4pol mcb, mcb box 2 no 4sq mmwire pump cable work",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "6-Aug-2026",
+    "Amount": "₹440.00",
+    "Payment To": "mahadev ent garbag bag plat glass AGM",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "6-Aug-2026",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Garbage",
+    "Date": "6-Aug-2026",
+    "Amount": "₹700.00",
+    "Payment To": "VILLAS SR 4 CHOKEUP",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
     "Sub Category": "",
-    "Date": "",
-    "Amount": "",
-    "Payment To": "",
-    "Mode": "Cheque",
+    "Date": "06-Aug-2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK (AGM ,15 AUG)",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   }
 ]
