@@ -15,6 +15,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   const bankLockedMessage = document.getElementById("bank-locked-message");
   const bankUnlockBtn = document.getElementById("bank-unlock-btn");
   const bankLockIcon = document.getElementById("bank-lock-icon");
+  const passwordDialog = document.getElementById("password-dialog");
+  const passwordDialogTitle = document.getElementById("password-dialog-title");
+  const passwordDialogForm = document.getElementById("password-dialog-form");
+  const passwordDialogInput = document.getElementById("password-dialog-input");
+  const passwordDialogError = document.getElementById("password-dialog-error");
+  const passwordDialogClose = document.getElementById("password-dialog-close");
+  const passwordDialogCancel = document.getElementById("password-dialog-cancel");
+  const passwordDialogBackdrop = document.getElementById("password-dialog-backdrop");
 
   const RAW_JSON_BASE = window.ENV.RAW_JSON_BASE || "data";
   const INDEX_FILE = `${RAW_JSON_BASE}/index.json?v=${Date.now()}`;
@@ -26,6 +34,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const BANK_PAYMENT_MODES = new Set(["rtgs/imps", "cheque", "bankt"]);
   let fdUnlocked = false;
   let bankUnlocked = false;
+  let pendingPasswordUnlock = null;
 
   const monthNames = [
     "January",
@@ -228,13 +237,35 @@ document.addEventListener("DOMContentLoaded", async () => {
       .join("");
   }
 
-  async function unlockFDSection() {
-    const password = prompt("Enter FD password");
-    if (password === null) return;
+  function closePasswordDialog() {
+    if (!passwordDialog || !passwordDialogInput || !passwordDialogError) return;
+    passwordDialog.classList.add("d-none");
+    passwordDialogInput.value = "";
+    passwordDialogError.classList.add("d-none");
+    pendingPasswordUnlock = null;
+  }
+
+  function openPasswordDialog(title, onUnlock) {
+    if (!passwordDialog || !passwordDialogInput || !passwordDialogTitle) return;
+    pendingPasswordUnlock = onUnlock;
+    passwordDialogTitle.textContent = title;
+    passwordDialog.classList.remove("d-none");
+    passwordDialogInput.value = "";
+    passwordDialogError?.classList.add("d-none");
+    setTimeout(() => passwordDialogInput.focus(), 0);
+  }
+
+  async function submitPasswordDialog(event) {
+    event.preventDefault();
+    if (!passwordDialogInput || !pendingPasswordUnlock) return;
 
     try {
-      if (!FD_PASSWORD_HASH || (await sha256(password)) !== FD_PASSWORD_HASH) {
-        alert("Incorrect password");
+      if (
+        !FD_PASSWORD_HASH ||
+        (await sha256(passwordDialogInput.value)) !== FD_PASSWORD_HASH
+      ) {
+        passwordDialogError?.classList.remove("d-none");
+        passwordDialogInput.select();
         return;
       }
     } catch (err) {
@@ -242,27 +273,24 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
 
+    const unlock = pendingPasswordUnlock;
+    closePasswordDialog();
+    await unlock();
+  }
+
+  async function unlockFDSection() {
+    openPasswordDialog("Enter FD password", async () => {
     fdUnlocked = true;
     setFDUnlockedState();
     await loadFDData();
+    });
   }
 
   async function unlockBankSection() {
-    const password = prompt("Enter bank balance password");
-    if (password === null) return;
-
-    try {
-      if (!FD_PASSWORD_HASH || (await sha256(password)) !== FD_PASSWORD_HASH) {
-        alert("Incorrect password");
-        return;
-      }
-    } catch (err) {
-      alert(err.message);
-      return;
-    }
-
+    openPasswordDialog("Enter bank balance password", async () => {
     bankUnlocked = true;
     setBankUnlockedState();
+    });
   }
 
   // Load FD JSON and render the FD table
@@ -984,6 +1012,17 @@ function calculateBankStatus(expenses, inflows) {
   if (bankUnlockBtn) {
     bankUnlockBtn.addEventListener("click", unlockBankSection);
   }
+  if (passwordDialogForm) {
+    passwordDialogForm.addEventListener("submit", submitPasswordDialog);
+  }
+  [passwordDialogClose, passwordDialogCancel, passwordDialogBackdrop].forEach((el) => {
+    if (el) el.addEventListener("click", closePasswordDialog);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !passwordDialog?.classList.contains("d-none")) {
+      closePasswordDialog();
+    }
+  });
   await loadAndCalculate();
   // Initial render
   const currentMonth = new Date().getMonth();

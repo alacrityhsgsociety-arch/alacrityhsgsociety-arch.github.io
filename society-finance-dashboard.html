@@ -276,6 +276,26 @@
     </div>
   </main>
 
+  <div class="password-dialog d-none" id="password-dialog" role="dialog" aria-modal="true" aria-labelledby="password-dialog-title">
+    <div class="password-dialog-backdrop" id="password-dialog-backdrop"></div>
+    <form class="password-dialog-panel" id="password-dialog-form">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div>
+          <h2 class="h5 mb-1" id="password-dialog-title">Enter password</h2>
+          <p class="mb-0 text-muted">Password is required to view this section.</p>
+        </div>
+        <button type="button" class="btn-close" id="password-dialog-close" aria-label="Close"></button>
+      </div>
+      <label class="form-label mt-3" for="password-dialog-input">Password</label>
+      <input class="form-control" id="password-dialog-input" type="password" autocomplete="current-password">
+      <p class="password-dialog-error d-none mb-0 mt-2" id="password-dialog-error">Incorrect password</p>
+      <div class="d-flex justify-content-end gap-2 mt-3">
+        <button type="button" class="btn btn-outline-secondary" id="password-dialog-cancel">Cancel</button>
+        <button type="submit" class="btn btn-brand">Unlock</button>
+      </div>
+    </form>
+  </div>
+
   <script src="js/config.js"></script>
   <script src="js/dashboard.js"></script>
 </body>
