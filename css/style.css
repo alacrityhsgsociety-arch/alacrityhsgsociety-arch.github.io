@@ -240,11 +240,32 @@ canvas {
   font-weight: 700;
 }
 
+.month-selector-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.month-selector-card label {
+  margin-bottom: 0;
+}
+
 .metric-card select,
 .metric-card .form-select {
   min-height: 44px;
   border: 0;
   font-weight: 700;
+}
+
+.month-selector-card .form-select {
+  max-width: 260px;
+  color: var(--brand-dark);
+  box-shadow: 0 8px 20px rgba(3, 31, 37, 0.12);
+}
+
+.month-selector-card .form-select:focus {
+  box-shadow: 0 0 0 0.2rem rgba(249, 115, 91, 0.28);
 }
 
 .metric-value {

@@ -31,18 +31,18 @@
   <main class="dashboard-shell">
     <section class="dashboard-hero mb-4">
       <div class="row g-3 align-items-stretch">
-        <div class="col-lg-4">
+        <div class="col-12">
           <span class="section-kicker text-white-50">Finance Dashboard</span>
           <h1 class="h2 fw-bold mt-2 mb-2">Society Finance Dashboard</h1>
           <p class="mb-0">Track inflows, expenses, sundry spends, and monthly totals from the latest published records.</p>
         </div>
-        <div class="col-sm-6 col-lg-2">
-          <div class="metric-card">
+        <div class="col-md-4">
+          <div class="metric-card month-selector-card">
             <label for="monthSelect" class="form-label">Select Month</label>
             <select id="monthSelect" class="form-select"></select>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-3">
+        <div class="col-md-4">
           <div class="metric-card metric-card-highlight">
             <label class="form-label">With Oak Cash In Hand</label>
             <h2 id="result" class="metric-value"></h2>
@@ -54,7 +54,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-3">
+        <div class="col-md-4">
           <div class="metric-card">
             <label class="form-label">Bank Current Balance</label>
             <h2 id="bank-status-total" class="metric-value"></h2>
