@@ -1690,14 +1690,5 @@
     "Payment To": "ACHYUT OAK (AGM ,15 AUG)",
     "Mode": "RTGS/IMPS",
     "Checked": ""
-  },
-  {
-    "Category": "Sundry",
-    "Sub Category": "Refreshments",
-    "Date": "8-Aug-2026",
-    "Amount": "₹1,000.00",
-    "Payment To": "Testing balance",
-    "Mode": "RTGS/IMPS",
-    "Checked": ""
   }
 ]
