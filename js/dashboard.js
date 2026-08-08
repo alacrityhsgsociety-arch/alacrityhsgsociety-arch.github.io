@@ -850,7 +850,7 @@ function calculateCashInHand(expenses, inflows) {
   };
 }
 
-function calculateBankStatus(expenses) {
+function calculateBankStatus(expenses, inflows) {
   const normalize = str => (str || "").toString().trim().toLowerCase();
   const toNumber = val => {
     if (!val) return 0;
@@ -859,6 +859,7 @@ function calculateBankStatus(expenses) {
 
   let totalExpenses = 0;
   let withdrawalSelf = 0;
+  let maintenanceBankInflows = 0;
 
   for (const expense of expenses) {
     const category = normalize(expense.Category || expense.category);
@@ -880,11 +881,28 @@ function calculateBankStatus(expenses) {
     }
   }
 
+  for (const inflow of inflows) {
+    const category = normalize(inflow.Category || inflow.category);
+    const mode = normalize(inflow.Mode || inflow.mode);
+    const amount = toNumber(inflow.Amount || inflow.amount);
+    if (
+      category === "maintenance" &&
+      (mode === "rtgs/imps" || mode === "cheque")
+    ) {
+      maintenanceBankInflows += amount;
+    }
+  }
+
+  const previousYearCarryForward = OPENING_BANK_BALANCE - maintenanceBankInflows;
+  const totalAmount = previousYearCarryForward + maintenanceBankInflows;
+
   return {
     totalExpenses: totalExpenses + withdrawalSelf,
     withdrawalSelf,
-    bankStatus: OPENING_BANK_BALANCE - totalExpenses - withdrawalSelf,
-    openingBalance: OPENING_BANK_BALANCE,
+    bankStatus: totalAmount - totalExpenses - withdrawalSelf,
+    openingBalance: totalAmount,
+    maintenanceBankInflows,
+    previousYearCarryForward,
     actualExpenses: totalExpenses + withdrawalSelf - SINKING_FUND_AMOUNT - PMC_WATER_BACKLOG_AMOUNT,
   };
 }
@@ -910,7 +928,7 @@ function calculateBankStatus(expenses) {
       const expenses = await fetchData("expenses"); // Fetch expenses data
       const inflows = await fetchData("inflow"); // Fetch inflows data
       const cashInHand = calculateCashInHand(expenses, inflows);
-      const bankStatus = calculateBankStatus(expenses);
+      const bankStatus = calculateBankStatus(expenses, inflows);
       document.getElementById("result").textContent = `₹${cashInHand.withOak.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-inflow-total").textContent = `₹${cashInHand.totalCashInflows.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-withdrawal-total").textContent = `₹${cashInHand.totalCashHoldings.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
@@ -918,6 +936,8 @@ function calculateBankStatus(expenses) {
       document.getElementById("cash-holding-25-26").textContent = `₹${cashInHand.cashHolding25_26.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("bank-status-total").textContent = `₹${bankStatus.bankStatus.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("bank-base-total").textContent = `₹${bankStatus.openingBalance.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      document.getElementById("bank-maintenance-inflow-total").textContent = `₹${bankStatus.maintenanceBankInflows.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      document.getElementById("bank-carry-forward-total").textContent = `₹${bankStatus.previousYearCarryForward.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("bank-expense-total").textContent = `-₹${bankStatus.totalExpenses.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("bank-actual-expense-total").textContent = `-₹${bankStatus.actualExpenses.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
   }
