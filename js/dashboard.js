@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   const INDEX_FILE = `${RAW_JSON_BASE}/index.json?v=${Date.now()}`;
   const FD_PASSWORD_HASH = window.ENV.FD_PASSWORD_HASH || "";
   const OAK_CASH_HOLDING_25_26 = -7340;
+  const OPENING_BANK_BALANCE = Number(window.ENV.OPENING_BANK_BALANCE ?? 6608213.31);
+  const SINKING_FUND_AMOUNT = 703200;
+  const PMC_WATER_BACKLOG_AMOUNT = 192600;
   let fdUnlocked = false;
 
   const monthNames = [
@@ -846,6 +849,38 @@ function calculateCashInHand(expenses, inflows) {
   };
 }
 
+function calculateBankStatus(expenses) {
+  const normalize = str => (str || "").toString().trim().toLowerCase();
+  const toNumber = val => {
+    if (!val) return 0;
+    return parseFloat(val.toString().replace(/[₹,]/g, "").trim()) || 0;
+  };
+
+  let totalExpenses = 0;
+
+  for (const expense of expenses) {
+    const category = normalize(expense.Category || expense.category);
+    const checked = normalize(expense.Checked || expense.checked);
+    const amount = toNumber(expense.Amount || expense.amount);
+    if (amount === 0) continue;
+
+    if (
+      category !== "withdrawl self" &&
+      category !== "withdrawal self" &&
+      checked === "yes"
+    ) {
+      totalExpenses += amount;
+    }
+  }
+
+  return {
+    bankStatus: OPENING_BANK_BALANCE - totalExpenses,
+    openingBalance: OPENING_BANK_BALANCE,
+    totalExpenses,
+    actualExpenses: totalExpenses - SINKING_FUND_AMOUNT - PMC_WATER_BACKLOG_AMOUNT,
+  };
+}
+
   async function fetchData(fileName="expenses") {
     for (const file of files) {
       if (!file.toLowerCase().includes(fileName)) continue;
@@ -867,11 +902,16 @@ function calculateCashInHand(expenses, inflows) {
       const expenses = await fetchData("expenses"); // Fetch expenses data
       const inflows = await fetchData("inflow"); // Fetch inflows data
       const cashInHand = calculateCashInHand(expenses, inflows);
+      const bankStatus = calculateBankStatus(expenses);
       document.getElementById("result").textContent = `₹${cashInHand.withOak.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-inflow-total").textContent = `₹${cashInHand.totalCashInflows.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-withdrawal-total").textContent = `₹${cashInHand.totalCashHoldings.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-expense-total").textContent = `-₹${cashInHand.totalCashExpenses.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-holding-25-26").textContent = `₹${cashInHand.cashHolding25_26.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      document.getElementById("bank-status-total").textContent = `₹${bankStatus.bankStatus.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      document.getElementById("bank-base-total").textContent = `₹${bankStatus.openingBalance.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      document.getElementById("bank-expense-total").textContent = `-₹${bankStatus.totalExpenses.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
+      document.getElementById("bank-actual-expense-total").textContent = `-₹${bankStatus.actualExpenses.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
   }
   setFDUnlockedState();
   if (fdUnlockBtn) {

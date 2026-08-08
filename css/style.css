@@ -281,6 +281,26 @@ canvas {
   white-space: nowrap;
 }
 
+.metric-subtotal {
+  display: grid !important;
+  grid-template-columns: 1fr auto;
+  align-items: start !important;
+  gap: 0.25rem 0.75rem !important;
+  margin-top: 0.35rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.metric-subtotal .metric-note {
+  grid-column: 1 / -1;
+}
+
+.metric-note {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
 .dashboard-card .card-body {
   padding: 1rem;
 }

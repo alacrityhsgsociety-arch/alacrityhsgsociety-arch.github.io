@@ -31,12 +31,12 @@
   <main class="dashboard-shell">
     <section class="dashboard-hero mb-4">
       <div class="row g-3 align-items-stretch">
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <span class="section-kicker text-white-50">Finance Dashboard</span>
           <h1 class="h2 fw-bold mt-2 mb-2">Society Finance Dashboard</h1>
           <p class="mb-0">Track inflows, expenses, sundry spends, and monthly totals from the latest published records.</p>
         </div>
-        <div class="col-sm-6 col-lg-3">
+        <div class="col-sm-6 col-lg-2">
           <div class="metric-card">
             <label for="monthSelect" class="form-label">Select Month</label>
             <select id="monthSelect" class="form-select"></select>
@@ -51,6 +51,23 @@
               <div><span>Withdrawl Self</span><strong id="cash-withdrawal-total"></strong></div>
               <div><span>Cash expenses</span><strong id="cash-expense-total"></strong></div>
               <div><span>Cash holding from 25-26</span><strong id="cash-holding-25-26"></strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <div class="metric-card">
+            <label class="form-label">Bank Current Balance</label>
+            <h2 id="bank-status-total" class="metric-value"></h2>
+            <div class="metric-breakdown mt-3" aria-label="Bank current status calculation">
+              <div><span>Opening balance (including flat maintenance amount)</span><strong id="bank-base-total"></strong></div>
+              <div><span>Expenses</span><strong id="bank-expense-total"></strong></div>
+              <div class="metric-subtotal">
+                <span>Actual expenses</span>
+                <strong id="bank-actual-expense-total"></strong>
+                <p class="metric-note mb-0">
+                  Excludes Sinking Fund (<span id="bank-sinking-fund-total">₹ 7,03,200.00</span>) + Provision for PMC Water Backlog (<span id="bank-pmc-water-total">₹ 1,92,600.00</span>)
+                </p>
+              </div>
             </div>
           </div>
         </div>
