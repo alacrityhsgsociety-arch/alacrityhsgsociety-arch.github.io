@@ -42,6 +42,17 @@ canvas {
   font-weight: 700;
 }
 
+.brand-logo {
+  width: clamp(118px, 12vw, 156px);
+  height: 48px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 0.22rem 0.45rem;
+  filter: saturate(1.12) contrast(1.08);
+  box-shadow: 0 6px 14px rgba(3, 31, 37, 0.16);
+}
+
 .nav-link {
   border-radius: 999px;
   padding-inline: 0.9rem !important;
@@ -420,6 +431,12 @@ canvas {
 }
 
 @media (max-width: 767.98px) {
+  .brand-logo {
+    width: 112px;
+    height: 42px;
+    padding: 0.18rem 0.35rem;
+  }
+
   .hero {
     text-align: left;
   }
