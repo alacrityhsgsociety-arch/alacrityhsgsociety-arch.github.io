@@ -58,9 +58,21 @@
         </div>
         <div class="col-md-4">
           <div class="metric-card">
-            <label class="form-label">Bank Current Balance</label>
-            <h2 id="bank-status-total" class="metric-value"></h2>
-            <div class="metric-breakdown mt-3" aria-label="Bank current status calculation">
+            <div class="d-flex align-items-center justify-content-between gap-2">
+              <label class="form-label mb-0">
+                <i class="bi bi-lock-fill me-2" id="bank-lock-icon"></i>Bank Current Balance
+              </label>
+              <button type="button" class="btn btn-sm btn-outline-light" id="bank-unlock-btn">
+                Unlock
+              </button>
+            </div>
+            <div class="bank-locked-message mt-3" id="bank-locked-message">
+              <i class="bi bi-shield-lock"></i>
+              <span>Protected balance</span>
+            </div>
+            <div class="d-none" id="bank-content">
+              <h2 id="bank-status-total" class="metric-value mt-3"></h2>
+              <div class="metric-breakdown mt-3" aria-label="Bank current status calculation">
               <div><span>Previous year carry forward 25-26</span><strong id="bank-carry-forward-total"></strong></div>
               <div><span>Current-year maintenance inflow</span><strong id="bank-maintenance-inflow-total"></strong></div>
               <div><span>Total Amount</span><strong id="bank-base-total"></strong></div>
@@ -71,6 +83,7 @@
                 <p class="metric-note mb-0">
                   Bank expenses include RTGS/IMPS, Cheque, BankT, and Withdrawl Self. Actual expenses exclude Sinking Fund (<span id="bank-sinking-fund-total">₹ 7,03,200.00</span>) + Provision for PMC Water Backlog (<span id="bank-pmc-water-total">₹ 1,92,600.00</span>)
                 </p>
+              </div>
               </div>
             </div>
           </div>

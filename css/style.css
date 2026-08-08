@@ -383,7 +383,8 @@ canvas {
   border-radius: 8px;
 }
 
-.fd-locked-message {
+.fd-locked-message,
+.bank-locked-message {
   display: flex;
   align-items: center;
   gap: 0.65rem;
@@ -395,7 +396,8 @@ canvas {
   font-weight: 700;
 }
 
-.fd-locked-message i {
+.fd-locked-message i,
+.bank-locked-message i {
   color: var(--brand);
   font-size: 1.1rem;
 }

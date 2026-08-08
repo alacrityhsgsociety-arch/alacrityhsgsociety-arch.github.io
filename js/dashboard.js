@@ -11,6 +11,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   const fdLockedMessage = document.getElementById("fd-locked-message");
   const fdUnlockBtn = document.getElementById("fd-unlock-btn");
   const fdLockIcon = document.getElementById("fd-lock-icon");
+  const bankContent = document.getElementById("bank-content");
+  const bankLockedMessage = document.getElementById("bank-locked-message");
+  const bankUnlockBtn = document.getElementById("bank-unlock-btn");
+  const bankLockIcon = document.getElementById("bank-lock-icon");
 
   const RAW_JSON_BASE = window.ENV.RAW_JSON_BASE || "data";
   const INDEX_FILE = `${RAW_JSON_BASE}/index.json?v=${Date.now()}`;
@@ -21,6 +25,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const PMC_WATER_BACKLOG_AMOUNT = 192600;
   const BANK_PAYMENT_MODES = new Set(["rtgs/imps", "cheque", "bankt"]);
   let fdUnlocked = false;
+  let bankUnlocked = false;
 
   const monthNames = [
     "January",
@@ -200,6 +205,18 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
 
+  function setBankUnlockedState() {
+    if (!bankContent || !bankLockedMessage || !bankUnlockBtn) return;
+    bankContent.classList.toggle("d-none", !bankUnlocked);
+    bankLockedMessage.classList.toggle("d-none", bankUnlocked);
+    bankUnlockBtn.classList.toggle("d-none", bankUnlocked);
+    if (bankLockIcon) {
+      bankLockIcon.className = bankUnlocked
+        ? "bi bi-unlock-fill me-2"
+        : "bi bi-lock-fill me-2";
+    }
+  }
+
   async function sha256(value) {
     if (!window.crypto || !crypto.subtle) {
       throw new Error("Password check is unavailable in this browser.");
@@ -228,6 +245,24 @@ document.addEventListener("DOMContentLoaded", async () => {
     fdUnlocked = true;
     setFDUnlockedState();
     await loadFDData();
+  }
+
+  async function unlockBankSection() {
+    const password = prompt("Enter bank balance password");
+    if (password === null) return;
+
+    try {
+      if (!FD_PASSWORD_HASH || (await sha256(password)) !== FD_PASSWORD_HASH) {
+        alert("Incorrect password");
+        return;
+      }
+    } catch (err) {
+      alert(err.message);
+      return;
+    }
+
+    bankUnlocked = true;
+    setBankUnlockedState();
   }
 
   // Load FD JSON and render the FD table
@@ -942,8 +977,12 @@ function calculateBankStatus(expenses, inflows) {
       document.getElementById("bank-actual-expense-total").textContent = `-₹${bankStatus.actualExpenses.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
   }
   setFDUnlockedState();
+  setBankUnlockedState();
   if (fdUnlockBtn) {
     fdUnlockBtn.addEventListener("click", unlockFDSection);
+  }
+  if (bankUnlockBtn) {
+    bankUnlockBtn.addEventListener("click", unlockBankSection);
   }
   await loadAndCalculate();
   // Initial render
