@@ -16,9 +16,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   const INDEX_FILE = `${RAW_JSON_BASE}/index.json?v=${Date.now()}`;
   const FD_PASSWORD_HASH = window.ENV.FD_PASSWORD_HASH || "";
   const OAK_CASH_HOLDING_25_26 = -7340;
-  const OPENING_BANK_BALANCE = Number(window.ENV.OPENING_BANK_BALANCE ?? 6608213.31);
+  const OPENING_BANK_BALANCE = Number(window.ENV.OPENING_BANK_BALANCE ?? 6770890.31);
   const SINKING_FUND_AMOUNT = 703200;
   const PMC_WATER_BACKLOG_AMOUNT = 192600;
+  const BANK_PAYMENT_MODES = new Set(["rtgs/imps", "cheque", "bankt"]);
   let fdUnlocked = false;
 
   const monthNames = [
@@ -857,27 +858,34 @@ function calculateBankStatus(expenses) {
   };
 
   let totalExpenses = 0;
+  let withdrawalSelf = 0;
 
   for (const expense of expenses) {
     const category = normalize(expense.Category || expense.category);
     const checked = normalize(expense.Checked || expense.checked);
+    const mode = normalize(expense.Mode || expense.mode);
     const amount = toNumber(expense.Amount || expense.amount);
     if (amount === 0) continue;
 
+    if (category === "withdrawl self" || category === "withdrawal self") {
+      withdrawalSelf += amount;
+      continue;
+    }
+
     if (
-      category !== "withdrawl self" &&
-      category !== "withdrawal self" &&
-      checked === "yes"
+      checked === "yes" &&
+      BANK_PAYMENT_MODES.has(mode)
     ) {
       totalExpenses += amount;
     }
   }
 
   return {
-    bankStatus: OPENING_BANK_BALANCE - totalExpenses,
+    totalExpenses: totalExpenses + withdrawalSelf,
+    withdrawalSelf,
+    bankStatus: OPENING_BANK_BALANCE - totalExpenses - withdrawalSelf,
     openingBalance: OPENING_BANK_BALANCE,
-    totalExpenses,
-    actualExpenses: totalExpenses - SINKING_FUND_AMOUNT - PMC_WATER_BACKLOG_AMOUNT,
+    actualExpenses: totalExpenses + withdrawalSelf - SINKING_FUND_AMOUNT - PMC_WATER_BACKLOG_AMOUNT,
   };
 }
 
