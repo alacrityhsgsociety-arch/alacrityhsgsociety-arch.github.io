@@ -1780,5 +1780,32 @@
     "Payment To": "IMPRINTS no spitting bord 4,CYCLE 2,STAY SAFE1 BORD",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "15-Aug-2026",
+    "Amount": "₹41,000.00",
+    "Payment To": "ARIF ENTERPRISES दोन्ही विंग गारबेज डोअर , लिफ्ट रुम डोअर ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Solar Power",
+    "Sub Category": "Electrical",
+    "Date": "15-Aug-2026",
+    "Amount": "₹68,814.00",
+    "Payment To": "DYNAMIC CORPORATE SOLUTION  14kw solar system खरेदी करणे 2लाख डिपाझिट वजा करून चेक अमाऊट ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹20,000.00",
+    "Payment To": "Achyut Oak ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
   }
 ]
