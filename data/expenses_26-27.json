@@ -1803,9 +1803,63 @@
     "Category": "Withdrawl Self",
     "Sub Category": "",
     "Date": "",
-    "Amount": "₹20,000.00",
+    "Amount": "₹25,000.00",
     "Payment To": "Achyut Oak ",
     "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "12-Aug-2026",
+    "Amount": "₹130.00",
+    "Payment To": "oak silver color",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "12-Aug-2026",
+    "Amount": "₹1,740.00",
+    "Payment To": "N  PORWAL &CO  U PVC BOLL VOLV FITTING B FLUSH LINE",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Medical",
+    "Date": "12-Aug-2026",
+    "Amount": "₹700.00",
+    "Payment To": "OAK  ROUNDUP HERBICIDE ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "12-Aug-2026",
+    "Amount": "₹500.00",
+    "Payment To": "TORA ELE three color tube 2",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "12-Aug-2026",
+    "Amount": "₹3,213.00",
+    "Payment To": "amzoan  15 w street 5 light ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "12-Aug-2026",
+    "Amount": "₹1,419.00",
+    "Payment To": "amzoan 50w light 2",
+    "Mode": "Cash",
     "Checked": ""
   }
 ]
