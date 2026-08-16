@@ -951,7 +951,7 @@ function calculateCashInHand(expenses, inflows, cashHoldings = []) {
   };
 }
 
-function calculateBankStatus(expenses, inflows) {
+function calculateBankStatus(expenses, inflows, cashHoldings = []) {
   const normalize = str => (str || "").toString().trim().toLowerCase();
   const toNumber = val => {
     if (!val) return 0;
@@ -962,6 +962,15 @@ function calculateBankStatus(expenses, inflows) {
   let withdrawalSelf = 0;
   let maintenanceBankInflows = 0;
 
+  for (const holding of cashHoldings) {
+    const holder = normalize(holding.Select || holding.select);
+    const flag = normalize(holding.Flag || holding.flag);
+    const note = normalize(holding["Comments / Notes"] || holding["comments / notes"]);
+    if (holder !== "oak" || flag !== "yes" || note.includes("25-26")) continue;
+
+    withdrawalSelf += toNumber(holding.Credit || holding.credit);
+  }
+
   for (const expense of expenses) {
     const category = normalize(expense.Category || expense.category);
     const checked = normalize(expense.Checked || expense.checked);
@@ -970,7 +979,9 @@ function calculateBankStatus(expenses, inflows) {
     if (amount === 0) continue;
 
     if (category === "withdrawl self" || category === "withdrawal self") {
-      withdrawalSelf += amount;
+      if (!cashHoldings.length) {
+        withdrawalSelf += amount;
+      }
       continue;
     }
 
@@ -1030,7 +1041,7 @@ function calculateBankStatus(expenses, inflows) {
       const inflows = await fetchData("inflow"); // Fetch inflows data
       const cashHoldings = await fetchData("cash_holdings");
       const cashInHand = calculateCashInHand(expenses, inflows, cashHoldings);
-      const bankStatus = calculateBankStatus(expenses, inflows);
+      const bankStatus = calculateBankStatus(expenses, inflows, cashHoldings);
       document.getElementById("result").textContent = `₹${cashInHand.withOak.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-inflow-total").textContent = `₹${cashInHand.totalCashInflows.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-withdrawal-total").textContent = `₹${cashInHand.totalCashHoldings.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
