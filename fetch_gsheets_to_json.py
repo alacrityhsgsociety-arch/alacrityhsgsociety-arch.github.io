@@ -22,7 +22,12 @@ SPREADSHEET_ID = "1hr552f5mHHpAYnTv8kkE7NgP1-1HaMJ7RIDm4foXbc8"
 TABS_COLUMNS = {
     "Inflow 26-27": ["Item", "Category", "Date", "Amount", "Payment From", "Mode"],
     "Expenses 26-27": ["Category", "Sub Category", "Date", "Amount", "Payment To", "Mode", "Checked"],
-    "fixed deposit": ["Category", "Account", "Amount"]
+    "fixed deposit": ["Category", "Account", "Amount"],
+    "Cash Holdings 26-27": ["Select", "Credit", "Debit", "Date", "Flag", "Comments / Notes"]
+}
+
+TAB_HEADER_ROWS = {
+    "Cash Holdings 26-27": 7
 }
 
 OUTPUT_DIR = "data"
@@ -95,8 +100,13 @@ def fetch_selected_columns(tab_columns_map):
             if not rows:
                 data = []
             else:
-                headers = clean_headers(rows[0])
-                all_data = [dict(zip(headers, row)) for row in rows[1:]]  # skip header
+                header_row = TAB_HEADER_ROWS.get(tab, 1)
+                header_index = header_row - 1
+                headers = clean_headers(rows[header_index])
+                all_data = [
+                    dict(zip(headers, row))
+                    for row in rows[header_index + 1:]
+                ]
 
                 # ✅ Limit to first 1000 rows
                 all_data = all_data[:1000]

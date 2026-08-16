@@ -1,0 +1,82 @@
+[
+  {
+    "Select": "Oak",
+    "Credit": "-₹7,340.00",
+    "Debit": "",
+    "Date": "5-Apr-2026",
+    "Flag": "Yes",
+    "Comments / Notes": "Cash holding from 25-26"
+  },
+  {
+    "Select": "Oak",
+    "Credit": "₹20,000.00",
+    "Debit": "",
+    "Date": "5-Apr-2026",
+    "Flag": "Yes",
+    "Comments / Notes": "For cash expenses"
+  },
+  {
+    "Select": "Oak",
+    "Credit": "₹20,000.00",
+    "Debit": "",
+    "Date": "12-Apr-2026",
+    "Flag": "Yes",
+    "Comments / Notes": "For cash expenses"
+  },
+  {
+    "Select": "Oak",
+    "Credit": "₹20,000.00",
+    "Debit": "",
+    "Date": "4-May-2026",
+    "Flag": "Yes",
+    "Comments / Notes": "For cash expenses"
+  },
+  {
+    "Select": "Oak",
+    "Credit": "₹20,000.00",
+    "Debit": "",
+    "Date": "19-May-2026",
+    "Flag": "Yes",
+    "Comments / Notes": "For cash expenses"
+  },
+  {
+    "Select": "Oak",
+    "Credit": "₹20,000.00",
+    "Debit": "",
+    "Date": "21-Jun-2026",
+    "Flag": "Yes",
+    "Comments / Notes": "For cash expenses"
+  },
+  {
+    "Select": "Oak",
+    "Credit": "₹25,000.00",
+    "Debit": "",
+    "Date": "5-Jul-2026",
+    "Flag": "Yes",
+    "Comments / Notes": "For cash expenses"
+  },
+  {
+    "Select": "Oak",
+    "Credit": "₹20,000.00",
+    "Debit": "",
+    "Date": "26-Jul-2026",
+    "Flag": "Yes",
+    "Comments / Notes": "For cash expenses"
+  },
+  {
+    "Select": "Oak",
+    "Credit": "₹25,000.00",
+    "Debit": "",
+    "Date": "2-Aug-2026",
+    "Flag": "Yes",
+    "Comments / Notes": "For cash expenses"
+  },
+  {
+    "Select": "Oak",
+    "Credit": "₹20,000.00",
+    "Debit": "",
+    "Date": "6-Aug-2026",
+    "Flag": "Yes",
+    "Comments / Notes": "For cash expenses"
+  }
+]

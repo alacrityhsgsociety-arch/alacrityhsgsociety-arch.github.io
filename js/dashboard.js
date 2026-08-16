@@ -582,23 +582,36 @@ document.addEventListener("DOMContentLoaded", async () => {
     const inflows = Array(12).fill(0);
     const cashInflows = Array(12).fill(0);
     const expenses = Array(12).fill(0);
-    const withdrawals = Array(12).fill(0);
     const cashExpenses = Array(12).fill(0);
+    const cashLedgerNet = Array(12).fill(0);
 
     for (const file of files) {
       const data = allData[file] || [];
       const isExpense = file.toLowerCase().includes("expense");
       const isInflow = file.toLowerCase().includes("inflow");
-      if (!isExpense && !isInflow) continue;
+      const isCashHolding = file.toLowerCase().includes("cash_holdings");
+      if (!isExpense && !isInflow && !isCashHolding) continue;
 
       data.forEach((row) => {
         const dateStr = row["Date"] || row["date"];
-        const amount = parseAmount(row["Amount"] || row["amount"]);
-        if (!dateStr || amount === 0) return;
+        if (!dateStr) return;
         const date = new Date(dateStr);
         if (isNaN(date)) return;
 
         const monthIndex = date.getMonth();
+        if (isCashHolding) {
+          const holder = (row["Select"] || row["select"] || "").trim().toLowerCase();
+          const flag = (row["Flag"] || row["flag"] || "").trim().toLowerCase();
+          if (holder === "oak" && flag === "yes") {
+            cashLedgerNet[monthIndex] +=
+              parseAmount(row["Credit"] || row["credit"]) -
+              parseAmount(row["Debit"] || row["debit"]);
+          }
+          return;
+        }
+
+        const amount = parseAmount(row["Amount"] || row["amount"]);
+        if (amount === 0) return;
         const category = (row["Category"] || row["category"] || "")
           .trim()
           .toLowerCase();
@@ -613,11 +626,6 @@ document.addEventListener("DOMContentLoaded", async () => {
           return;
         }
 
-        if (category === "withdrawal self" || category === "withdrawl self") {
-          withdrawals[monthIndex] += amount;
-          return;
-        }
-
         if (checked === "yes") {
           expenses[monthIndex] += amount;
           if (mode === "cash") cashExpenses[monthIndex] += amount;
@@ -626,9 +634,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     const net = inflows.map((value, index) => value - expenses[index]);
-    let runningCash = OAK_CASH_HOLDING_25_26;
+    let runningCash = 0;
     const cashPosition = inflows.map((value, index) => {
-      runningCash += cashInflows[index] + withdrawals[index] - cashExpenses[index];
+      runningCash += cashInflows[index] + cashLedgerNet[index] - cashExpenses[index];
       return runningCash;
     });
 
@@ -867,7 +875,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
 
-function calculateCashInHand(expenses, inflows) {
+function calculateCashInHand(expenses, inflows, cashHoldings = []) {
   const normalize = str => (str || "").toString().trim().toLowerCase();
 
   // convert "₹2,300.00" → 2300
@@ -879,17 +887,21 @@ function calculateCashInHand(expenses, inflows) {
   let totalCashHoldings = 0;
   let totalCashExpenses = 0;
   let totalCashInflows = 0;
+  let cashHolding25_26 = 0;
 
-  for (const e of expenses) {
-    const category = normalize(e.Category || e.category);
-    const mode = normalize(e.Mode || e.mode);
-    const checked = normalize(e.Checked || e.checked);
-    const amount = toNumber(e.Amount || e.amount);
+  for (const holding of cashHoldings) {
+    const holder = normalize(holding.Select || holding.select);
+    const flag = normalize(holding.Flag || holding.flag);
+    if (holder !== "oak" || flag !== "yes") continue;
 
-    if (category === "withdrawl self" || category === "withdrawal self") {
-      totalCashHoldings += amount;
-    } else if (mode === "cash" && checked === "yes") {
-      totalCashExpenses += amount;
+    const credit = toNumber(holding.Credit || holding.credit);
+    const debit = toNumber(holding.Debit || holding.debit);
+    const note = normalize(holding["Comments / Notes"] || holding["comments / notes"]);
+
+    if (note.includes("25-26")) {
+      cashHolding25_26 += credit;
+    } else {
+      totalCashHoldings += credit - debit;
     }
   }
 
@@ -902,14 +914,40 @@ function calculateCashInHand(expenses, inflows) {
     }
   }
 
-  const withOak = totalCashInflows + totalCashHoldings - totalCashExpenses + OAK_CASH_HOLDING_25_26;
+  for (const e of expenses) {
+    const category = normalize(e.Category || e.category);
+    const mode = normalize(e.Mode || e.mode);
+    const checked = normalize(e.Checked || e.checked);
+    const amount = toNumber(e.Amount || e.amount);
+
+    if (!cashHoldings.length) {
+      if (category === "withdrawl self" || category === "withdrawal self") {
+        totalCashHoldings += amount;
+      }
+    }
+
+    if (
+      category !== "withdrawl self" &&
+      category !== "withdrawal self" &&
+      mode === "cash" &&
+      checked === "yes"
+    ) {
+      totalCashExpenses += amount;
+    }
+  }
+
+  if (!cashHoldings.length) {
+    cashHolding25_26 = OAK_CASH_HOLDING_25_26;
+  }
+
+  const withOak = totalCashInflows + totalCashHoldings - totalCashExpenses + cashHolding25_26;
 
   return {
     withOak,
     totalCashInflows,
     totalCashHoldings,
     totalCashExpenses,
-    cashHolding25_26: OAK_CASH_HOLDING_25_26,
+    cashHolding25_26,
   };
 }
 
@@ -990,7 +1028,8 @@ function calculateBankStatus(expenses, inflows) {
   async function loadAndCalculate() {
       const expenses = await fetchData("expenses"); // Fetch expenses data
       const inflows = await fetchData("inflow"); // Fetch inflows data
-      const cashInHand = calculateCashInHand(expenses, inflows);
+      const cashHoldings = await fetchData("cash_holdings");
+      const cashInHand = calculateCashInHand(expenses, inflows, cashHoldings);
       const bankStatus = calculateBankStatus(expenses, inflows);
       document.getElementById("result").textContent = `₹${cashInHand.withOak.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
       document.getElementById("cash-inflow-total").textContent = `₹${cashInHand.totalCashInflows.toLocaleString("en-IN", {minimumFractionDigits: 2})}`;
