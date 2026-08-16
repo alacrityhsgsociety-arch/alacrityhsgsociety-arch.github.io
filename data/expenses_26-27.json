@@ -1698,7 +1698,7 @@
     "Amount": "₹2,846.00",
     "Payment To": "amzoan 12.5 dumbbell  2 pic",
     "Mode": "Cash",
-    "Checked": "Yes"
+    "Checked": ""
   },
   {
     "Category": "Sundry",
@@ -1815,7 +1815,7 @@
     "Amount": "₹130.00",
     "Payment To": "oak silver color",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -1824,7 +1824,7 @@
     "Amount": "₹1,740.00",
     "Payment To": "N  PORWAL &CO  U PVC BOLL VOLV FITTING B FLUSH LINE",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -1833,7 +1833,7 @@
     "Amount": "₹700.00",
     "Payment To": "OAK  ROUNDUP HERBICIDE ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -1869,7 +1869,7 @@
     "Amount": "₹440.00",
     "Payment To": "mahadev ent 15 aug plat glass garbag bag",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -1878,6 +1878,6 @@
     "Amount": "₹600.00",
     "Payment To": "oak 15 aug tea",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   }
 ]
