@@ -1802,8 +1802,8 @@
   {
     "Category": "Withdrawl Self",
     "Sub Category": "",
-    "Date": "",
-    "Amount": "₹25,000.00",
+    "Date": "16-Aug-2026",
+    "Amount": "₹30,000.00",
     "Payment To": "Achyut Oak ",
     "Mode": "RTGS/IMPS",
     "Checked": ""
@@ -1859,6 +1859,24 @@
     "Date": "12-Aug-2026",
     "Amount": "₹1,419.00",
     "Payment To": "amzoan 50w light 2",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "14-Aug-2026",
+    "Amount": "₹440.00",
+    "Payment To": "mahadev ent 15 aug plat glass garbag bag",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Refreshments",
+    "Date": "15-Aug-2026",
+    "Amount": "₹600.00",
+    "Payment To": "oak 15 aug tea",
     "Mode": "Cash",
     "Checked": ""
   }
