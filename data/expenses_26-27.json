@@ -1881,21 +1881,39 @@
     "Checked": "Yes"
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
     "Date": "",
     "Amount": "₹18,399.00",
     "Payment To": "Amazon jym  सायकल ",
-    "Mode": "",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "",
+    "Amount": "₹15,999.00",
+    "Payment To": "Amazon grass cutter ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Medical",
+    "Date": "16-Aug-2026",
+    "Amount": "₹280.00",
+    "Payment To": "plus chemist aer pocket 4 lift",
+    "Mode": "Cash",
     "Checked": ""
   },
   {
     "Category": "",
-    "Sub Category": "",
-    "Date": "",
-    "Amount": "₹15,999.00",
-    "Payment To": "Amazon grass cutter ",
-    "Mode": "",
+    "Sub Category": "Electrical",
+    "Date": "18-Aug-26",
+    "Amount": "₹450.00",
+    "Payment To": "dmart 9w led 10",
+    "Mode": "Cash",
     "Checked": ""
   }
 ]

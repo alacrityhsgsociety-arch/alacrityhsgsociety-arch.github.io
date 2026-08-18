@@ -1049,6 +1049,14 @@
   },
   {
     "Item": "",
+    "Category": "",
+    "Date": "10-Jun-2026",
+    "Amount": "₹1,200.00",
+    "Payment From": "",
+    "Mode": ""
+  },
+  {
+    "Item": "",
     "Category": "Bank Interest",
     "Date": "1-Apr-2023",
     "Amount": "",
