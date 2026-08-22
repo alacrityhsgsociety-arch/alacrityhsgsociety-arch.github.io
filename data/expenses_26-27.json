@@ -1842,7 +1842,7 @@
     "Amount": "₹500.00",
     "Payment To": "TORA ELE three color tube 2",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -1851,7 +1851,7 @@
     "Amount": "₹3,213.00",
     "Payment To": "amzoan  15 w street 5 light ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -1860,7 +1860,7 @@
     "Amount": "₹1,419.00",
     "Payment To": "amzoan 50w light 2",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -1905,7 +1905,7 @@
     "Amount": "₹280.00",
     "Payment To": "plus chemist aer pocket 4 lift",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "",
@@ -1914,6 +1914,6 @@
     "Amount": "₹450.00",
     "Payment To": "dmart 9w led 10",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   }
 ]
