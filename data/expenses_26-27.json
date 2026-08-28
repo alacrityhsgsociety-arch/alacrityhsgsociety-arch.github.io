@@ -1695,8 +1695,8 @@
     "Category": "Sundry",
     "Sub Category": "Tools",
     "Date": "7-Aug-2026",
-    "Amount": "₹3,399.00",
-    "Payment To": "amzoan 12.5 dumbbell  2 pic",
+    "Amount": "₹0.00",
+    "Payment To": "amzoan 12.5 dumbbell  2 pic order rej",
     "Mode": "Cash",
     "Checked": ""
   },
@@ -1996,5 +1996,23 @@
     "Payment To": "MSEB elecricity bil",
     "Mode": "RTGS/IMPS",
     "Checked": "Yes"
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "25 Aug 2026",
+    "Amount": "₹280.00",
+    "Payment To": "plus point chemist air packetलिफ्ट मध्ये लावणेसाठी ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "26 Aug 2026",
+    "Amount": "₹850.00",
+    "Payment To": "avinash bhosale जिम नवीन सायकल फिटीग ",
+    "Mode": "Cash",
+    "Checked": ""
   }
 ]
