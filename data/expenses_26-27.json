@@ -1993,26 +1993,26 @@
     "Sub Category": "",
     "Date": "24-Aug-2026",
     "Amount": "₹68,480.00",
-    "Payment To": "MSEB elecricity bil",
+    "Payment To": "MSEB elecricity bill",
     "Mode": "RTGS/IMPS",
     "Checked": "Yes"
   },
   {
-    "Category": "",
+    "Category": "Sundry",
     "Sub Category": "",
     "Date": "25 Aug 2026",
     "Amount": "₹280.00",
     "Payment To": "plus point chemist air packetलिफ्ट मध्ये लावणेसाठी ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
-    "Category": "",
+    "Category": "Sundry",
     "Sub Category": "",
     "Date": "26 Aug 2026",
     "Amount": "₹850.00",
     "Payment To": "avinash bhosale जिम नवीन सायकल फिटीग ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   }
 ]
