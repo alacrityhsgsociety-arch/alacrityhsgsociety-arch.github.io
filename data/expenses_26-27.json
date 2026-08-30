@@ -1750,7 +1750,7 @@
     "Sub Category": "Plumbing",
     "Date": "10-Aug-2026",
     "Amount": "₹1,000.00",
-    "Payment To": "DENISH SR2 FLUSH LINE VANT REPERING 10",
+    "Payment To": "DENISH SR1  40mm line chokup ",
     "Mode": "Cash",
     "Checked": "Yes"
   },
@@ -1932,7 +1932,7 @@
     "Amount": "₹4,500.00",
     "Payment To": "NABIRASOLL GARBAG BIG TEMPOओलाकचरा",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
@@ -1968,7 +1968,7 @@
     "Amount": "₹4,500.00",
     "Payment To": "NABIRASOLL GARBAG BIG TEMPO+ओला कचरा ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "",
@@ -2014,5 +2014,86 @@
     "Payment To": "avinash bhosale जिम नवीन सायकल फिटीग ",
     "Mode": "Cash",
     "Checked": "Yes"
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹1,200.00",
+    "Payment To": "STAF TEA",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹23,000.00",
+    "Payment To": "ACHYUT OAK",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹30,000.00",
+    "Payment To": "ACHYUT OAk",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹65,340.00",
+    "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹8,000.00",
+    "Payment To": "Mahadev Khandare चेकवरील नांव ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹16,284.00",
+    "Payment To": "ENVIRO SHIELD SOLUTIONS PVT LTD   AXIS BANK OIL CHANG 30+10LTR",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "",
+    "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
+    "Mode": "",
+    "Checked": ""
   }
 ]
