@@ -1578,7 +1578,7 @@
     "Category": "TDS Payment",
     "Sub Category": "",
     "Date": "01-Aug-2026",
-    "Amount": "₹360.00",
+    "Amount": "₹0.00",
     "Payment To": "Pramod Enterprises   ",
     "Mode": "RTGS/IMPS",
     "Checked": ""
@@ -1587,7 +1587,7 @@
     "Category": "TDS Payment",
     "Sub Category": "",
     "Date": "01-Aug-2026",
-    "Amount": "₹660.00",
+    "Amount": "₹0.00",
     "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
     "Mode": "RTGS/IMPS",
     "Checked": ""
@@ -1596,7 +1596,7 @@
     "Category": "TDS Payment",
     "Sub Category": "",
     "Date": "01-Aug-2026",
-    "Amount": "₹540.00",
+    "Amount": "₹0.00",
     "Payment To": "OLYMPIA ELEVATORS PRIVATI LTD  ",
     "Mode": "RTGS/IMPS",
     "Checked": ""
@@ -1999,7 +1999,7 @@
   },
   {
     "Category": "Sundry",
-    "Sub Category": "",
+    "Sub Category": "Medical",
     "Date": "25 Aug 2026",
     "Amount": "₹280.00",
     "Payment To": "plus point chemist air packetलिफ्ट मध्ये लावणेसाठी ",
@@ -2008,7 +2008,7 @@
   },
   {
     "Category": "Sundry",
-    "Sub Category": "",
+    "Sub Category": "Service",
     "Date": "26 Aug 2026",
     "Amount": "₹850.00",
     "Payment To": "avinash bhosale जिम नवीन सायकल फिटीग ",
@@ -2016,84 +2016,147 @@
     "Checked": "Yes"
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Tea",
     "Date": "",
     "Amount": "₹1,200.00",
     "Payment To": "STAF TEA",
-    "Mode": "",
+    "Mode": "Cash",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Manager Salary",
     "Sub Category": "",
     "Date": "",
     "Amount": "₹23,000.00",
     "Payment To": "ACHYUT OAK",
-    "Mode": "",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Withdrawl Self",
     "Sub Category": "",
     "Date": "",
     "Amount": "₹40,000.00",
     "Payment To": "ACHYUT OAk",
-    "Mode": "",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Security",
     "Sub Category": "",
-    "Date": "",
+    "Date": "31-Aug-2026",
     "Amount": "₹65,340.00",
     "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
-    "Mode": "",
+    "Mode": "Cheque",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Garden Services",
     "Sub Category": "",
-    "Date": "",
+    "Date": "01-Sep-2026",
     "Amount": "₹8,000.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव ",
-    "Mode": "",
+    "Mode": "Cheque",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "26-Aug-2026",
+    "Amount": "₹62,661.00",
+    "Payment To": "RADIANT ELECTRICALCS   main panal to b wing 50sq mm cable main mcb 6 no",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "",
+    "Amount": "₹20,000.00",
+    "Payment To": "YASHWANT PAWAR  काम झाले वर चेक देताना बिल लावणार केबल टाकणे जोडणे ",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Ganesh Puja",
     "Sub Category": "",
     "Date": "",
-    "Amount": "₹35,640.00",
-    "Payment To": "Pramod Enterprises   ",
-    "Mode": "",
+    "Amount": "₹50,000.00",
+    "Payment To": "ASHISH ANAND  JOSHI  ganesh pooja 2026",
+    "Mode": "Cheque",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Ganesh Puja",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹50,000.00",
+    "Payment To": "ABHIJEET PRABODH  KUNTURKAR ganesh pooja 2026",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "01-Sep-2026",
+    "Amount": "₹35,640.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
     "Sub Category": "",
     "Date": "",
     "Amount": "₹16,284.00",
     "Payment To": "ENVIRO SHIELD SOLUTIONS PVT LTD   AXIS BANK OIL CHANG 30+10LTR",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Misc",
+    "Date": "01-Sep-2026",
+    "Amount": "₹100.00",
+    "Payment To": "oak  cutting m paterol+oilबाटलीत आणलेलेचे बिल मिळत नाही ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹720.00",
+    "Payment To": "Pramod Enterprises   +raw117",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹1,320.00",
+    "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी +raw178",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "TDS Payment",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹540.00",
+    "Payment To": "OLYMPIA ELEVATORS PRIVATI LTD  179",
     "Mode": "",
     "Checked": ""
   },
   {
     "Category": "",
     "Sub Category": "",
-    "Date": "",
-    "Amount": "",
-    "Payment To": "Pramod Enterprises   ",
-    "Mode": "",
-    "Checked": ""
-  },
-  {
-    "Category": "",
-    "Sub Category": "",
-    "Date": "",
-    "Amount": "",
-    "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
-    "Mode": "",
+    "Date": "01-Sep-2026",
+    "Amount": "₹3,500.00",
+    "Payment To": "Elite Facility Management  (म्यस्कुडो 4सव्हीस जुलै , आगस्ट बिल आहेत)",
+    "Mode": "Cheque",
     "Checked": ""
   }
 ]
