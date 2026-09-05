@@ -1971,22 +1971,22 @@
     "Checked": "Yes"
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
     "Date": "31-Aug-2026",
     "Amount": "₹5,000.00",
     "Payment To": " यशवंत पवार A,B wing com cable टेस्ट ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Labor",
     "Date": "31-Aug-2026",
     "Amount": "₹600.00",
     "Payment To": "Pawar ट्युब हॅलोजन फिक्स ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "MSEB Electricity",
@@ -2018,101 +2018,101 @@
   {
     "Category": "Sundry",
     "Sub Category": "Tea",
-    "Date": "",
+    "Date": "01 Sep 2026",
     "Amount": "₹1,200.00",
     "Payment To": "STAF TEA",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Manager Salary",
     "Sub Category": "",
-    "Date": "",
+    "Date": "01 Sep 2026",
     "Amount": "₹23,000.00",
     "Payment To": "ACHYUT OAK",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Withdrawl Self",
     "Sub Category": "",
-    "Date": "",
+    "Date": "05 Sep 2026",
     "Amount": "₹40,000.00",
-    "Payment To": "ACHYUT OAkडिझेल , बोअर खाली घेयचे आहे ",
+    "Payment To": "ACHYUT OAk डिझेल , बोअर खाली घेयचे आहे ",
     "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
     "Category": "Security",
     "Sub Category": "",
-    "Date": "31-Aug-2026",
+    "Date": "5-Sep-2026",
     "Amount": "₹65,340.00",
     "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Garden Services",
     "Sub Category": "",
-    "Date": "01-Sep-2026",
+    "Date": "05-Sep-2026",
     "Amount": "₹8,000.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
     "Sub Category": "Electrical",
-    "Date": "26-Aug-2026",
+    "Date": "05-Sep-2026",
     "Amount": "₹62,661.00",
     "Payment To": "RADIANT ELECTRICALCS   main panal to b wing 50sq mm cable main mcb 6 no",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
     "Sub Category": "Electrical",
-    "Date": "",
+    "Date": "05-Sep-2026",
     "Amount": "₹20,000.00",
     "Payment To": "YASHWANT PAWAR  काम झाले वर चेक देताना बिल लावणार केबल टाकणे जोडणे ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Ganesh Puja",
     "Sub Category": "",
-    "Date": "",
+    "Date": "05-Sep-2026",
     "Amount": "₹50,000.00",
     "Payment To": "ASHISH ANAND  JOSHI  ganesh pooja 2026",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Ganesh Puja",
     "Sub Category": "",
-    "Date": "",
+    "Date": "05-Sep-2026",
     "Amount": "₹50,000.00",
     "Payment To": "ABHIJEET PRABODH  KUNTURKAR ganesh pooja 2026",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
     "Sub Category": "",
-    "Date": "01-Sep-2026",
+    "Date": "05-Sep-2026",
     "Amount": "₹35,640.00",
     "Payment To": "Pramod Enterprises   ",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
     "Sub Category": "",
-    "Date": "",
+    "Date": "05-Sep-2026",
     "Amount": "₹16,284.00",
     "Payment To": "ENVIRO SHIELD SOLUTIONS PVT LTD   AXIS BANK OIL CHANG 30+10LTR",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2121,12 +2121,12 @@
     "Amount": "₹100.00",
     "Payment To": "oak  cutting m paterol+oilबाटलीत आणलेलेचे बिल मिळत नाही ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "05-Sep-2026",
     "Amount": "₹720.00",
     "Payment To": "Pramod Enterprises   +raw117",
     "Mode": "",
@@ -2135,7 +2135,7 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "05-Sep-2026",
     "Amount": "₹1,320.00",
     "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी +raw178",
     "Mode": "",
@@ -2144,19 +2144,28 @@
   {
     "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "05-Sep-2026",
     "Amount": "₹540.00",
     "Payment To": "OLYMPIA ELEVATORS PRIVATI LTD  179",
     "Mode": "",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Sundry",
     "Sub Category": "",
-    "Date": "01-Sep-2026",
+    "Date": "05-Sep-2026",
     "Amount": "₹3,500.00",
     "Payment To": "Elite Facility Management  (म्यस्कुडो 4सव्हीस जुलै , आगस्ट बिल आहेत)",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Solar Power",
+    "Sub Category": "",
+    "Date": "05-Sep-2026",
+    "Amount": "₹141,570.00",
+    "Payment To": "Samarthaditya Solar Solutions  10%अडव्हासpo चेक करून चेक लिहा ",
+    "Mode": "Cheque",
+    "Checked": "Yes"
   }
 ]
