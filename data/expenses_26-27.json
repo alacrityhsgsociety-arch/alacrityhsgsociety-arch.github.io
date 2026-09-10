@@ -2167,5 +2167,77 @@
     "Payment To": "Samarthaditya Solar Solutions  10%अडव्हासpo चेक करून चेक लिहा ",
     "Mode": "Cheque",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "10-Sep-2026",
+    "Amount": "₹700.00",
+    "Payment To": "pravin plumber b sr3 flush volv reples",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "25-Aug-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "anand parking light reper ,tube fix",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "20-Aug-2026",
+    "Amount": "₹1,845.00",
+    "Payment To": "pluse hardwar  sticer reples ,wire, tube",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "06-Sep-2026",
+    "Amount": "₹630.00",
+    "Payment To": "Mahadev Enterprises house keeping material ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "7-Sep-2026",
+    "Amount": "₹40.00",
+    "Payment To": "vinayak novelty po print",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "10-Sep-2026",
+    "Amount": "₹240.00",
+    "Payment To": "prime hardware club slid wheel",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "08-Sep-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "oak cable tempo rent",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "09-Sep-2026",
+    "Amount": "₹270.00",
+    "Payment To": "amzoan printer ink",
+    "Mode": "Cash",
+    "Checked": ""
   }
 ]
