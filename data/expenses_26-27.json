@@ -2175,7 +2175,7 @@
     "Amount": "₹700.00",
     "Payment To": "pravin plumber b sr3 flush volv reples",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2184,7 +2184,7 @@
     "Amount": "₹1,200.00",
     "Payment To": "anand parking light reper ,tube fix",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2193,7 +2193,7 @@
     "Amount": "₹1,845.00",
     "Payment To": "pluse hardwar  sticer reples ,wire, tube",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
@@ -2202,7 +2202,7 @@
     "Amount": "₹630.00",
     "Payment To": "Mahadev Enterprises house keeping material ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2211,7 +2211,7 @@
     "Amount": "₹40.00",
     "Payment To": "vinayak novelty po print",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2220,7 +2220,7 @@
     "Amount": "₹240.00",
     "Payment To": "prime hardware club slid wheel",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2229,7 +2229,7 @@
     "Amount": "₹1,200.00",
     "Payment To": "oak cable tempo rent",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2238,6 +2238,24 @@
     "Amount": "₹270.00",
     "Payment To": "amzoan printer ink",
     "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "MSEB Electricity",
+    "Sub Category": "",
+    "Date": "14-Sep-2026",
+    "Amount": "₹47,360.00",
+    "Payment To": "MSEB elecricity bill",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "14 Sep 2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAk डिझेल , बोअर खाली घेयचे आहे ",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   }
 ]
