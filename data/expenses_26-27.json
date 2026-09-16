@@ -2259,8 +2259,8 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
     "Date": "12-Sep-2026",
     "Amount": "₹500.00",
     "Payment To": "club glass door repair ",
@@ -2268,7 +2268,7 @@
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Housekeeping",
     "Sub Category": "",
     "Date": "14-Sep-2026",
     "Amount": "₹320.00",
@@ -2277,7 +2277,7 @@
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Diesel for DG",
     "Sub Category": "",
     "Date": "15-Sep-2026",
     "Amount": "₹3,300.00",
@@ -2286,7 +2286,7 @@
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Diesel for DG",
     "Sub Category": "",
     "Date": "15-Sep-2026",
     "Amount": "₹2,000.00",
@@ -2295,11 +2295,20 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Transport",
     "Date": "13-Sep-2026",
     "Amount": "₹4,500.00",
     "Payment To": "NABIRASOLL GARBAG BIG TEMPOओलाकचरा",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "16-Sep-2026",
+    "Amount": "₹4,668.00",
+    "Payment To": "Shakti Sports 12.5 डबेल्स TT net",
     "Mode": "Cash",
     "Checked": ""
   }
