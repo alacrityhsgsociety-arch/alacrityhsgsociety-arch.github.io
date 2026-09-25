@@ -2304,7 +2304,7 @@
     "Checked": "Yes"
   },
   {
-    "Category": "",
+    "Category": "Sundry",
     "Sub Category": "",
     "Date": "16-Sep-2026",
     "Amount": "₹4,668.00",
@@ -2313,21 +2313,48 @@
     "Checked": "Yes"
   },
   {
-    "Category": "",
-    "Sub Category": "",
-    "Date": "",
+    "Category": "Sundry",
+    "Sub Category": "Tools",
+    "Date": "18-Sep-2026",
     "Amount": "₹1,095.00",
     "Payment To": "omkar Paints गारबेज रुम वाल कलर",
     "Mode": "Cash",
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
-    "Date": "",
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "19-Sep-2026",
     "Amount": "₹4,500.00",
     "Payment To": "NABIRASOLL GARBAG BIG TEMPOक्लब हाऊस मागिल राबिट ओलाकचरा",
-    "Mode": "",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
+    "Date": "24-Sep-2026",
+    "Amount": "₹1,500.00",
+    "Payment To": "santush kumar b 904 parking tiles remov &fixing for bwing nnew cable",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tools",
+    "Date": "23-Sep-2026",
+    "Amount": "₹4,656.00",
+    "Payment To": "VERTEX FITNESS SERVICES wire rope fixing ,servce",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "25-Sep-2026",
+    "Amount": "₹1,130.00",
+    "Payment To": "Mahadev enterprise house keeping material ",
+    "Mode": "Cash",
     "Checked": ""
   }
 ]

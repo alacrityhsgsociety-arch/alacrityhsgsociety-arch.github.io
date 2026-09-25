@@ -1053,7 +1053,7 @@
     "Date": "10-Jun-2026",
     "Amount": "₹1,200.00",
     "Payment From": "MYGATE",
-    "Mode": ""
+    "Mode": "Cheque"
   },
   {
     "Item": "",
@@ -1061,7 +1061,23 @@
     "Date": "8-Sep-2026",
     "Amount": "₹840.00",
     "Payment From": "yojika jodha yoja class ",
-    "Mode": ""
+    "Mode": "Cash"
+  },
+  {
+    "Item": " a 205",
+    "Category": "Shifting",
+    "Date": "22-Sep-2026",
+    "Amount": "₹1,000.00",
+    "Payment From": "a 205",
+    "Mode": "Cash"
+  },
+  {
+    "Item": "a 1002",
+    "Category": "Shifting",
+    "Date": "24-Sep-2026",
+    "Amount": "₹1,000.00",
+    "Payment From": "a 1002",
+    "Mode": "Cash"
   },
   {
     "Item": "",
