@@ -2408,7 +2408,16 @@
     "Date": "",
     "Amount": "",
     "Payment To": "Amazon water taster ",
-    "Mode": "",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹4,530.00",
+    "Payment To": "pravin enterprise garden Bor chamber material ",
+    "Mode": "Cash",
     "Checked": ""
   },
   {
