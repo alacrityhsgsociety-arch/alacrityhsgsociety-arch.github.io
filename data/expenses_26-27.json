@@ -2394,8 +2394,8 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Misc",
     "Date": "27-Sep-2026",
     "Amount": "₹5,000.00",
     "Payment To": "dinesh plumber a sr 1 vant line repering",
@@ -2403,30 +2403,30 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
-    "Date": "",
-    "Amount": "",
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "28-Sep-2026",
+    "Amount": "₹1,589.00",
     "Payment To": "Amazon water taster ",
     "Mode": "Cash",
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
-    "Date": "",
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "27-Sep-2026",
     "Amount": "₹4,530.00",
     "Payment To": "pravin enterprise garden Bor chamber material ",
     "Mode": "Cash",
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
-    "Date": "",
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "01-Oct-2026",
     "Amount": "₹1,200.00",
     "Payment To": "STAF TEA",
-    "Mode": "",
+    "Mode": "Cash",
     "Checked": ""
   },
   {
@@ -2435,79 +2435,97 @@
     "Date": "",
     "Amount": "₹6,000.00",
     "Payment To": "Q2 Bonus for manager JUL,AUG,SEP",
-    "Mode": "",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Manager Salary",
     "Sub Category": "",
-    "Date": "",
+    "Date": "01-Oct-2026",
     "Amount": "₹23,000.00",
     "Payment To": "ACHYUT OAK",
-    "Mode": "",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Withdrawl Self",
     "Sub Category": "",
     "Date": "",
-    "Amount": "",
-    "Payment To": "ACHYUT OAK",
-    "Mode": "",
+    "Amount": "₹25,000.00",
+    "Payment To": "ACHYUT OAK कायटेक पाईप आणायचा आहे ",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Housekeeping",
     "Sub Category": "",
     "Date": "",
     "Amount": "₹35,640.00",
     "Payment To": "Pramod Enterprises   ",
-    "Mode": "",
+    "Mode": "Cheque",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Security",
     "Sub Category": "",
     "Date": "",
     "Amount": "₹65,340.00",
     "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
-    "Mode": "",
+    "Mode": "Cheque",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Garden Services",
     "Sub Category": "",
     "Date": "",
     "Amount": "₹8,000.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव ",
-    "Mode": "",
+    "Mode": "Cheque",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Ganesh Puja",
     "Sub Category": "",
     "Date": "",
     "Amount": "₹13,206.00",
     "Payment To": "ABHIJEET PRABODH  KUNTURKAR ganesh pooja 2026 REMARK ",
-    "Mode": "",
+    "Mode": "Cheque",
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
     "Date": "",
-    "Amount": "",
-    "Payment To": "GANESH BIPETKAR  ",
-    "Mode": "",
+    "Amount": "₹9,500.00",
+    "Payment To": "GANESH BIPETKAR soler water shifting b sr 4,5",
+    "Mode": "Cheque",
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
-    "Date": "",
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "21-Sep-2026",
     "Amount": "₹1,415.00",
     "Payment To": "Plus hardware  केबल साठी सँडल स्क्रु PVC सोलुन ,एम सिल, लॉक ",
     "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹360.00",
+    "Payment To": "Pramod Enterprises   ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹660.00",
+    "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   }
 ]
