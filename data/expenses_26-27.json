@@ -2391,7 +2391,7 @@
     "Amount": "₹500.00",
     "Payment To": "pmc gift",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2400,16 +2400,16 @@
     "Amount": "₹5,000.00",
     "Payment To": "dinesh plumber a sr 1 vant line repering",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
     "Sub Category": "Plumbing",
     "Date": "28-Sep-2026",
-    "Amount": "₹1,589.00",
+    "Amount": "₹1,584.00",
     "Payment To": "Amazon water taster ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2418,7 +2418,7 @@
     "Amount": "₹4,530.00",
     "Payment To": "pravin enterprise garden Bor chamber material ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2427,16 +2427,16 @@
     "Amount": "₹1,200.00",
     "Payment To": "STAF TEA",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
-    "Category": "",
+    "Category": "Manager Salary",
     "Sub Category": "",
-    "Date": "",
+    "Date": "03-Oct-2026",
     "Amount": "₹6,000.00",
-    "Payment To": "Q2 Bonus for manager JUL,AUG,SEP",
+    "Payment To": "Q3 Bonus for manager JUL,AUG,SEP",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Manager Salary",
@@ -2445,12 +2445,12 @@
     "Amount": "₹23,000.00",
     "Payment To": "ACHYUT OAK",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Withdrawl Self",
     "Sub Category": "",
-    "Date": "",
+    "Date": "03 Oct 2026",
     "Amount": "₹25,000.00",
     "Payment To": "ACHYUT OAK कायटेक पाईप आणायचा आहे ",
     "Mode": "RTGS/IMPS",
@@ -2459,16 +2459,16 @@
   {
     "Category": "Housekeeping",
     "Sub Category": "",
-    "Date": "",
+    "Date": "03-Oct-2026",
     "Amount": "₹35,640.00",
     "Payment To": "Pramod Enterprises   ",
-    "Mode": "Cheque",
-    "Checked": ""
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
   },
   {
     "Category": "Security",
     "Sub Category": "",
-    "Date": "",
+    "Date": "03-Oct-2026",
     "Amount": "₹65,340.00",
     "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
     "Mode": "Cheque",
@@ -2477,7 +2477,7 @@
   {
     "Category": "Garden Services",
     "Sub Category": "",
-    "Date": "",
+    "Date": "03-Oct-2026",
     "Amount": "₹8,000.00",
     "Payment To": "Mahadev Khandare चेकवरील नांव ",
     "Mode": "Cheque",
@@ -2486,7 +2486,7 @@
   {
     "Category": "Ganesh Puja",
     "Sub Category": "",
-    "Date": "",
+    "Date": "03-Oct-2026",
     "Amount": "₹13,206.00",
     "Payment To": "ABHIJEET PRABODH  KUNTURKAR ganesh pooja 2026 REMARK ",
     "Mode": "Cheque",
@@ -2495,7 +2495,7 @@
   {
     "Category": "Sundry",
     "Sub Category": "Plumbing",
-    "Date": "",
+    "Date": "03-Oct-2026",
     "Amount": "₹9,500.00",
     "Payment To": "GANESH BIPETKAR soler water shifting b sr 4,5",
     "Mode": "Cheque",
@@ -2508,24 +2508,51 @@
     "Amount": "₹1,415.00",
     "Payment To": "Plus hardware  केबल साठी सँडल स्क्रु PVC सोलुन ,एम सिल, लॉक ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
-    "Category": "",
+    "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "03-Oct-2026",
     "Amount": "₹360.00",
     "Payment To": "Pramod Enterprises   ",
     "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "TDS Payment",
     "Sub Category": "",
-    "Date": "",
+    "Date": "03-Oct-2026",
     "Amount": "₹660.00",
     "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
     "Mode": "RTGS/IMPS",
     "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "03-Oct-2026",
+    "Amount": "₹3,500.00",
+    "Payment To": "Deepak garden bore चेंबर खोदाई, बांधकाम, पाईप जोडणे ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Budgeted",
+    "Sub Category": "",
+    "Date": "03-Oct-2026",
+    "Amount": "₹1,400,000.00",
+    "Payment To": "SOLR Project",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "MSEB Electricity",
+    "Sub Category": "",
+    "Date": "03-Oct-2026",
+    "Amount": "₹87,610.00",
+    "Payment To": "MSEB security deposit",
+    "Mode": "",
+    "Checked": "Yes"
   }
 ]
