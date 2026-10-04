@@ -1080,6 +1080,14 @@
     "Mode": "Cash"
   },
   {
+    "Item": "A 601",
+    "Category": "Maintenance",
+    "Date": "2-Oct-2026",
+    "Amount": "₹23,000.00",
+    "Payment From": "MRS. RUPALI  FALKE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
     "Item": "",
     "Category": "",
     "Date": "",
