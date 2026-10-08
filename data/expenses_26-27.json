@@ -2552,25 +2552,52 @@
     "Date": "03-Oct-2026",
     "Amount": "₹87,610.00",
     "Payment To": "MSEB security deposit",
-    "Mode": "",
+    "Mode": "RTGS/IMPS",
     "Checked": "Yes"
   },
   {
-    "Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Tools",
+    "Date": "5-Oct-2026",
+    "Amount": "₹7,670.00",
+    "Payment To": "daccess systems boom barrier remote 2 no",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
     "Sub Category": "",
-    "Date": "",
-    "Amount": "",
-    "Payment To": "Remote ",
-    "Mode": "",
+    "Date": "5-Oct-2026",
+    "Amount": "₹1,060.00",
+    "Payment To": "Mahadev Enterprises house keeping material ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "6-Oct-2026",
+    "Amount": "₹60.00",
+    "Payment To": "prime hardware  ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Transport",
+    "Date": "08 Oct 2026",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
+    "Mode": "Cash",
     "Checked": ""
   },
   {
     "Category": "",
     "Sub Category": "",
-    "Date": "",
-    "Amount": "",
-    "Payment To": "housing keeping ",
-    "Mode": "",
+    "Date": "08 Oct 2026",
+    "Amount": "₹1,100.00",
+    "Payment To": "K V Enterprise पोछा 10 no ",
+    "Mode": "Cash",
     "Checked": ""
   }
 ]
