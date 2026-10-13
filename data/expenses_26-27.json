@@ -2562,7 +2562,7 @@
     "Amount": "₹7,670.00",
     "Payment To": "daccess systems boom barrier remote 2 no",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
@@ -2571,7 +2571,7 @@
     "Amount": "₹1,060.00",
     "Payment To": "Mahadev Enterprises house keeping material ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2580,7 +2580,7 @@
     "Amount": "₹60.00",
     "Payment To": "prime hardware  ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
@@ -2589,7 +2589,7 @@
     "Amount": "₹4,500.00",
     "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "",
@@ -2598,6 +2598,42 @@
     "Amount": "₹1,100.00",
     "Payment To": "K V Enterprise पोछा 10 no ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "10-Oct-2026",
+    "Amount": "₹380.00",
+    "Payment To": "Mahadev Enterprises house keeping material ",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "13-Oct-2026",
+    "Amount": "₹2,252.00",
+    "Payment To": "PULSE HARDWARE BORE LINE,GARDENLINE PIPE ,FITTING",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Labor",
+    "Date": "12-Oct-2026",
+    "Amount": "₹2,000.00",
+    "Payment To": "KIRAN A sr1 dry line,sr2 com tolite line Bsr3 dry line chamber chokup repering",
+    "Mode": "Cash",
+    "Checked": "Yes"
+  },
+  {
+    "Category": "MSEB Electricity",
+    "Sub Category": "",
+    "Date": "13-Oct-2026",
+    "Amount": "₹51,780.00",
+    "Payment To": "MSEB bill",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
   }
 ]
