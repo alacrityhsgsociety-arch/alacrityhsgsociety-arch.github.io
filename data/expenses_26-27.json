@@ -2635,5 +2635,14 @@
     "Payment To": "MSEB bill",
     "Mode": "RTGS/IMPS",
     "Checked": "Yes"
+  },
+  {
+    "Category": "Withdrawl Self",
+    "Sub Category": "",
+    "Date": "18-Oct-2026",
+    "Amount": "₹20,000.00",
+    "Payment To": "ACHYUT OAK ",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
   }
 ]
