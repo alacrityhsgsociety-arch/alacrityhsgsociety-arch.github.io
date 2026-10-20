@@ -2644,5 +2644,59 @@
     "Payment To": "ACHYUT OAK ",
     "Mode": "RTGS/IMPS",
     "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "18-Oct-2026",
+    "Amount": "₹160.00",
+    "Payment To": "Mahadev Enterprises house keeping material ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Medical",
+    "Date": "15-Oct-2026",
+    "Amount": "₹420.00",
+    "Payment To": "PLUS HARDWAR are matic lift car ,club tolite",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "19-Oct-2026",
+    "Amount": "₹550.00",
+    "Payment To": "prime hardwar chokup powdar ,acid",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "20-Oct-2026",
+    "Amount": "₹50.00",
+    "Payment To": "oak soler noc print",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "20-Oct-2026",
+    "Amount": "₹17,000.00",
+    "Payment To": "GAUTAM RAKSHE alla wing chambers clening to main line ,a 2 com tolite line chokup",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "",
+    "Payment To": "PLUS HARDWARE कास्टीक सोडा , ट्युब,वायर ",
+    "Mode": "Cash",
+    "Checked": ""
   }
 ]
