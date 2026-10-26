@@ -2691,11 +2691,29 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
-    "Date": "",
-    "Amount": "",
+    "Category": "Sundry",
+    "Sub Category": "Hardware",
+    "Date": "20-Oct-2026",
+    "Amount": "₹1,340.00",
     "Payment To": "PLUS HARDWARE कास्टीक सोडा , ट्युब,वायर ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "",
+    "Date": "22-Oct-2026",
+    "Amount": "₹450.00",
+    "Payment To": "mahapure B  605 dish shiftig",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "25-Oct-2026",
+    "Amount": "₹12,460.00",
+    "Payment To": "VISIONN SUNRISE  B WINNG SOLAR  PIPE FITTING",
     "Mode": "Cash",
     "Checked": ""
   }
