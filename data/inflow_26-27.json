@@ -1105,27 +1105,35 @@
   },
   {
     "Item": "",
-    "Category": "",
-    "Date": "",
-    "Amount": "₹24,865.00",
-    "Payment From": "MANISHA DEVEKAR",
-    "Mode": ""
+    "Category": "Bank Interest",
+    "Date": "3-Sep-2026",
+    "Amount": "₹27,056.00",
+    "Payment From": "PNB BANK",
+    "Mode": "RTGS/IMPS"
   },
   {
     "Item": "",
-    "Category": "",
-    "Date": "",
-    "Amount": "₹46,525.00",
-    "Payment From": "RAKSHIT BHARDWAJ",
-    "Mode": ""
+    "Category": "Bank Interest",
+    "Date": "27-Sep-2026",
+    "Amount": "₹5,780.00",
+    "Payment From": "PNB BANK",
+    "Mode": "RTGS/IMPS"
   },
   {
-    "Item": "",
-    "Category": "",
-    "Date": "",
+    "Item": "A 601",
+    "Category": "Maintenance",
+    "Date": "3-Sep-2026",
     "Amount": "₹23,000.00",
-    "Payment From": "ABHIJEET KUNTURKAR",
-    "Mode": ""
+    "Payment From": "MRS. RUPALI  FALKE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Rentals",
+    "Date": "8-Oct-2026",
+    "Amount": "₹16,490.00",
+    "Payment From": "AIRTAL RENT",
+    "Mode": "RTGS/IMPS"
   },
   {
     "Item": "",
@@ -1213,6 +1221,30 @@
     "Date": "",
     "Amount": "₹23,525.00",
     "Payment From": "RAJINDER SINGH SIYAN",
+    "Mode": ""
+  },
+  {
+    "Item": "",
+    "Category": "",
+    "Date": "",
+    "Amount": "₹24,865.00",
+    "Payment From": "MANISHA DEVEKAR",
+    "Mode": ""
+  },
+  {
+    "Item": "",
+    "Category": "",
+    "Date": "",
+    "Amount": "₹46,525.00",
+    "Payment From": "RAKSHIT BHARDWAJ",
+    "Mode": ""
+  },
+  {
+    "Item": "",
+    "Category": "",
+    "Date": "",
+    "Amount": "₹23,000.00",
+    "Payment From": "ABHIJEET KUNTURKAR",
     "Mode": ""
   },
   {

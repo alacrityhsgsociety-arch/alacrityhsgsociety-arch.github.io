@@ -2736,8 +2736,8 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
     "Date": "25-Oct-2026",
     "Amount": "₹450.00",
     "Payment To": "Madan डिश शिफ्ट करणे ",
@@ -2745,74 +2745,128 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
-    "Date": "",
-    "Amount": "",
-    "Payment To": "प्लंबर ",
-    "Mode": "",
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
+    "Date": "28-Oct-2026",
+    "Amount": "₹700.00",
+    "Payment To": "KIRAN  B WING LINE VOLV CHANG",
+    "Mode": "Cash",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Housekeeping",
     "Sub Category": "",
-    "Date": "",
+    "Date": "01-Nov-2026",
+    "Amount": "₹5,000.00",
+    "Payment To": "SUSHAMA SHINDE आक्टोबर महिना सुखा कचरा नेणे ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "01-Nov-2026",
+    "Amount": "₹1,000.00",
+    "Payment To": "SUSHAMA SHINDEमशीन 4दिवस बंद होते ओला कचरा दिला ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Tea",
+    "Date": "01-Nov-2026",
+    "Amount": "₹1,200.00",
+    "Payment To": "STAF TEA",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Manager Salary",
+    "Sub Category": "",
+    "Date": "01-Nov-2026",
     "Amount": "₹23,000.00",
     "Payment To": "ACHYUT OAK",
-    "Mode": "",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Withdrawl Self",
     "Sub Category": "",
     "Date": "",
-    "Amount": "",
+    "Amount": "₹30,000.00",
     "Payment To": "ACHYUT OAK",
-    "Mode": "",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Bonus",
     "Sub Category": "",
     "Date": "",
     "Amount": "",
     "Payment To": "BONUS HOUSKEEP ,GARDER,SC,MANAGER TOTAL   -7 ",
-    "Mode": "",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Garden Services",
     "Sub Category": "",
     "Date": "",
     "Amount": "₹13,000.00",
     "Payment To": "BALIRAM KATVATE ",
-    "Mode": "",
+    "Mode": "Cheque",
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Security",
     "Sub Category": "",
     "Date": "",
     "Amount": "₹65,340.00",
     "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
-    "Mode": "",
+    "Mode": "Cheque",
+    "Checked": ""
+  },
+  {
+    "Category": "Housekeeping",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹45,050.00",
+    "Payment To": "A K SECURITY FORCE                                                           pan no ACJFA9058M",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "Sundry",
+    "Sub Category": "Pest Control",
+    "Date": "",
+    "Amount": "₹2,625.00",
+    "Payment To": "Elite Facility Management  (म्यस्कुडो )",
+    "Mode": "Cash",
     "Checked": ""
   },
   {
     "Category": "",
     "Sub Category": "",
     "Date": "",
-    "Amount": "",
-    "Payment To": "HOUSEKEEP",
-    "Mode": "",
+    "Amount": "₹1,320.00",
+    "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी  ROW 282",
+    "Mode": "RTGS/IMPS",
     "Checked": ""
   },
   {
     "Category": "",
     "Sub Category": "",
     "Date": "",
-    "Amount": "",
-    "Payment To": "स्प्रे",
+    "Amount": "₹450.00",
+    "Payment To": "A K SECURITY FORCE                                                           pan no ACJFA9058M",
+    "Mode": "RTGS/IMPS",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "₹360.00",
+    "Payment To": "Pramod Enterprises  ROW 281  ",
     "Mode": "",
     "Checked": ""
   }
