@@ -2783,11 +2783,11 @@
   {
     "Category": "Manager Salary",
     "Sub Category": "",
-    "Date": "01-Nov-2026",
+    "Date": "03-Nov-2026",
     "Amount": "₹23,000.00",
     "Payment To": "ACHYUT OAK",
     "Mode": "RTGS/IMPS",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Withdrawl Self",
@@ -2810,38 +2810,38 @@
   {
     "Category": "Garden Services",
     "Sub Category": "",
-    "Date": "",
+    "Date": "03-Nov-2026",
     "Amount": "₹13,000.00",
     "Payment To": "BALIRAM KATVATE ",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Security",
     "Sub Category": "",
-    "Date": "",
+    "Date": "03-Nov-2026",
     "Amount": "₹65,340.00",
-    "Payment To": "MIS FACILITY SERVICES नवीन सिक्युरिटी ",
+    "Payment To": "MIS FACILITY SERVICES",
     "Mode": "Cheque",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Housekeeping",
     "Sub Category": "",
-    "Date": "",
+    "Date": "03-Nov-2026",
     "Amount": "₹45,050.00",
-    "Payment To": "A K SECURITY FORCE                                                           pan no ACJFA9058M",
-    "Mode": "Cash",
-    "Checked": ""
+    "Payment To": "A K SECURITY FORCE",
+    "Mode": "Cheque",
+    "Checked": "Yes"
   },
   {
     "Category": "Sundry",
     "Sub Category": "Pest Control",
-    "Date": "",
+    "Date": "03-Nov-2026",
     "Amount": "₹2,625.00",
     "Payment To": "Elite Facility Management  (म्यस्कुडो )",
-    "Mode": "Cash",
-    "Checked": ""
+    "Mode": "Cheque",
+    "Checked": "Yes"
   },
   {
     "Category": "",
@@ -2868,6 +2868,24 @@
     "Amount": "₹360.00",
     "Payment To": "Pramod Enterprises  ROW 281  ",
     "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "03-Nov-2026",
+    "Amount": "₹320.00",
+    "Payment To": "Mahadev Enterprises garbage bag ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "03-Nov-2026",
+    "Amount": "₹4,500.00",
+    "Payment To": "NABIRASOLL GARBAG BIG TEMPO",
+    "Mode": "Cash",
     "Checked": ""
   }
 ]
