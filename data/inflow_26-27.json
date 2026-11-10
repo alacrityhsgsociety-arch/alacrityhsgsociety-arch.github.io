@@ -1099,8 +1099,8 @@
     "Item": "B 704",
     "Category": "Shifting",
     "Date": "25-Oct-2026",
-    "Amount": "₹1,000.00",
-    "Payment From": " VINAY ",
+    "Amount": "₹2,000.00",
+    "Payment From": " VINAY  i,out",
     "Mode": "Cash"
   },
   {
@@ -1136,36 +1136,84 @@
     "Mode": "RTGS/IMPS"
   },
   {
-    "Item": "",
-    "Category": "",
-    "Date": "",
-    "Amount": "₹24,865.00",
-    "Payment From": "RAVI DHAVALE",
-    "Mode": ""
+    "Item": "A 205",
+    "Category": "Maintenance",
+    "Date": "26-Oct-2026",
+    "Amount": "₹24,870.00",
+    "Payment From": "MANGESH BUDKULE",
+    "Mode": "RTGS/IMPS"
   },
   {
-    "Item": "",
-    "Category": "",
-    "Date": "",
-    "Amount": "₹23,000.00",
-    "Payment From": "ASHISH KULKARNI",
-    "Mode": ""
-  },
-  {
-    "Item": "",
-    "Category": "",
-    "Date": "",
-    "Amount": "₹23,000.00",
-    "Payment From": "MANJULA MADAN",
-    "Mode": ""
-  },
-  {
-    "Item": "",
-    "Category": "",
-    "Date": "",
+    "Item": "A 901",
+    "Category": "Maintenance",
+    "Date": "29-Oct-2026",
     "Amount": "₹23,000.00",
     "Payment From": "MR. Sanket Patil  ",
-    "Mode": ""
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 106",
+    "Category": "Maintenance",
+    "Date": "30-Oct-2026",
+    "Amount": "₹23,000.00",
+    "Payment From": "ABHIJEET KUNTURKAR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 606",
+    "Category": "Maintenance",
+    "Date": "30-Oct-2026",
+    "Amount": "₹24,865.00",
+    "Payment From": "RAVI DHAVALE",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": " B101,2,3",
+    "Category": "Maintenance",
+    "Date": "30-Oct-2026",
+    "Amount": "₹71,390.00",
+    "Payment From": "MANISHA DEVEKAR,RAKSHIT BBHARDWAJ",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 906",
+    "Category": "Maintenance",
+    "Date": "31-Oct-2026",
+    "Amount": "₹24,865.00",
+    "Payment From": "THAKUR",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "",
+    "Category": "Refunds",
+    "Date": "31-Oct-2026",
+    "Amount": "₹29,110.00",
+    "Payment From": "526304523330/ITDTAX REFUND 2026-27 AA",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B1001",
+    "Category": "Maintenance",
+    "Date": "3-Nov-2026",
+    "Amount": "₹23,000.00",
+    "Payment From": "ANKUR UPADHYAY",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "A 703",
+    "Category": "Maintenance",
+    "Date": "4-Nov-2026",
+    "Amount": "₹23,525.00",
+    "Payment From": "RAJINDER SINGH SIYAN",
+    "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B605",
+    "Category": "Maintenance",
+    "Date": "4-Nov-2026",
+    "Amount": "₹23,000.00",
+    "Payment From": "SACHIN MADAN",
+    "Mode": "RTGS/IMPS"
   },
   {
     "Item": "",
@@ -1173,14 +1221,6 @@
     "Date": "",
     "Amount": "₹23,525.00",
     "Payment From": "SANDEEP MANE",
-    "Mode": ""
-  },
-  {
-    "Item": "",
-    "Category": "",
-    "Date": "",
-    "Amount": "₹23,000.00",
-    "Payment From": "MRS. RUPALI  FALKE",
     "Mode": ""
   },
   {
@@ -1195,56 +1235,8 @@
     "Item": "",
     "Category": "",
     "Date": "",
-    "Amount": "₹24,865.00",
-    "Payment From": "SANJEEV THAKUR ",
-    "Mode": ""
-  },
-  {
-    "Item": "",
-    "Category": "",
-    "Date": "",
     "Amount": "₹23,000.00",
-    "Payment From": "ANKUR UPADHYAY",
-    "Mode": ""
-  },
-  {
-    "Item": "",
-    "Category": "",
-    "Date": "",
-    "Amount": "₹24,865.00",
-    "Payment From": "MANGESH BUDKULE",
-    "Mode": ""
-  },
-  {
-    "Item": "",
-    "Category": "",
-    "Date": "",
-    "Amount": "₹23,525.00",
-    "Payment From": "RAJINDER SINGH SIYAN",
-    "Mode": ""
-  },
-  {
-    "Item": "",
-    "Category": "",
-    "Date": "",
-    "Amount": "₹24,865.00",
-    "Payment From": "MANISHA DEVEKAR",
-    "Mode": ""
-  },
-  {
-    "Item": "",
-    "Category": "",
-    "Date": "",
-    "Amount": "₹46,525.00",
-    "Payment From": "RAKSHIT BHARDWAJ",
-    "Mode": ""
-  },
-  {
-    "Item": "",
-    "Category": "",
-    "Date": "",
-    "Amount": "₹23,000.00",
-    "Payment From": "ABHIJEET KUNTURKAR",
+    "Payment From": "ASHISH KULKARNI",
     "Mode": ""
   },
   {
