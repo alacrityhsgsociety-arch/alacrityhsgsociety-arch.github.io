@@ -2925,8 +2925,8 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
     "Date": "02-Nov-2026",
     "Amount": "₹200.00",
     "Payment To": "plus hardware garden pipe fitting ",
@@ -2934,8 +2934,8 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Misc",
     "Date": "03-Nov-2026",
     "Amount": "₹600.00",
     "Payment To": "Oak आकाश कंदील ",
@@ -2943,8 +2943,8 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
     "Date": "04-Nov-2026",
     "Amount": "₹2,500.00",
     "Payment To": "dinesh plumber B sr 3 flush line check  आणि व्हाव बसवुन लिंक बंद केले ",
@@ -2952,7 +2952,7 @@
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Sundry",
     "Sub Category": "",
     "Date": "07-Nov-2026",
     "Amount": "₹2,080.00",
@@ -2961,8 +2961,8 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Plumbing",
     "Date": "08-Nov-2026",
     "Amount": "₹2,000.00",
     "Payment To": "dinesh plumber  A sr 6 flush line लिंक रिपेअर B सिरिअल 2 लाईन लिंक चेक करून लाईन चालू केली ",
@@ -2970,8 +2970,8 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
     "Date": "08-Nov-2026",
     "Amount": "₹2,000.00",
     "Payment To": "Kiran A &B wing समोर केसिग पट्टी मारून 4 हॅलोजन बसवले ",
@@ -2979,8 +2979,8 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
     "Date": "10-Nov-2026",
     "Amount": "₹2,187.00",
     "Payment To": "plus hardware वायर केसिग पट्टी ,A, B plumbing materials फ्लश लाईन रिपेअर साठी ",
@@ -2988,8 +2988,8 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
     "Date": "10-Nov-2026",
     "Amount": "₹279.00",
     "Payment To": "Amazon USB cable ",
@@ -2997,8 +2997,8 @@
     "Checked": ""
   },
   {
-    "Category": "",
-    "Sub Category": "",
+    "Category": "Sundry",
+    "Sub Category": "Electrical",
     "Date": "12-Nov-2026",
     "Amount": "₹900.00",
     "Payment To": "vishal Light A wing Lift car light ",
@@ -3006,7 +3006,7 @@
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Diesel for DG",
     "Sub Category": "",
     "Date": "13-Nov-2026",
     "Amount": "₹3,000.00",
@@ -3015,7 +3015,7 @@
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Diesel for DG",
     "Sub Category": "",
     "Date": "13-Nov-2026",
     "Amount": "₹3,000.00",
@@ -3024,7 +3024,7 @@
     "Checked": ""
   },
   {
-    "Category": "",
+    "Category": "Diesel for DG",
     "Sub Category": "",
     "Date": "13-Nov-2026",
     "Amount": "₹2,000.00",
@@ -3033,12 +3033,21 @@
     "Checked": ""
   },
   {
+    "Category": "Sundry",
+    "Sub Category": "Stationary",
+    "Date": "14-Nov-2026",
+    "Amount": "₹1,500.00",
+    "Payment To": "Aryan  R point printer repairing ",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
     "Category": "",
     "Sub Category": "",
-    "Date": "13-Nov-2026",
+    "Date": "",
     "Amount": "",
-    "Payment To": "",
-    "Mode": "Cash",
+    "Payment To": "LIFT AMC",
+    "Mode": "",
     "Checked": ""
   }
 ]
