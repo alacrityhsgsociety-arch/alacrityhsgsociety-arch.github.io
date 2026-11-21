@@ -2805,7 +2805,7 @@
     "Amount": "₹3,000.00",
     "Payment To": "Security 1500 each",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Bonus",
@@ -2814,7 +2814,7 @@
     "Amount": "₹3,000.00",
     "Payment To": "Housekeeping 1000 each",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Bonus",
@@ -2823,7 +2823,7 @@
     "Amount": "₹2,000.00",
     "Payment To": "Garden 2000",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Bonus",
@@ -2832,7 +2832,7 @@
     "Amount": "₹8,000.00",
     "Payment To": "Oak (Manager) ",
     "Mode": "Cash",
-    "Checked": ""
+    "Checked": "Yes"
   },
   {
     "Category": "Garden Services",
@@ -2918,7 +2918,7 @@
   {
     "Category": "Withdrawl Self",
     "Sub Category": "",
-    "Date": "08-Nov-2026",
+    "Date": "21-Nov-2026",
     "Amount": "₹25,000.00",
     "Payment To": "ACHYUT OAK bonus+AGM ,plumber, light  , डिझेल ",
     "Mode": "RTGS/IMPS",
@@ -3058,6 +3058,15 @@
     "Payment To": "केशर स्विट समोसा 50",
     "Mode": "Cash",
     "Checked": ""
+  },
+  {
+    "Category": "MSEB Electricity",
+    "Sub Category": "",
+    "Date": "21-Nov-2026",
+    "Amount": "₹73,570.00",
+    "Payment To": "MSEB Electricity Bill ",
+    "Mode": "RTGS/IMPS",
+    "Checked": "Yes"
   },
   {
     "Category": "",
