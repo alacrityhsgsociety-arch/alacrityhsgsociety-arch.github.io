@@ -1218,7 +1218,7 @@
   {
     "Item": "A 1004",
     "Category": "Maintenance",
-    "Date": "",
+    "Date": "9-Nov-2026",
     "Amount": "₹23,525.00",
     "Payment From": "SANDEEP MANE",
     "Mode": "RTGS/IMPS"
@@ -1226,10 +1226,18 @@
   {
     "Item": "A 404",
     "Category": "Maintenance",
-    "Date": "",
+    "Date": "11-Nov-2026",
     "Amount": "₹23,525.00",
     "Payment From": "ANAND KULKARNI",
     "Mode": "RTGS/IMPS"
+  },
+  {
+    "Item": "B 606",
+    "Category": "Shifting",
+    "Date": "21-Nov-2026",
+    "Amount": "₹1,000.00",
+    "Payment From": "RAVI DHAVALE",
+    "Mode": "Cash"
   },
   {
     "Item": "",

@@ -3071,9 +3071,54 @@
   {
     "Category": "",
     "Sub Category": "",
+    "Date": "22-Nov-2026",
+    "Amount": "₹300.00",
+    "Payment To": "OAK agm tea 20",
+    "Mode": "Cash",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
     "Date": "",
     "Amount": "",
     "Payment To": "LIFT AMC",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "",
+    "Payment To": "SC",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "",
+    "Payment To": "HO",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "",
+    "Payment To": "GARBAG",
+    "Mode": "",
+    "Checked": ""
+  },
+  {
+    "Category": "",
+    "Sub Category": "",
+    "Date": "",
+    "Amount": "",
+    "Payment To": "BAL",
     "Mode": "",
     "Checked": ""
   }
